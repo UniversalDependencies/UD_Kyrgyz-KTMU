@@ -14,6 +14,13 @@
 
 * (citation)
 
+
+# Changelog
+
+* 2022-11-15 v2.11
+  * Initial release in Universal Dependencies.
+
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.11
