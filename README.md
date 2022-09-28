@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see http://universaldependencies.org/release_checklist.html#the-readme-file for README guidelines) ...
+UD_Kyrgyz-KTMU is dependency parsing based tree bank in Kyrgyz language. Sentences were selected from Kyrgyz story and novel books, most of which were news headlines from Kyrgyz news websites.
 
 # Introduction
 
