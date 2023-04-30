@@ -80,33 +80,29 @@
 13	өрт	өрт	NOUN	NN	Case=Nom|Number=Sing|Person=3	16	nmod	_	_
 14	өчүрүү	өчүр	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	16	nmod	_	_
 15	бөлүмдөрү	бөлүм	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
-16	тартылган	тартыл	VERB	VB	Aspect=Perf|Mood=Ind|Voice=Pass|Polarity=Pos|Tense=Past|Person=3	0	root	_	_
+16	тартылган	тартыл	VERB	VB	Aspect=Perf|Mood=Ind|Voice=Pass|Polarity=Pos|Tense=Past|Person=3	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	PCT	_	16	punct	_	_
-
 
 # sent_id = 007
 # text = Республикалык жугуштуу оорулар клиникалык ооруканасынын аймагында жаңы корпус ишке берилди.
 1	Республикалык	Республика	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	amod	_	_
-2	жугуштуу 	жүгүрт	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	5	nmod	_	_
+2	жугуштуу	жүгүрт	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	5	nmod	_	_
 3	оорулар	оору	NOUN	NN	Case=Nom|Number=Plur|Person=3	5	nmod	_	_
-4	клиникалык 	клиника	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	amod	_	_
+4	клиникалык	клиника	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 5	ооруканасынын	оорукана	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:poss	_	_
 6	аймагында	аймак	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 7	жаңы	жаңы	ADJ	ADJ	_	8	amod	_	_
 8	корпус	корпус	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 9	ишке	иш	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	compound	_	_
-10	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
+10	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
-
-
-
 
 # sent_id = 008
 # text = Кыргызстанда сутка ичинде коронавирус 606 адамдан табылып, 4 адам каза болду.
 1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	12	obl	_	_
-2	сутка 	Сутка	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	3	amod	_	_
+2	сутка	Сутка	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	3	amod	_	_
 3	ичинде	ич	ADJ	YADJ	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
-4	коронавирус 	коронавирус	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+4	коронавирус	коронавирус	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 5	606	606	NUM	NUM	NumType=Card	6	nummod	_	_
 6	адамдан	адам	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7	табылып	тап	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	12	conj	_	SpaceAfter=No
@@ -117,13 +113,10 @@
 12	болду	бол	VERB	VB	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 13	.	.	PUNCT	PCT	_	12	punct	_	_
 
-
-
 # sent_id = 009
 # text = Маданият, маалымат жана туризм министри Нуржигит Кадырбеков Абдымомунов атындагы Кыргыз улуттук академиялык драма театры жана Айтматов атындагы Орус улуттук драма театрынын оңдоп-түзөө иштери менен таанышып чыкты.
-
 1	Маданият	Маданият	NOUN	NN	Case=Nom|Number=Sing|Person=3|	6	nmod	_	SpaceAfter=No
-2	, 	,	PUNCT	PCT	_	1	punct	_	_
+2	,	,	PUNCT	PCT	_	1	punct	_	_
 3	маалымат	маалымат	NOUN	NN	Case=Nom|Number=Sing|Person=3|	6	nmod	_	_
 4	жана 	жана	CCONJ	CCONJ	_	5	cc	_	_
 5	туризм	туризм	NOUN	NN	Case=Nom|Number=Sing|Person=3|	6	nmod	_	_
