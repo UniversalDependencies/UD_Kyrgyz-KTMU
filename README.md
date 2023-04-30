@@ -14,7 +14,7 @@ An academic paper describing this resource is pending, for the time being please
 
 # Changelog
 
-* 2022-11-15 v2.11
+* 2023-05-15 v2.12
   * Initial release in Universal Dependencies.
 
 
