@@ -8857,3 +8857,4 @@
 6	иши	иш	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
 7	кыскартылды	кыскартыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
+
