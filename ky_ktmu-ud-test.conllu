@@ -8153,7 +8153,7 @@
 2	тышкы	тыш	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
 3	соода	соода	ADJ	NN	Case=Nom|Number=Sing	4	nmod	_	_
 4	жүгүртүүсү	жүгүрт	VERB	VB	Case=Acc|VerbForm=Vnoun	9	nsubj	_	_
-5	$	$	SYM	SYM	_	6	punct	_	SpaceAfter=No
+5	$	$	SYM	SYM	_	6	case	_	SpaceAfter=No
 6	1	1	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
 7	,5	,5	NUM	NUM	NumType=Card	8	compound	_	_
 8	млрд	млрд	NUM	NUM	NumType=Card	9	nummod	_	_
