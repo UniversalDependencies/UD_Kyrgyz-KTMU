@@ -69,14 +69,14 @@
 
 # sent_id = 709
 # text = Мэри коло, Питер күмүш, Жейн алтын алды.
-1	Мэри	Мэри	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	conj	_	_
-2	коло	коло	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	9	nsubj	_	SpaceAfter=No
+1	Мэри	Мэри	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+2	коло	коло	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	PCT	_	2	punct	_	_
-4	Питер	Питер	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	conj	_	_
-5	күмүш	күмүш	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	8	conj	_	SpaceAfter=No
+4	Питер	Питер	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+5	күмүш	күмүш	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	PCT	_	5	punct	_	_
-7	Жейн	Жейн	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	conj	_	_
-8	алтын	алтын	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	9	obj	_	_
+7	Жейн	Жейн	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+8	алтын	алтын	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	8	obj	_	_
 9	алды	ал	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
@@ -424,7 +424,7 @@
 2	глобалдык	глобал	NOUN	NN	Case=Ins|Number=Sing|Person=3	3	nmod	_	_
 3	кризис	кризис	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 4	жакындап	жакында	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	7	advcl	_	_
-5	келе	кел	VERB	VB	Polarity=Pos|VerbForm=Conv|Tense=Past	6	compound	_	_
+5	келе	кел	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Conv	6	compound	_	_
 6	жатканын	жаткан	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
 7	эскертти	эскерт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
@@ -489,7 +489,7 @@
 5	ай	ай	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 6	катары	катар	ADV	ADV	_	8	advmod	_	_
 7	менен	менен	CCONJ	CCONJ	_	6	case	_	_
-8	кыскарууда	кыскар	VERB	VB	Case=Loc|Aspect=Prog|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+8	кыскарууда	кыскар	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 774
@@ -505,7 +505,7 @@
 1	Жеңил	Жеңил	ADJ	ADJ	_	2	amod	_	_
 2	салмактагы	салмак	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 3	мушкерлердин	мушкер	NOUN	NN	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
-4	унутулгус	унут	VERB	VB	Number=Sing|VerbForm=Vnoun|Tense=Past	5	acl	_	_
+4	унутулгус	унут	VERB	VB	Number=Sing|Tense=Past|VerbForm=Vnoun	5	acl	_	_
 5	нокауттары	нокаут	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 6	видеодо	видео	NOUN	NN	Case=Loc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
@@ -545,7 +545,7 @@
 4	кошулган	кошул	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	5	acl	_	_
 5	убакытты	убакыт	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 6	көбөйтүшү	көбөйтүш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres	7	ccomp	_	_
-7	мүмкүн	мүмкүн	VERB	VB	Aspect=Perf|Mood=Ind|Voice=Pass|Polarity=Pos|Tense=Pres|Person=3	0	root	_	SpaceAfter=No
+7	мүмкүн	мүмкүн	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
 
 # sent_id = 779
@@ -563,9 +563,9 @@
 # sent_id = 780
 # text = Эламан Карымшаков: дарыгердин чуркоонун пайдасы тууралуу айтканы сюрприз болду.
 1	Эламан	Эламан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
-2	Карымшаков	Карымшаков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	obl	_	SpaceAfter=No
+2	Карымшаков	Карымшаков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	PCT	_	2	punct	_	_
-4	дарыгердин	дарыгер	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	10	csubj	_	_
+4	дарыгердин	дарыгер	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	10	obl	_	_
 5	чуркоонун	чурка	VERB	VB	Case=Gen|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
 6	пайдасы	пайда	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 7	тууралуу	тууралуу	ADV	ADV	_	6	advmod	_	_
@@ -785,7 +785,7 @@
 3	Маданият	Маданият	PROPN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	күндөрү	күн	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
 5	расмий	расмий	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
+6	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
 # sent_id = 790_
@@ -927,7 +927,7 @@
 4	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 5	туристтик	турист	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	мүмкүнчүлүгү	мүмкүнчүлүк	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
-7	тууралуу	тууралуу	ADV	ADV	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advmod	_	_
+7	тууралуу	тууралуу	ADV	ADV	_	6	advmod	_	_
 8	айтып	айт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	compound	_	_
 9	берди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
