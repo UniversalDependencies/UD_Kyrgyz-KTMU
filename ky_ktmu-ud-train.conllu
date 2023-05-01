@@ -109,7 +109,7 @@
 1	Алар	Алар	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 2	аны	ал	PRON	PRP	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
 3	ким	ким	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Int	4	nmod	_	_
-4	жазганын	жаз	VERB	VB	Case=Acc|Number=Sing|Person=3Polarity=Pos|Tense=Past|VerbForm=Conv	7	ccomp	_	_
+4	жазганын	жаз	VERB	VB	Case=Acc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Conv	7	ccomp	_	_
 5	эч	эч	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Neg	6	nmod	_	_
 6	качан	качан	ADV	ADV	_	7	advmod	_	_
 7	билишпейт	билиш	VERB	VB	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
@@ -369,7 +369,7 @@
 
 # sent_id = 765
 # text = РКӨФ: улуттук валютада алынган насыялардын тобокелчилиги жок.
-1	РКӨФ	РКӨФ	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	8	nmod	_	SpaceAfter=No
+1	РКӨФ	РКӨФ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No
 2	:	:	PUNCT	PCT	_	1	punct	_	_
 3	улуттук	улут	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	4	amod	_	_
 4	валютада	валюта	NOUN	NN	Case=Loc|Number=Sing|Person=3	8	obl	_	_
@@ -381,7 +381,7 @@
 
 # sent_id = 766
 # text = Псаки: Россия акчасын толук сарптап же дефолт жарыялашы керек.
-1	Псаки	Псаки	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	9	nmod	_	SpaceAfter=No
+1	Псаки	Псаки	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 2	:	:	PUNCT	PCT	_	1	punct	_	_
 3	Россия	Россия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	obl	_	_
 4	акчасын	акча	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	9	obj	_	_
@@ -458,7 +458,7 @@
 
 # sent_id = 771
 # text = АКШ акыркы жумада Россиядан нефть алуунун көлөмүн 43% га көбөйттү.
-1	АКШ	АКШ	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	11	nsubj	_	_
+1	АКШ	АКШ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
 2	акыркы	акыркы	ADJ	ADJ	_	3	amod	_	_
 3	жумада	жума	NOUN	NN	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 4	Россиядан	Россия	PROPN	PROP	Case=Abl|Number=Sing|Person=3	5	obl	_	_
@@ -468,13 +468,13 @@
 8	43	43	NUM	NUM	NumType=Card	11	nummod	_	SpaceAfter=No
 9	%	%	PUNCT	PCT	_	8	punct	_	SpaceAfter=No
 10	га	га	AUX	AUX	_	9	aux	_	_
-11	көбөйттү	көбөйт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	көбөйттү	көбөйт	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	PCT	_	11	punct	_	_
 
 # sent_id = 772
 # text = Батыш өз күчүнөн тайып барат.
 1	Батыш	Батыш	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
-2	өз	өз	NOUN	NN	Case=Nom|Number=Sing|Person=3|Reflex=Yes	2	nmod	_	_
+2	өз	өз	NOUN	NN	Case=Nom|Number=Sing|Person=3|Reflex=Yes	3	nmod	_	_
 3	күчүнөн	күч	NOUN	NN	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
 4	тайып	тай	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	advcl	_	_
 5	барат	бар	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No
@@ -514,7 +514,7 @@
 # text = Мээрим Жуманазарова UWW рейтингинде лидерлик ордун сактап калды.
 1	Мээрим	Мээрим	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	Жуманазарова	Жуманазарова	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
-3	UWW	UWW	NOUN	NN	Case=Nom|Number=Sing|Person=3|Abbr=Yes	3	nmod	_	_
+3	UWW	UWW	NOUN	NN	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	рейтингинде	рейтинг	NOUN	NN	Case=Loc|Number=Sing	8	obl	_	_
 5	лидерлик	лидерлик	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	ордун	орун	NOUN	NN	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
@@ -539,7 +539,7 @@
 
 # sent_id = 778
 # text = FIFA матч учурунда кошулган убакытты көбөйтүшү мүмкүн.
-1	FIFA	FIFA	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	7	nsubj	_	_
+1	FIFA	FIFA	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 2	матч	матч	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	учурунда	учур	NOUN	NN	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 4	кошулган	кошул	VERB	VB	Aspect=Perf|Mood=Ind|Voice=Pass|Polarity=Pos|Tense=Past|Person=3	5	acl	_	_
@@ -551,7 +551,7 @@
 # sent_id = 779
 # text = Кыргызстандын WEF Global турнири Санкт-Петербургда өтөт.
 1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	4	nmod	_	_
-2	WEF	WEF	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	4	nmod	_	_
+2	WEF	WEF	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 3	Global	Global	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	турнири	турнир	NOUN	NN	Case=Acc|Number=Plur|Person=3	8	nsubj	_	_
 5	Санкт	Санкт	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	compound	_	SpaceAfter=No
@@ -566,12 +566,12 @@
 2	Карымшаков	Карымшаков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	obl	_	SpaceAfter=No
 3	:	:	PUNCT	PCT	_	2	punct	_	_
 4	дарыгердин	дарыгер	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	10	csubj	_	_
-5	чуркоонун	чурка	VERB	VB	Case=Gen|Polarity=Pos|Tense=Pres|Person=3|VerbForm=Vnoun	6	acl	_	_
+5	чуркоонун	чурка	VERB	VB	Case=Gen|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
 6	пайдасы	пайда	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
 7	тууралуу	тууралуу	ADV	ADV	_	6	advmod	_	_
-8	айтканы	айт	VERB	VB	Case=Gen|Polarity=Pos|Tense=Pres|Person=3|VerbForm=Vnoun	6	acl	_	_
+8	айтканы	айт	VERB	VB	Case=Gen|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
 9	сюрприз	сюрприз	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Person=3	0	root	_	SpaceAfter=No
+10	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 781
@@ -580,7 +580,7 @@
 2	иш	иш	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 3	билги	билги	NOUN	NN	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
 4	адистерди	адис	NOUN	NN	Case=Acc|Number=Plur|Person=3	6	nsubj	_	_
-5	даярдашыбыз	даярда	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Fut|Person=1	4	advcl	_	_
+5	даярдашыбыз	даярда	VERB	VB	Aspect=Prog|Mood=Ind|Person=1|Polarity=Pos|Tense=Fut	4	advcl	_	_
 6	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Number=Plur|Tense=Past|Person=3	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
@@ -590,7 +590,7 @@
 2	футзал	футзал	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 3	боюнча	боюнча	ADV	ADV	_	2	advmod	_	_
 4	Азиянын	Азия	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	5	nmod	_	_
-5	тандоо	танда	VERB	VB	Case=Nom|Polarity=Pos|Tense=Pres|Person=3|VerbForm=Vnoun	6	acl	_	_
+5	тандоо	танда	VERB	VB	Case=Nom|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
 6	туру	тур	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
 7	өтөт	өт	VERB	VB	Aspect=Prog|Mood=Ind|Voice=Pass|Polarity=Pos|Tense=Pres|Person=3	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
@@ -602,8 +602,8 @@
 3	төрт	төрт	NUM	NUM	NumType=Card	4	nummod	_	_
 4	медаль	медаль	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	obj	_	_
 5	алып	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	advcl	_	_
-6	келди	кел	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Person=3	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	PCT	_	5	punct	_	_
+6	келди	кел	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
 
 # sent_id = 784
 # text = Евразия өкмөттөр аралык кеңеши:
@@ -625,11 +625,11 @@
 
 # sent_id = 786
 # text = ИИМ Абдил Сегизбаев суракка чакырылгандыгын билдирди.
-1	ИИМ	Иим	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	2	nmod	_	_
+1	ИИМ	Иим	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	Абдил	Абдил	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 3	Сегизбаев	Сегизбаев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	fixed	_	_
 4	суракка	сурак	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
-5	чакырылгандыгын	чакыр	VERB	VB	Case=Acc|Number=Sing|Person=3Polarity=Pos|Tense=Past|VerbForm=Vnoun|Voice=Pass	6	obl	_	_
+5	чакырылгандыгын	чакыр	VERB	VB	Case=Acc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Vnoun|Voice=Pass	6	obl	_	_
 6	билдирди	билдир	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
@@ -809,7 +809,7 @@
 2	шаарына	шаар	NOUN	PROP	Case=Acc,Dat|Number=Sing|Person=3	6	obl	_	_
 3	караган	кара	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	nmod	_	_
 4	мектептер	мектеп	NOUN	NN	Case=Nom|Number=Plur|Person=3	5	nmod	_	_
-5	БИМге	БИМ	PROPN	NN	Case=Dat|Number=Sing|Person=3|Abbr=Yes	6	nmod	_	_
+5	БИМге	БИМ	PROPN	NN	Abbr=Yes|Case=Dat|Number=Sing|Person=3	6	nmod	_	_
 6	берилеби	берил	VERB	VB	Aspect=Perf|Number=Sing|Person=2|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	PCT	_	6	punct	_	_
 
@@ -820,7 +820,7 @@
 3	күндө	күн	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	obl	_	_
 4	көрктөндүрүү	көрктөндүр	VERB	VB	VerbForm=Vnoun	5	nmod	_	_
 5	эрежесин	эреже	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
-6	бузган	буз	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	nummod	_	_
+6	бузган	буз	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
 7	25	25	NUM	NUM	NumType=Card	8	nummod	_	_
 8	факты	факт	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 9	катталды	каттал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -836,7 +836,7 @@
 6	күнгө	күн	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 7	жарым-	жарым-	NUM	NUM	NumType=Ord	8	nmod	_	SpaceAfter=No
 8	жартылай	жартылай	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	жабылат	жабыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	жабылат	жабыл	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 794
@@ -868,7 +868,7 @@
 
 # sent_id = 796
 # text = КР элчиси Германия тараптан кыргызстандыктарга виза берүүнү жөнөкөйлөтүүнү суранды.
-1	КР	Кр	PROPN	PROP	Case=Nom|Number=Sing|Person=3|Abbr=Yes	2	nmod	_	_
+1	КР	Кр	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	элчиси	элчи	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 3	Германия	Германия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	тараптан	тарап	NOUN	NN	Case=Abl|Number=Sing|Person=3	5	obl	_	_
