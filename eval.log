@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Kyrgyz-KTMU:
-commit 6b3e17713c82f6638e9450ec24e1723092aaa1aa
-Merge: 1bcaeef 0dd574e
+commit 794605360ee62d1b6c17e968fce2a90347a9d473
+Merge: 95436b4 63e753b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 7451 of 7451 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.01669650314318.
@@ -26,10 +26,30 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 7451 w
 Genres: found 2 out of 17 known.
 Availability: README does not say Includes text: yes
 /net/work/people/zeman/unidep/tools/validate.py --lang ky --max-err=10 UD_Kyrgyz-KTMU/ky_ktmu-ud-test.conllu
-*** PASSED ***
+[Line 1150 Sent 078 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Кой * * көрө'
+[Line 3861 Sent 298 Node 5]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3875 Sent 299 Node 3]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3877 Sent 299 Node 5]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3878 Sent 299 Node 6]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3951 Sent 305 Node 3]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3965 Sent 306 Node 2]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 3967 Sent 306 Node 4]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 5806 Sent 454 Node 5]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 5807 Sent 454 Node 6]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+...suppressing further errors regarding Syntax
+Syntax errors: 42
+Warnings: 1
+*** FAILED *** with 42 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ky --max-err=10 UD_Kyrgyz-KTMU/ky_ktmu-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 528 Sent 777 Node 2]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 629 Sent 786 Node 2]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 630 Sent 786 Node 3]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+[Line 698 Sent 792 Node 1]: [L3 Syntax rel-upos-fixed] 'fixed' should not be used for proper nouns.
+Syntax errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -38,6 +58,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.764705882352941) = 0.0588235294117647
 (weight=0.307692307692308) * (score{udapi}=0.213528385451617) = 0.0657010416774207
 (weight=0.0769230769230769) * (score{udeprels}=0.621621621621622) = 0.0478170478170478
-(TOTAL score=0.410298620302709) * (availability=0.1) * (validity=1) = 0.0410298620302709
+(TOTAL score=0.410298620302709) * (availability=0.1) * (validity=0.01) = 0.000410298620302709
 STARS = 0
-UD_Kyrgyz-KTMU	0.0410298620302709	0
+UD_Kyrgyz-KTMU	0.000410298620302709	0
