@@ -1150,7 +1150,7 @@
 1	Кой	Кой	VERB	VB	Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 2	,	,	PUNCT	PCT	_	1	punct	_	_
 3	андан	андан	ADV	ADV	_	6	advmod	_	_
-4	көрө	көрө	ADV	ADV	_	1	fixed	_	_
+4	көрө	көрө	ADV	ADV	_	3	fixed	_	_
 5	мен	мен	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	салайын	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
@@ -8857,4 +8857,3 @@
 6	иши	иш	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
 7	кыскартылды	кыскартыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
-
