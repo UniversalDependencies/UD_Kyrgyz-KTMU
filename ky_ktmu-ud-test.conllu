@@ -3858,7 +3858,7 @@
 2	:	:	PUNCT	PCT	_	1	punct	_	_
 3	азык	азык	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 4	-	-	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
-5	түлүк	түлүк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	SpaceAfter=No
+5	түлүк	түлүк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	fixed	_	SpaceAfter=No
 6	,	,	PUNCT	PCT	_	5	punct	_	_
 7	жер	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	семирткичтин	семирткич	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	9	nmod	_	_
