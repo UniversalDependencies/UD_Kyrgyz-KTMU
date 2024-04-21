@@ -931,3 +931,4 @@
 8	айтып	айт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	compound	_	_
 9	берди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
+
