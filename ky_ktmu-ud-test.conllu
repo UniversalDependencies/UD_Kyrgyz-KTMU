@@ -3874,8 +3874,8 @@
 2	Шакиев	Шакиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	Ата	Ата	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 4	-	-	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
-5	Журт	Журт	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
-6	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
+5	Журт	Журт	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	compound	_	_
+6	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	фракциясына	фракция	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 8	лидер	лидер	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
