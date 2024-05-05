@@ -22,7 +22,7 @@ An academic paper describing this resource is pending, for the time being please
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.12
 License: CC BY-SA 4.0
-Includes text: no
+Includes text: yes
 Genre: news fiction
 Lemmas: manual native
 UPOS: manual native

@@ -1150,7 +1150,7 @@
 1	Кой	Кой	VERB	VB	Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 2	,	,	PUNCT	PCT	_	1	punct	_	_
 3	андан	андан	ADV	ADV	_	6	advmod	_	_
-4	көрө	көрө	ADV	ADV	_	1	fixed	_	_
+4	көрө	көрө	ADV	ADV	_	3	fixed	_	_
 5	мен	мен	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	салайын	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
@@ -3858,7 +3858,7 @@
 2	:	:	PUNCT	PCT	_	1	punct	_	_
 3	азык	азык	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 4	-	-	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
-5	түлүк	түлүк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	SpaceAfter=No
+5	түлүк	түлүк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
 6	,	,	PUNCT	PCT	_	5	punct	_	_
 7	жер	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	семирткичтин	семирткич	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	9	nmod	_	_
@@ -3874,8 +3874,8 @@
 2	Шакиев	Шакиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	Ата	Ата	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 4	-	-	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
-5	Журт	Журт	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
-6	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
+5	Журт	Журт	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	compound	_	_
+6	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	фракциясына	фракция	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 8	лидер	лидер	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -3949,7 +3949,7 @@
 1	Нарында	Нарын	PROPN	PROP	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 2	“	“	PUNCT	PCT	_	1	punct	_	SpaceAfter=No
 3	Алтын	Алтын	PROPN	NN	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
-4	сертификат	сертификат	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	fixed	_	SpaceAfter=No
+4	сертификат	сертификат	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	compound	_	SpaceAfter=No
 5	”	”	PUNCT	PCT	_	4	punct	_	_
 6	алган	ал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	7	acl	_	_
 7	бүтүрүүчүлөрдүн	бүтүрүүчү	NOUN	NN	Case=Gen|Number=Plur	8	nmod	_	_
@@ -3964,7 +3964,7 @@
 1	Оштогу	Ош	PROPN	PROP	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 2	Тешик	Тешик	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nmod	_	SpaceAfter=No
 3	-	-	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
-4	Таш	Таш	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	fixed	_	_
+4	Таш	Таш	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	compound	_	_
 5	кичи	кичи	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 6	базарында	базар	NOUN	NN	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 7	башаламан	башаламан	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	8	amod	_	_
@@ -5804,7 +5804,7 @@
 3	1800	1800	NUM	NUM	NumType=Card	4	nummod	_	_
 4	бала	бала	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 5	Алтын	Алтын	PROPN	PROP	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
-6	балалык	балалык	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	fixed	_	_
+6	балалык	балалык	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 7	комплексинде	комплекс	ADJ	YADJ	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 8	эс	эс	NOUN	PROP	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	алып	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	10	compound	_	_
@@ -6384,7 +6384,7 @@
 # text = "Айыл банк" айыл чарба техникаларын лизингге берүүдө.
 1	"	"	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
 2	Айыл	Айыл	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-3	банк	банк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	fixed	_	SpaceAfter=No
+3	банк	банк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	SpaceAfter=No
 4	"	"	PUNCT	PCT	_	3	punct	_	_
 5	айыл	айыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	compound	_	_
 6	чарба	чарба	ADJ	NN	Case=Nom|Number=Sing	7	nmod	_	_
@@ -7026,7 +7026,7 @@
 2	шаарында	шаар	NOUN	NN	Case=Acc,Loc|Number=Sing|Person=3	9	obl	_	_
 3	“	“	PUNCT	PCT	_	4	punct	_	SpaceAfter=No
 4	Түштүк	Түштүк	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-5	авангард	авангард	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	fixed	_	SpaceAfter=No
+5	авангард	авангард	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	flat	_	SpaceAfter=No
 6	”	”	PUNCT	PCT	_	5	punct	_	_
 7	сүрөт	сүрөт	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	көргөзмөсү	көргөзмө	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
@@ -7052,7 +7052,7 @@
 1	Оштун	Ош	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
 2	мэри	мэр	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
 3	Алмаз	Алмаз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	Мамбетов	Мамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	SpaceAfter=No
+4	Мамбетов	Мамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	SpaceAfter=No
 5	:	:	PUNCT	PCT	_	4	punct	_	_
 
 # sent_id = 557
@@ -7195,7 +7195,7 @@
 2	энергетика	энергетика	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	ардагери	ардагер	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
 4	Жамалбек	Жамалбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-5	Түлөбердиевди	Түлөбердиев	PROPN	PROP	Case=Acc|Number=Sing|Person=3	4	fixed	_	_
+5	Түлөбердиевди	Түлөбердиев	PROPN	PROP	Case=Acc|Number=Sing|Person=3	4	flat	_	_
 6	акыркы	акыркы	ADV	ADV	_	7	advmod	_	_
 7	сапарга	сапар	NOUN	NN	Case=Dat|Number=Sing	8	nmod	_	_
 8	узатуу	узат	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	acl	_	_
@@ -7445,7 +7445,7 @@
 # text = Сот Алымкадыр Бейшеналиев кызматтан алган 3 медиктин доо арызын канааттандырды.
 1	Сот	Сот	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 2	Алымкадыр	Алымкадыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-3	Бейшеналиев	Бейшеналиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	fixed	_	_
+3	Бейшеналиев	Бейшеналиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	_
 4	кызматтан	кызмат	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	5	nmod	_	_
 5	алган	ал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
 6	3	3	NUM	NUM	NumType=Card	7	nummod	_	_
@@ -7497,7 +7497,7 @@
 1	Ардактуу	Ардак	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	amod	_	_
 2	энергетик	энергетик	NOUN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	Жамалбек	Жамалбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
-4	Түлөбердиев	Түлөбердиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
+4	Түлөбердиев	Түлөбердиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	дүйнө	дүйнө	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nmod	_	_
 6	салды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
@@ -7586,7 +7586,7 @@
 4	өтүп	өт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part	6	nmod	_	_
 5	жаткан	жат	VERB	VB	Polarity=Pos|Tense=Past	4	compound:svc	_	_
 6	Десанттык	Десанттык	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-7	взвод	взвод	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	fixed	_	_
+7	взвод	взвод	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	flat	_	_
 8	мелдешине	мелдеш	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3	9	nmod	_	_
 9	катышууда	катыш	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
@@ -7632,7 +7632,7 @@
 # sent_id = 603
 # text = Алымкадыр Бейшеналиев министрлик кызматына кайтып келеби?
 1	Алымкадыр	Алымкадыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
-2	Бейшеналиев	бейшеналиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
+2	Бейшеналиев	бейшеналиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	министрлик	министрлик	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	кызматына	кызматына	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 5	кайтып	кайт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	advcl	_	_
@@ -7686,7 +7686,7 @@
 # sent_id = 608
 # text = Жаркынбек Касымбеков жасалма диплом менен иштеген дарыгерлер боюнча үн катты.
 1	Жаркынбек	Жаркынбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
-2	Касымбеков	Касымбеков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
+2	Касымбеков	Касымбеков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	жасалма	жасалма	ADJ	ADJ	_	4	amod	_	_
 4	диплом	диплом	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nmod	_	_
 5	менен	менен	CCONJ	CCONJ	_	6	case	_	_
@@ -8271,8 +8271,8 @@
 1	Кыргызстанга	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing	8	obl	_	_
 2	япониялык	япония	NOUN	ADJ	_	3	obl	_	_
 3	Advanced	Advanced	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-4	Material	Material	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
-5	Japan	Japan	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
+4	Material	Material	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	_
+5	Japan	Japan	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 6	компаниясынын	компания	NOUN	NN	Case=Acc,Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 7	өкүлдөрү	өкүл	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8	келди	кел	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -8517,7 +8517,7 @@
 # text = Бишкекте Expo-Russia Kyrgyzstan 2022 I эл аралык өнөр жай көргөзмөсү өтүүдө.
 1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 2	Expo-Russia	Expo-Russia	PROPN	PROP	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
-3	Kyrgyzstan	Kyrgyzstan	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	fixed	_	_
+3	Kyrgyzstan	Kyrgyzstan	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	_
 4	2022	2022	NUM	NUM	NumType=Card	5	compound	_	_
 5	I	I	NUM	NUM	NumType=Card	6	compound	_	_
 6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -8658,7 +8658,7 @@
 # text = Акыйкатчы Атыр Абдрахматова Ирандын элчиси менен жолукту.
 1	Акыйкатчы	Акыйкатчы	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	Атыр	Атыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-3	Абдрахматова	Абдрахматова	PROPN	PROP	Case=Nom|Number=Sing	2	fixed	_	_
+3	Абдрахматова	Абдрахматова	PROPN	PROP	Case=Nom|Number=Sing	2	flat	_	_
 4	Ирандын	Иран	PROPN	PROP	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 5	элчиси	элчи	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	obj	_	_
 6	менен	менен	CCONJ	CCONJ	_	5	case	_	_
@@ -8727,7 +8727,7 @@
 1	Президенттин	Президент	PRON	PRP	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 2	администрациясы	администрация	NOUN	NN	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
 3	Медетбек	Медетбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	11	obl	_	_
-4	Букуевге	Букуев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	_
+4	Букуевге	Букуев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	небересинин	небере	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
 6	мезгилсиз	мезгил	NOUN	NN	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	nmod	_	_
 7	дүйнөдөн	дүйнө	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	8	nmod	_	_
@@ -8778,11 +8778,11 @@
 # sent_id = 696
 # text = Чыңгыз Эсенгул уулу менен Абдыганы Эркебаев "Кыргыз жараны" концепциясын аткарууну талкуулашты.
 1	Чыңгыз	Чыңгыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
-2	Эсенгул	Эсенгул	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
+2	Эсенгул	Эсенгул	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	уулу	уулу	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
 5	Абдыганы	Абдыганы	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
-6	Эркебаев	Эркебаев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	fixed	_	_
+6	Эркебаев	Эркебаев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	flat	_	_
 7	"	"	PUNCT	PCT	_	8	punct	_	SpaceAfter=No
 8	Кыргыз	Кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	жараны	жаран	NOUN	NN	Case=Acc|Number=Sing|Person=3	11	nmod	_	SpaceAfter=No
@@ -8797,7 +8797,7 @@
 1	Мамлекеттик	Мамлекеттик	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	amod	_	_
 2	катчы	катчы	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	Сүйүнбек	Сүйүнбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
-4	Касмамбетов	Касмамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	fixed	_	SpaceAfter=No
+4	Касмамбетов	Касмамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	SpaceAfter=No
 5	:	:	PUNCT	PCT	_	4	punct	_	_
 6	Качкан	Кач	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part	9	nsubj	_	_
 7	дагы	дагы	ADV	ADV	_	6	advmod:emph	_	_
