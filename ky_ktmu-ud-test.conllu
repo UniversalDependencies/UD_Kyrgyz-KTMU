@@ -10403,7 +10403,7 @@
 4	уруш	уруш	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nmod	_	_
 5	боюнча	боюнча	ADV	ADV	_	4	advmod	_	_
 6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	аралык	ара	ADJ	ADJ	_	8	amod	_	_ 
+7	аралык	ара	ADJ	ADJ	_	8	amod	_	_
 8	спартакиаданын	спартакиада	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3	9	nmod	_	_
 9	жеңүүчүлөрүн	жеңүүчү	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	10	obl	_	_
 10	куттуктады	куттукта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
