@@ -10482,3 +10482,4 @@
 8	коргоого	корго	VERB	VB	Case=Dat|Person=3|Polarity=Pos|Tense=Pres	9	advcl	_	_
 9	чакырды	чакыр	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
+
