@@ -12136,7 +12136,7 @@
 5	кыздардын	кыз	NOUN	NN	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
 6	сөөгү	сөөк	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 7	Өзбекстандын	Өзбекстан	PROPN	NN	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
-8	аймагынан	аймак	NOUN	NN	Case=Ins|Number=Sing|Person[psor]=2	9	nsubj	_	_
+8	аймагынан	аймак	NOUN	NN	Case=Ins|Number=Sing|Person[psor]=2	9	obj	_	_
 9	табылды	тап	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
@@ -12242,7 +12242,7 @@
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 1171
-# text = Салык төлөөчүнүн кабинетинде ЭТТК модулу жаңыртылды – МСК.
+# text = Салык төлөөчүнүн кабинетинде ЭТТК модулу жаңыртылды.
 1	Салык	Салык	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	төлөөчүнүн	төлөөчү	NOUN	NN	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
 3	кабинетинде	кабинет	ADJ	YADJ	Case=Loc|Number=Sing|Person=3	6	obl	_	_
@@ -12333,7 +12333,7 @@
 # text = Башкы прокурор Максат Асаналиев Кытай элчиси менен кызматташтыкты талкуулады.
 1	Башкы	Баш	NOUN	NN	Case=Acc|Number=Sing|Person=3	2	nmod	_	_
 2	прокурор	прокурор	NOUN	NN	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	3	nmod	_	_
-3	Максат	максат	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+3	Максат	максат	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 4	Асаналиев	Асаналиев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 5	Кытай	Кытай	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	элчиси	элчи	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
@@ -12438,13 +12438,13 @@
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1186
-# text = Көрүстөндөрдүн бирдиктүү дизайны иштелип чыгат – Нурдан Орунтаев.
+# text = Көрүстөндөрдүн бирдиктүү дизайны иштелип чыгат.
 1	Көрүстөндөрдүн	Көрүстөн	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=3	5	obl	_	_
 2	бирдиктүү	бирдик	NOUN	ADJ	_	3	amod	_	_
 3	дизайны	дизай	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 4	иштелип	иште	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	advcl	_	_
 5	чыгат	чык	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	PCT	_	5	punct	_	_
+6	.	.	PUNCT	PCT	_	5	punct	_	_
 
 # sent_id = 1187
 # text = "Кыргызстан улуттук электр тармагына" 30 атайын техника тапшырылды.
@@ -12553,7 +12553,7 @@
 12	.	.	PUNCT	PCT	_	11	punct	_	_
 
 # sent_id = 1195
-# text = Бишкектеги Ала-Тоо аянты реконструкциялоодон кийин кандай болот – эскиздери.
+# text = Бишкектеги Ала-Тоо аянты реконструкциялоодон кийин кандай болот.
 1	Бишкектеги	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
 2	Ала-Тоо	Ала-Тоо	PROPN	PROP	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
 3	аянты	аянт	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
