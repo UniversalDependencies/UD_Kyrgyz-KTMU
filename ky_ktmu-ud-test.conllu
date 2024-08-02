@@ -11481,7 +11481,7 @@
 2	жабыркагандардын	жабырка	VERB	VB	Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Vnoun	4	acl	_	_
 3	насыя	насыя	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	маселеси	маселе	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
-5	каралат	каралат	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	каралат	каралат	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PCT	_	5	punct	_	_
 
 # sent_id = 1110
@@ -12073,7 +12073,7 @@
 2	13	13	NUM	NUM	NumType=Card	3	nummod	_	_
 3	автобустун	автобус	NOUN	NN	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
 4	кыймылы	кыймыл	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
-5	убактылуу	убакыт	ADV	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advmod	_	_
+5	убактылуу	убакыт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advcl	_	_
 6	өзгөртүлдү	өзгөрт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
@@ -12103,7 +12103,7 @@
 7	Айтматовдун	Айтматов	PROPN	PROP	Case=Gen|Number=Sing|Person=3	6	flat	_	_
 8	ыйык	ыйык	NOUN	ADV	_	9	amod	_	_
 9	осуяты	осуя	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	12	punct	_	_
+10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 1160
 # text = Бишкекте Тышкы иштер министрлигинин тосмосу алынды.
