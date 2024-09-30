@@ -407,7 +407,7 @@
 # text = Соттор ушуну менен Навальныйдын шарттуу мөөнөтүн өзгөртүүнү өтүнгөн Федералдык жаза аткаруу кызматынын сунушун үчүнчү жолу карап чыкты.
 1	Соттор	Сот	NOUN	NN	Case=Nom|Number=Plur|Person=3|Person[psor]=3	17	nsubj	_	_
 2	ушуну	ушул	PRON	PRP	Case=Gen|Number=Sing|Person=3|Person[psor]=3	17	det	_	_
-3	менен	менен	CCONJ	CCONJ	_	2	case	_	_
+3	менен	менен	CCONJ	CCONJ	_	4	case	_	_
 4	Навальныйдын	Навальный	PROPN	PROP	Case=Gen|Number=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 5	шарттуу	шарттуу	ADJ	ADJ	_	6	amod	_	_
 6	мөөнөтүн	мөөнөт	NOUN	NN	Case=Gen|Number=Sing|Person=3|Person[psor]=3	7	acl	_	_
@@ -590,9 +590,9 @@
 # sent_id = 037
 # text = Чөнтөкчүлөр жылдын кайсы мезгили болбосун эл көп чогулган жерлерде уурулук кылышат.
 1	Чөнтөкчүлөр	Чөнтөк	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
-2	жылдын	жыл	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
+2	жылдын	жыл	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 3	кайсы	кайсы	DET	DET	_	4	det	_	_
-4	мезгили	мезгил	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+4	мезгили	мезгил	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 5	болбосун	болбосо	DET	DET	_	11	det	_	_
 6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
 7	көп	көп	ADJ	ADJ	_	9	amod	_	_
@@ -11997,4 +11997,3 @@
 9	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	салынды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
-
