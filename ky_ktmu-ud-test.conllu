@@ -11997,3 +11997,4 @@
 9	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	салынды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
+
