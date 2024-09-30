@@ -1562,4 +1562,3 @@
 10	алып	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	11	advcl	_	_
 11	келинди	кел	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	PCT	_	11	punct	_	_
-
