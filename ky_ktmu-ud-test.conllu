@@ -13102,7 +13102,7 @@
 2	менен	менен	CCONJ	CCONJ	_	1	case	_	_
 3	евро	евро	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	кымбаттоодо	кымбатта	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	PCT	_	10	punct	_	_
+5	.	.	PUNCT	PCT	_	4	punct	_	_
 
 # sent_id = 1239
 # text = Кыргызстанда керектөө бааларынын жана тарифтердин төмөндөшү белгиленди.
