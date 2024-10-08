@@ -13316,14 +13316,14 @@
 6	кызматташтыгынын	кызматташтык	NOUN	NN	Case=Gen|Number=Sing|Person=3|Person[psor]=3	12	obl	_	_
 7	негизги	негиз	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
 8	багыттарынын	багыт	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	9	nmod	_	_
-9	бири	бири	ADJ	PRP	Case=Nom|Number=Sing|Person=3|PronType=Ind	12	obl	_	_
+9	бири	бири	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Ind	12	obl	_	_
 10	болуп	бол	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 11	кала	кал	VERB	VB	_	12	advcl	_	_
 12	берет	бер	VERB	DET	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	PCT	_	12	punct	_	_
 
 # sent_id = 1258
-# text = Кыргызстан менен Россиянын ортосундагы товар жүгүртүүнү 5 млрд долларга жеткирүү максаты коюлган – Акылбек Жапаров.
+# text = Кыргызстан менен Россиянын ортосундагы товар жүгүртүүнү 5 млрд долларга жеткирүү максаты коюлган.
 1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	12	obl	_	_
 2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
 3	Россиянын	Россия	PROPN	PROP	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
@@ -13426,7 +13426,7 @@
 1	КНСти	КНС	NOUN	NN	Abbr=Yes|Case=Acc|Number=Sing|Person=3	2	nmod	_	_
 2	башкаруу	башкар	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
 3	жана	жана	CCONJ	CCONJ	_	4	cc	_	_
-4	эсеп	эсеп	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	2	conj	_	SpaceAfter=No
+4	эсеп	эсеп	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	2	conj	_	_
 5	фактураны	фактуран	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 6	колдонуу	колдон	VERB	VB	VerbForm=Vnoun	7	acl	_	_
 7	тартибине	тартип	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	nmod	_	_
@@ -13526,7 +13526,7 @@
 9	жана	жана	CCONJ	CCONJ	_	10	cc	_	_
 10	күн	күн	NOUN	NN	Case=Nom|Number=Sing	8	conj	_	_
 11	электр	электр	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
-12	станциясын	станция	NOUN	NN	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
+12	станциясын	станция	NOUN	NN	Case=Acc|Number=Sing|Person=3	13	obj	_	_
 13	курат	кур	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PCT	_	13	punct	_	_
 
@@ -13585,7 +13585,7 @@
 # sent_id = 1277
 # text = Евро дагы арзандады, доллар туруктуу.
 1	Евро	евро	PROPN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-2	дагы	дагы	NOUN	ADV	_	3	advmod	_	_
+2	дагы	дагы	ADV	ADV	_	3	advmod	_	_
 3	арзандады	арзанда	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	6	ccomp	_	SpaceAfter=No
 4	,	,	PUNCT	PCT	_	3	punct	_	_
 5	доллар	доллар	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
