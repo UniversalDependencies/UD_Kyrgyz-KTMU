@@ -3245,7 +3245,7 @@
 1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 2	мобилдик	мобил	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	тиркеме	тиркеме	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-4	аркылуу	аркылуу	ADV	ADV	_	4	advmod	_	_
+4	аркылуу	аркылуу	ADV	ADV	_	3	advmod	_	_
 5	акча	акча	NOUN	NN	Case=Nom|Number=Sing	6	nmod	_	_
 6	которууда	котор	VERB	VB	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	acl	_	_
 7	комиссияны	комиссия	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
@@ -5665,7 +5665,7 @@
 1	Интернет-банкингдин	Интернет-банкинг	PROPN	PROP	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
 2	өнүгүшү	өнүгүш	VERB	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 3	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	4	nmod	_	_
-4	мүмкүнчүлүктөрдү	мүмкүнчүлүк	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nsubj	_	_
+4	мүмкүнчүлүктөрдү	мүмкүнчүлүк	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nmod	_	_
 5	берет	бер	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	PCT	_	5	punct	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	5	punct	_	_
@@ -5731,7 +5731,7 @@
 # sent_id = 1525
 # text = Кыргызстандын 2023-жылдагы эң мыкты салык төлөөчүлөрү аныкталды.
 1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	7	nmod	_	_
-2	2023-	2023-	NUM	NUM	NumType=Ord	3	nummod	_	_
+2	2023-	2023-	NUM	NUM	NumType=Ord	3	nummod	_	SpaceAfter=No
 3	жылдагы	жыл	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 4	эң	эң	ADV	ADV	Degree=Sup	5	advmod	_	_
 5	мыкты	мыкты	ADJ	ADJ	_	6	amod	_	_
@@ -5821,7 +5821,7 @@
 10	өкүлдөрү	өкүл	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
 11	менен	менен	CCONJ	CCONJ	_	10	case	_	_
 12	жолукту	жолук	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	PCT	_	6	punct	_	_
+13	.	.	PUNCT	PCT	_	12	punct	_	_
 
 # sent_id = 1532
 # text = Кыргызстанда балыкты жана этти кайра иштетүүчү заводдор курулат.
@@ -5906,7 +5906,7 @@
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1538
-# text = Ысык-Көлдө ТМУнун бизнес форунун алкагында кол өнөрчүлөрдүн көргөзмөсү өттү.
+# text = Ысык-Көлдө ТМУнун бизнес форумун алкагында кол өнөрчүлөрдүн көргөзмөсү өттү.
 1	Ысык-Көлдө	Ысык-Көл	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 2	ТМУнун	ТМУ	NOUN	NN	Abbr=Yes|Case=Gen|Number=Sing|Person[psor]=2	3	nmod	_	_
 3	бизнес	бизнес	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
@@ -6094,7 +6094,7 @@
 5	продукциянын	продукция	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	10	nmod	_	_
 6	40	40	NUM	NUM	NumType=Card	9	nummod	_	SpaceAfter=No
 7	%	%	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
-8	ын	ын	ADV	ADV	_	7	advmod	_	_
+8	ын	ын	ADV	ADV	_	9	advmod	_	_
 9	камсыз	кам	ADJ	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	10	amod	_	_
 10	кылат	кыл	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
@@ -6170,7 +6170,7 @@
 4	–	–	PUNCT	PCT	_	3	punct	_	_
 5	Өзбекстан	Өзбекстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 6	темир	темир	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	жолу	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+7	жолу	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 8	аркылуу	аркылуу	ADV	ADV	_	7	advmod	_	_
 9	жылына	жылына	NOUN	ADJ	Case=Dat|Number=Sing|Person=3	10	nmod	_	_
 10	транзиттен	транзит	NOUN	NN	Case=Abl|Number=Sing|Person=3	15	obl	_	_
@@ -6364,7 +6364,7 @@
 3	рыногунда	рынок	NOUN	NN	Case=Loc|Number=Sing|Person=3	7	obl	_	_
 4	абал	абал	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	салыштырмалуу	салыштырмалуу	ADJ	ADJ	Degree=Cmp|Polarity=Pos	6	amod	_	_
-6	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	7	adj	_	_
+6	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	7	amod	_	_
 7	сакталууда	сакта	VERB	VB	Case=Loc|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
 
@@ -6393,7 +6393,7 @@
 8	курулууда	кур	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
-# sent_id = 1574
+# sent_id = 1574_
 # text = Кыргызстанда ЭТТКны киргизүүдө башка өлкөлөрдүн тажрыйбасы эске алынууда.
 1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 2	ЭТТКны	ЭТТК	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
@@ -6937,11 +6937,11 @@
 # text = Кыргызстан менен Сауд Аравиянын энергетика тармагындагы кызматташтыгы талкууланды.
 1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
-3	Сауд	Сауд	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	Аравиянын	Аравия	PROPN	PROP	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+3	Сауд	Сауд	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	Аравиянын	Аравия	PROPN	PROP	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
 5	энергетика	энергетика	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	тармагындагы	тармак	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
-7	кызматташтыгы	кызматташтык	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+7	кызматташтыгы	кызматташтык	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
 8	талкууланды	талкуула	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
@@ -7152,7 +7152,7 @@
 1	Улуттук	улут	ADJ	ADJ	_	2	amod	_	_
 2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 3	эсептик	эсеп	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	ченди	чен	NOUN	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Vnoun	8	nsubj	_	_
+4	ченди	чен	NOUN	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Vnoun	8	obl	_	_
 5	9	9	NUM	NUM	NumType=Card	6	nummod	_	_
 6	пайызга	пайыз	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
 7	чейин	чейин	ADV	ADV	_	6	advmod	_	_
@@ -7193,7 +7193,7 @@
 3	мүлктү	мүлк	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
 4	кайра	кайра	ADV	ADV	_	5	advmod	_	_
 5	каттоо	катта	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	nsubj	_	_
-6	кайсы	кайсы	DET	DET	_	7	nummod	_	_
+6	кайсы	кайсы	DET	DET	_	7	det	_	_
 7	учурда	учур	ADV	ADV	_	8	advmod	_	_
 8	арзан	арзан	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=2	9	nmod	_	_
 9	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7772,7 +7772,7 @@
 6	каналды	канал	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
 7	казуу	каз	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	acl	_	_
 8	иштери	иш	NOUN	NN	Case=Acc|Number=Plur|Person=3	9	nsubj	_	_
-9	башталды	башта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pas	0	root	_	SpaceAfter=No
+9	башталды	башта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 1687
