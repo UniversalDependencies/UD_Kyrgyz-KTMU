@@ -282,7 +282,7 @@
 1	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	obl	_	_
 2	шаардык	шаар	NOUN	ADJ	_	3	amod	_	_
 3	мэриясы	мэрия	NOUN	NN	Case=Gen|Number=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
-4	эртеңки	эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+4	эртеңки	эртең	ADV	ADV	_	5	advmod	_	_
 5	ишембиликке	ишембилик	NOUN	NN	Case=Dat|Number=Sing|Person=3|Person[psor]=3	9	nmod	_	_
 6	жарандарды	жаран	NOUN	NN	Case=Acc|Number=Plur|Person=3|Person[psor]=3	9	nmod	_	_
 7	активдүү	активдүү	ADV	ADV	_	8	advmod	_	_
@@ -644,7 +644,7 @@
 
 # sent_id = 041
 # text = Эртең Бишкектин көпчүлүк бөлүгүндө жарык жок болот.
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	4	advmod	_	_
 2	Бишкектин	Бишкек	PROPN	PROP	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
 3	көпчүлүк	көп	ADJ	ADJ	_	4	amod	_	_
 4	бөлүгүндө	бөлүк	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
@@ -1110,7 +1110,7 @@
 # sent_id = 074
 # text = Сага эртеңкиге сардина кармап берейинби?
 1	Сага	Сен	PRON	PRP	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
-2	эртеңкиге	эртең	NOUN	NN	Case=Dat|Person[psor]=2	5	obl	_	_
+2	эртеңкиге	эртең	ADV	ADV	_	5	advmod	_	_
 3	сардина	сардина	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 4	кармап	карма	VERB	VB	Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	ccomp	_	_
 5	берейинби	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1481,7 +1481,7 @@
 5	бурулуп	бурул	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	6	advcl	_	_
 6	кетпесе	кет	VERB	VB	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Conv	11	ccomp	_	SpaceAfter=No
 7	,	,	PUNCT	PCT	_	6	punct	_	_
-8	эртең	эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+8	эртең	эртең	ADV	ADV	_	11	advmod	_	_
 9	күн	күн	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=3	11	obj	_	_
 10	жакшы	жакшы	ADJ	ADJ	_	11	amod	_	_
 11	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1984,7 +1984,7 @@
 
 # sent_id = 146
 # text = Эртең салмагы миң кадак болгон балык кармап алып жүрбөйүн?
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	9	advmod	_	_
 2	салмагы	салмак	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 3	миң	миң	NUM	NUM	NumType=Card	4	nummod	_	_
 4	кадак	кадак	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
@@ -2101,7 +2101,7 @@
 6	музга	муз	NOUN	NN	Case=Dat|Number=Sing	7	obl	_	_
 7	коём	кой	VERB	VB	Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	12	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	PCT	_	7	punct	_	_
-9	эртең	эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	obl	_	_
+9	эртең	эртең	ADV	ADV	_	12	advmod	_	_
 10	менен	менен	CCONJ	CCONJ	_	9	case	_	_
 11	бөлүп	бөл	VERB	VB	Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	12	advcl	_	_
 12	алабыз	ал	VERB	VB	Aspect=Perf|Number=Plur|Person=1|Person[psor]=1|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
@@ -2170,7 +2170,7 @@
 
 # sent_id = 161
 # text = Эртең сексен бешинчи күн эмеспи.
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	5	advmod	_	_
 2	сексен	сексен	NUM	NUM	NumType=Card	3	compound	_	_
 3	бешинчи	беш	NUM	NUM	NumType=Ord	4	nummod	_	_
 4	күн	күн	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=3	5	nsubj	_	_
@@ -3581,7 +3581,7 @@
 4	өмүрү	өмүр	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
 5	жана	жана	CCONJ	CCONJ	_	6	cc	_	_
 6	ишмердүүлүгүнө	ишмердүүлүк	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	nmod	_	_
-7	арналган	арналган	ADV	ADV	_	8	advmod	_	_
+7	арналган	арнал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	8	acl	_	_
 8	китептин	китеп	NOUN	NN	Case=Gen|Number=Sing|Person=3	9	nmod	_	_
 9	бет	бет	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10	ачары	ачары	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
@@ -4136,7 +4136,7 @@
 
 # sent_id = 322
 # text = Эртең Ош шаарынын айрым аймактарында электр жарыгы убактылуу өчүрүлөт.
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	obl	_	_
+1	Эртең	Эртең	NADV	ADV	_	9	advmod	_	_
 2	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 3	шаарынын	шаар	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	5	nmod	_	_
 4	айрым	айрым	ADJ	ADJ	_	5	amod	_	_
@@ -5570,7 +5570,7 @@
 1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 2	эгемендүүлүк	эгемендүүлүк	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	күнүнө	күн	NOUN	NN	Case=Dat|Number=Sing	4	nmod:poss	_	_
-4	арналган	арнал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	7	acl	_	_
+4	арналган	арна	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	7	acl	_	_
 5	жаңы	жаңы	ADJ	ADJ	_	6	amod	_	_
 6	дубал	дубал	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	сүрөтү	сүрөт	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
@@ -5791,7 +5791,7 @@
 2	Ички	ич	ADJ	ADJ	Case=Gen|Number=Sing|Person=3	3	amod	_	_
 3	аскерлердин	аскер	NOUN	NN	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
 4	күнүнө	күн	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	obl	_	_
-5	арналган	арнал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	advcl	_	_
+5	арналган	арна	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	advcl	_	_
 6	майрамдык	майрам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	amod	_	_
 7	иш-чара	иш-чара	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 8	өттү	өт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5854,7 +5854,7 @@
 
 # sent_id = 458
 # text = Эртең Бишкектеги мугалимдер үчүн август конференциясы өтөт.
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	7	advmod	_	_
 2	Бишкектеги	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	3	nmod:poss	_	_
 3	мугалимдер	мугалим	NOUN	NN	Case=Nom|Number=Plur|Person=3	7	obj	_	_
 4	үчүн	үчүн	ADV	ADV	_	3	advmod	_	_
@@ -6649,7 +6649,7 @@
 
 # sent_id = 523
 # text = Эртең Бишкектин айрым райондорунда ичүүчү суу өчүрүлөт.
-1	Эртең	Эртең	ADV	ADV	_	7	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	7	advmod	_	_
 2	Бишкектин	Бишкек	PROPN	PROP	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 3	айрым	айрым	ADJ	ADJ	_	4	amod	_	_
 4	райондорунда	район	NOUN	NN	Case=Loc|Number=Plur|Person=3	7	obl	_	_
@@ -8838,7 +8838,7 @@
 1	Бишкектин	Бишкек	PROPN	PROP	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 2	айрым	айрым	ADJ	ADJ	_	3	amod	_	_
 3	райондорунда	район	NOUN	NN	Case=Loc|Number=Plur|Person=3	10	obl	_	_
-4	эртең	эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	obl	_	SpaceAfter=No
+4	эртең	эртең	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	PCT	_	4	punct	_	_
 6	бүрсүгүнү	бүрсүгүнү	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	conj	_	_
 7	таза	таза	ADJ	ADJ	_	8	amod	_	_
@@ -10142,7 +10142,7 @@
 
 # sent_id = 1000
 # text = Эртеңден тарта Чүй проспектисинин бир бөлүгү жабылат.
-1	Эртеңден	Эртең	NOUN	NN	Case=Abl|Number=Sing|Person=3	7	obl	_	_
+1	Эртеңден	Эртең	ADV	ADV	_	7	advmod	_	_
 2	тарта	тарта	ADV	ADV	_	1	advmod	_	_
 3	Чүй	Чүй	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	проспектисинин	проспект	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
@@ -10538,7 +10538,7 @@
 
 # sent_id = 1032
 # text = Эртеңден тарта Бишкектин Горький көчөсүнүн бир бөлүгү жабылат.
-1	Эртеңден	Эртең	NOUN	NN	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+1	Эртеңден	Эртең	ADV	ADV	_	8	advmod	_	_
 2	тарта	тарта	ADV	ADV	_	1	advmod	_	_
 3	Бишкектин	Бишкек	PROPN	PROP	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
 4	Горький	Горький	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
@@ -11554,7 +11554,7 @@
 
 # sent_id = 1115
 # text = Эртең Абдрахманов көчөсүнүн бир бөлүгү ачылат.
-1	Эртең	Эртең	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+1	Эртең	Эртең	ADV	ADV	_	6	advmod	_	_
 2	Абдрахманов	Абдрахманов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	көчөсүнүн	көчө	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	4	nmod	_	_
 4	бир	бир	NUM	NUM	NumType=Card	5	nummod	_	_
