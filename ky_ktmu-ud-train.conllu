@@ -8817,7 +8817,7 @@
 # sent_id = 1771
 # text = Сүйүнбек Касмамбетов мамлекеттик тилди өнүктүрүү маселелери боюнча кеңеш өткөрдү.
 1	Сүйүнбек	Сүйүнбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-2	Касмамбетов	Касмамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+2	Касмамбетов	Касмамбетов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	мамлекеттик	мамлекет	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	тилди	тил	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
 5	өнүктүрүү	өнүктүр	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	6	acl	_	_
@@ -9548,7 +9548,7 @@
 5	бош	бош	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	жумуш	жумуш	NOUN	c	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	орду	орун	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
-8	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	_
+8	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 1832
@@ -11046,7 +11046,7 @@
 9	Аспековдун	Аспеков	PROPN	NN	Case=Gen|Number=Sing|Person[psor]=2	8	flat	_	_
 10	айткан	айт	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Vnoun	11	acl	_	_
 11	билдирүүсүнө	билдирүү	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	12	nmod	_	_
-12	жооп	жооп	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
+12	жооп	жооп	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	compound	_	_
 13	берди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PCT	_	13	punct	_	_
 
@@ -11899,7 +11899,7 @@
 4	миллионго	миллион	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	nmod	_	_
 5	жакын	жакын	ADV	ADV	_	4	advmod	_	_
 6	сапаттуу	сапат	NOUN	ADJ	_	7	amod	_	_
-7	көчөттөр	көчөт	NOUN	NN	Case=Nom|Number=PLur|Person=3	8	nsubj	_	_
+7	көчөттөр	көчөт	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 8	сунушталат	сунушта	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
