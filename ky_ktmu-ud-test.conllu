@@ -4288,7 +4288,7 @@
 3	шаарына	шаар	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 4	кошумча	кошумча	ADJ	ADJ	_	5	amod	_	_
 5	авиакаттамдар	авиакаттам	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
-6	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+6	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
 # sent_id = 336
@@ -4849,7 +4849,7 @@
 3	шаарына	шаар	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 4	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	авиакаттам	авиакаттам	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
-6	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
 # sent_id = 380
@@ -6095,7 +6095,7 @@
 2	кыргызстандыктын	кыргызстандык	PROPN	PROP	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 3	сөөгү	сөөк	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
 4	салынган	салын	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
-5	атайын	атайын	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+5	атайын	атайын	ADV	ADV	_	6	advmod	_	_
 6	борт	борт	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 7	3	3	NUM	NUM	NumType=Card	8	compound	_	SpaceAfter=No
 8	,5	,5	NUM	NUM	NumType=Card	9	nummod	_	_
@@ -7030,7 +7030,7 @@
 6	”	”	PUNCT	PCT	_	5	punct	_	_
 7	сүрөт	сүрөт	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	көргөзмөсү	көргөзмө	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
-9	ачылды	ачыл	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+9	ачылды	ач	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 555
@@ -7409,7 +7409,7 @@
 7	үчүн	үчүн	ADV	ADV	_	6	advmod	_	_
 8	жаңы	жаңы	ADJ	ADJ	_	9	amod	_	_
 9	имарат	имарат	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
-10	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+10	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 586
@@ -7473,7 +7473,7 @@
 1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person[psor]=2	8	nsubj	_	_
 2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
 3	Түркия	Түркия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	бардык	бар	ADJ	ADJ	_	5	amod	_	_
+4	бардык	бардык	ADJ	ADJ	_	5	amod	_	_
 5	тармактар	тармак	NOUN	NN	Case=Nom|Number=Plur|Person=3	7	nmod	_	_
 6	боюнча	боюнча	ADV	ADV	_	5	advmod	_	_
 7	кызматташтыкты	кызматташтык	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	obj	_	_
@@ -8370,7 +8370,7 @@
 2	Ала-Тоо	Ала-Тоо	PROPN	PROP	Case=Nom|Number=Sing	3	nmod	_	_
 3	соода	соода	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	түйүнү	түйүн	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
-5	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PCT	_	5	punct	_	_
 
 # sent_id = 663
@@ -8696,7 +8696,7 @@
 1	Россияда	Россия	PROPN	PROP	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 2	АрМИ-2022	АрМИ-2022	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	мелдешинин	мелдеш	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
-4	ачылышы	ачылыш	VERB	VB	Case=Acc|VerbForm=Vnoun	5	nsubj	_	_
+4	ачылышы	ачылыш	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
 5	өттү	өт	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PCT	_	5	punct	_	_
 
@@ -9086,7 +9086,7 @@
 6	34	34	NUM	NUM	NumType=Card	7	nummod	_	_
 7	кызматкери	кызматкер	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 8	иштен	иш	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	9	obl	_	_
-9	бошотулду	бошотул	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+9	бошотулду	бошот	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 918
@@ -9250,7 +9250,7 @@
 4	сууга	суу	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	_
 5	түшүү	түш	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	6	acl	_	_
 6	сезону	сезон	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
-7	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+7	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PCT	_	7	punct	_	_
 
 # sent_id = 930
@@ -9733,7 +9733,7 @@
 5	Ардактуу	Ардактуу	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 6	консулдугу	консулдук	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
 7	салтанаттуу	салтанат	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	acl	_	_
-8	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+8	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 968
@@ -10137,7 +10137,7 @@
 7	жыл	жыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	SpaceAfter=No
 8	"	"	PUNCT	PCT	_	7	punct	_	_
 9	аллеясы	аллея	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	nsubj	_	_
-10	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1000
@@ -10490,7 +10490,7 @@
 3	Чүй	Чүй	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	проспектисине	проспект	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 5	чейин	чейин	ADV	ADV	_	6	advmod	_	_
-6	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+6	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PCT	_	6	punct	_	_
 
 # sent_id = 1028
@@ -11232,7 +11232,7 @@
 7	берүү	бер	VERB	VB	VerbForm=Vnoun	8	advcl	_	_
 8	келишимине	келишим	NOUN	VB	Case=Dat|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nsubj	_	_
 9	кол	кол	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	коюлду	коюл	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+10	коюлду	кой	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1089
@@ -12226,7 +12226,7 @@
 6	көчөсүнүн	көчөс	VERB	NN	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	acl	_	_
 7	бир	бир	NUM	NUM	NumType=Card	8	nummod	_	_
 8	бөлүгү	бөлүк	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
-9	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 1170
@@ -12455,7 +12455,7 @@
 5	тармагына	тармак	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3	10	obj	_	SpaceAfter=No
 6	"	"	PUNCT	PCT	_	5	punct	_	_
 7	30	30	NUM	NUM	NumType=Card	8	nummod	_	_
-8	атайын	атайын	NOUN	ADV	_	9	amod	_	_
+8	атайын	атайын	ADV	ADV	_	9	advmod	_	_
 9	техника	техника	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	nsubj	_	_
 10	тапшырылды	тапшырыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
@@ -13017,7 +13017,7 @@
 6	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	7	nmod	_	_
 7	улуттук	улут	ADJ	ADJ	_	8	amod	_	_
 8	экспозициясы	экспозиция	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
-9	ачылды	ачыл	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
 # sent_id = 1232
