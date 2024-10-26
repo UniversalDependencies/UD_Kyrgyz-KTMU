@@ -2051,275 +2051,6 @@
 9	берди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
 
-# sent_id = 1401
-# text = Улуттук банк валюта рыногуна 51,6 млн доллар сатты.
-1	Улуттук	улут	ADJ	ADJ	_	2	amod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-3	валюта	валюта	ADJ	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	amod	_	_
-4	рыногуна	рынок	NOUN	NN	Case=Acc,Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
-5	51	51	NUM	NUM	NumType=Card	6	compound	_	SpaceAfter=No
-6	,6	,6	NUM	NUM	NumType=Card	7	compound	_	_
-7	млн	млн	NUM	NUM	NumType=Card	8	nummod	_	_
-8	доллар	доллар	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	сатты	сат	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1402
-# text = Улуттук банк мыйзамсыз акча алмаштырган эки жаранга айып салды.
-1	Улуттук	улут	ADJ	ADJ	_	2	amod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-3	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	4	nmod	_	_
-4	акча	акча	NOUN	NN	Case=Nom|Number=Sing	5	nmod	_	_
-5	алмаштырган	алмаштыр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part	9	ccomp	_	_
-6	эки	эки	NUM	NUM	NumType=Card	7	nummod	_	_
-7	жаранга	жаран	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
-8	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	obj	_	_
-9	салды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1403
-# text = Улуттук банк эки акча алмаштыруу жайына айып салды.
-1	Улуттук	улут	ADJ	ADJ	_	2	amod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
-3	эки	эки	NUM	NUM	NumType=Card	4	nummod	_	_
-4	акча	акча	NOUN	NN	Case=Nom|Number=Sing	5	nmod	_	_
-5	алмаштыруу	алмаштыр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
-6	жайына	жай	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
-7	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	obj	_	_
-8	салды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	PCT	_	8	punct	_	_
-
-# sent_id = 1404
-# text = Кыргызстанда жумушсуздук азаюуда.
-1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	3	obl	_	_
-2	жумушсуздук	жумушсуздук	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-3	азаюуда	азай	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	PCT	_	3	punct	_	_
-
-# sent_id = 1405
-# text = Ош облусуна дем берүүчү гранттардын эсебинен 12 млн сом жумшалды.
-1	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	облусуна	облус	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
-3	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	compound	_	_
-4	берүүчү	бер	VERB	VB	VerbForm=Vnoun	5	acl	_	_
-5	гранттардын	грант	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	6	nmod	_	_
-6	эсебинен	эсеп	NOUN	NN	Case=Acc,Ins|Number=Sing|Person=3	10	nsubj	_	_
-7	12	12	NUM	NUM	NumType=Card	8	compound	_	_
-8	млн	млн	NUM	NUM	NumType=Card	9	nummod	_	_
-9	сом	сом	NOUN	NN	Case=Nom|Number=Sing	10	nmod	_	_
-10	жумшалды	жумшал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	PCT	_	10	punct	_	_
-
-# sent_id = 1406
-# text = Улуттук банк эки комбанктын кызмат орундарына талапкерлерди жактырды.
-1	Улуттук	улут	ADJ	ADJ	_	2	amod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
-3	эки	эки	NUM	NUM	NumType=Card	4	nummod	_	_
-4	комбанктын	комбанк	NOUN	NN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
-5	кызмат	кызмат	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	орундарына	орун	NOUN	NN	Case=Dat,Gen|Number=Plur|Person=3	7	nmod	_	_
-7	талапкерлерди	талапкер	NOUN	NN	Case=Acc|Number=Plur|Person=3	8	obj	_	_
-8	жактырды	жактыр	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	PCT	_	8	punct	_	_
-
-# sent_id = 1407
-# text = Салык кызматы активдерди легалдаштыруу мүмкүнчүлүгү тууралуу эскертет.
-1	Салык	Салык	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	кызматы	кызмат	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
-3	активдерди	актив	NOUN	NN	Case=Acc|Number=Plur|Person=3	4	nmod	_	_
-4	легалдаштыруу	легалдаштыр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	acl	_	_
-5	мүмкүнчүлүгү	мүмкүнчүлүк	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
-6	тууралуу	тууралуу	ADV	ADV	_	5	advmod	_	_
-7	эскертет	эскерт	VERB	VB	Aspect=Prog|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PCT	_	7	punct	_	_
-
-# sent_id = 1408
-# text = Кыргызстан менен Азербайжандын ортосундагы соода-экономикалык кызматташтык талкууланды.
-1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
-3	Азербайжандын	Азербайжан	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	1	conj	_	_
-4	ортосундагы	орто	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
-5	соода-экономикалык	соода-экономика	NOUN	ADJ	_	6	amod	_	_
-6	кызматташтык	кызматташ	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	obj	_	_
-7	талкууланды	талкуула	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PCT	_	7	punct	_	_
-
-# sent_id = 1409
-# text = Жалал-Абад облусуна дем берүүчү гранттардын эсебинен 24 млн сом жумшалды.
-1	Жалал-Абад	Жалал-Абад	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	облусуна	облус	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	obl	_	_
-3	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	берүүчү	бер	VERB	VB	VerbForm=Vnoun	5	acl	_	_
-5	гранттардын	грант	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	6	nmod	_	_
-6	эсебинен	эсеп	NOUN	NN	Case=Acc,Ins|Number=Sing|Person=3	10	nsubj	_	_
-7	24	24	NUM	NUM	NumType=Card	8	compound	_	_
-8	млн	млн	NUM	NUM	NumType=Card	9	nummod	_	_
-9	сом	сом	NOUN	NN	Case=Nom|Number=Sing	10	nmod	_	_
-10	жумшалды	жумшал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	PCT	_	10	punct	_	_
-
-# sent_id = 1410
-# text = Салык кызматы сатуу салыгы боюнча отчеттун жөнөкөйлөтүлгөн жаңы формаларын ишке киргизди.
-1	Салык	Салык	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	кызматы	кызмат	NOUN	NN	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
-3	сатуу	сат	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	4	acl	_	_
-4	салыгы	салык	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
-5	боюнча	боюнча	ADV	ADV	_	4	advmod	_	_
-6	отчеттун	отчет	NOUN	PROP	Case=Gen|Number=Sing|Person[psor]=2	7	nmod	_	_
-7	жөнөкөйлөтүлгөн	жөнөкөйлөт	VERB	VB	VerbForm=Part|Voice=Pass	9	acl	_	_
-8	жаңы	жаңы	ADJ	ADJ	_	9	amod	_	_
-9	формаларын	форма	NOUN	NN	Case=Acc|Number=Plur|Person[psor]=2	10	nmod	_	_
-10	ишке	иш	NOUN	NN	Case=Dat|Number=Sing|Person=3	11	nmod	_	_
-11	киргизди	киргиз	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	PCT	_	11	punct	_	_
-
-# sent_id = 1411
-# text = Кыргызстанга суюлтулган газды жеткирүүдө жаралган көйгөйлөр тууралуу маалымат берилди.
-1	Кыргызстанга	Кыргызстан	PROPN	PROP	Case=Dat|Number=Sing|Person=3	9	obl	_	_
-2	суюлтулган	суюлтулг	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	3	nmod	_	_
-3	газды	газ	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nmod	_	_
-4	жеткирүүдө	жеткир	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	acl	_	_
-5	жаралган	жарал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	6	acl	_	_
-6	көйгөйлөр	көйгөй	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
-7	тууралуу	тууралуу	ADV	ADV	_	6	advmod	_	_
-8	маалымат	маалымат	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-9	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1412
-# text = Атамекендик өндүрүүчүлөр өлкөнү толук тоок жумурткасы менен камсыздай алды.
-1	Атамекендик	Атамекендик	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	өндүрүүчүлөр	өндүрүүчү	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
-3	өлкөнү	өлкө	NOUN	VB	Case=Acc|Polarity=Pos|Tense=Past|VerbForm=Part	4	nmod	_	_
-4	толук	толук	NOUN	ADV	_	5	amod	_	_
-5	тоок	тоок	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	жумурткасы	жумуртка	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	obj	_	_
-7	менен	менен	CCONJ	CCONJ	_	6	case	_	_
-8	камсыздай	камсыз	VERB	NN	Case=Nom|Number=Sing|Person=3	9	advcl	_	_
-9	алды	ал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1413
-# text = Баткен облусуна дем берүүчү гранттардын эсебинен 9,2 млн сом жумшалды.
-1	Баткен	Баткен	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	облусуна	облус	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
-3	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	compound	_	_
-4	берүүчү	бер	VERB	VB	VerbForm=Vnoun	5	acl	_	_
-5	гранттардын	грант	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	6	nmod	_	_
-6	эсебинен	эсеп	NOUN	NN	Case=Acc,Ins|Number=Sing|Person=3	11	nsubj	_	_
-7	9	9	NUM	NUM	NumType=Card	8	compound	_	SpaceAfter=No
-8	,2	,2	NUM	NUM	NumType=Card	9	compound	_	_
-9	млн	млн	NUM	NUM	NumType=Card	10	nummod	_	_
-10	сом	сом	NOUN	NN	Case=Nom|Number=Sing	11	nmod	_	_
-11	жумшалды	жумшал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	PCT	_	11	punct	_	_
-
-# sent_id = 1414
-# text = Бишкекте мыйзамсыз акча алмаштырган жаранга айып салынды.
-1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	7	obl	_	_
-2	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	3	nmod	_	_
-3	акча	акча	NOUN	NN	Case=Nom|Number=Sing	4	nmod	_	_
-4	алмаштырган	алмаштыр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
-5	жаранга	жаран	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
-6	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-7	салынды	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PCT	_	7	punct	_	_
-
-# sent_id = 1415
-# text = Чүй облусуна дем берүүчү гранттардын эсебинен 6,4 млн сом жумшалды.
-1	Чүй	Чүй	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	облусуна	облус	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
-3	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	compound	_	_
-4	берүүчү	бер	VERB	VB	VerbForm=Vnoun	5	acl	_	_
-5	гранттардын	грант	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	6	nmod	_	_
-6	эсебинен	эсеп	NOUN	NN	Case=Acc,Ins|Number=Sing|Person=3	11	nsubj	_	_
-7	6	6	NUM	NUM	NumType=Card	8	compound	_	SpaceAfter=No
-8	,4	,4	NUM	NUM	NumType=Card	9	compound	_	_
-9	млн	млн	NUM	NUM	NumType=Card	10	nummod	_	_
-10	сом	сом	NOUN	NN	Case=Nom|Number=Sing	11	nmod	_	_
-11	жумшалды	жумшал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	PCT	_	11	punct	_	_
-
-# sent_id = 1416
-# text = Санжарбек Болотов кореялык адистер менен соода-логистикалык борборлорду курууну талкуулады.
-1	Санжарбек	Санжарбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-2	Болотов	Болотов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
-3	кореялык	корея	ADJ	ADJ	_	4	amod	_	_
-4	адистер	адис	NOUN	NN	Case=Nom|Number=Plur|Person=3	1	conj	_	_
-5	менен	менен	CCONJ	CCONJ	_	4	case	_	_
-6	соода-логистикалык	соода-логистика	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
-7	борборлорду	борбор	NOUN	NN	Case=Acc|Number=Plur|Person=3	9	obj	_	_
-8	курууну	кур	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	advcl	_	_
-9	талкуулады	талкуула	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1417
-# text = Кыргызстанда 7 айда 161,3 млрд сом салык жана камсыздандыруу төгүмдөрү чогултулду.
-1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	12	obl	_	_
-2	7	7	NUM	NUM	NumType=Card	3	nummod	_	_
-3	айда	ай	NOUN	NN	Case=Loc|Number=Sing|Person=3	12	obl	_	_
-4	161	161	NUM	NUM	NumType=Card	5	compound	_	SpaceAfter=No
-5	,3	,3	NUM	NUM	NumType=Card	6	compound	_	_
-6	млрд	млрд	NUM	NUM	NumType=Card	7	nummod	_	_
-7	сом	сом	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nmod	_	_
-8	салык	салык	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
-9	жана	жана	CCONJ	CCONJ	_	10	cc	_	_
-10	камсыздандыруу	камсыздандыр	VERB	VB	VerbForm=Vnoun	8	conj	_	_
-11	төгүмдөрү	төгүм	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
-12	чогултулду	чогулт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	PCT	_	12	punct	_	_
-
-# sent_id = 1418
-# text = Жыл башынан бери пенсияга 50,5 млрд сом каржыланды.
-1	Жыл	Жыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	башынан	баш	NOUN	NN	Case=Abl|Number=Sing|Person=3	9	obl	_	_
-3	бери	бери	ADV	ADV	_	2	advmod	_	_
-4	пенсияга	пенсия	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
-5	50	50	NUM	NUM	NumType=Card	6	compound	_	SpaceAfter=No
-6	,5	,5	NUM	NUM	NumType=Card	7	nummod	_	_
-7	млрд	млрд	NOUN	NUM	NumType=Card	8	nmod	_	_
-8	сом	сом	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	nsubj	_	_
-9	каржыланды	каржылан	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	PCT	_	9	punct	_	_
-
-# sent_id = 1419
-# text = 6 айда театралдык оюн-зоок мекемелерине 46,5 млн сом түштү.
-1	6	6	NUM	NUM	NumType=Card	2	nummod	_	_
-2	айда	ай	NOUN	NN	Case=Loc|Number=Sing|Person=3	11	obl	_	_
-3	театралдык	театрал	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-4	оюн-зоок	оюн-зоок	NOUN	CCONJ	_	5	amod	_	_
-5	мекемелерине	мекеме	NOUN	NN	Case=Acc,Dat|Number=Plur|Person=3	11	obl	_	_
-6	46	46	NUM	NUM	NumType=Card	8	compound	_	SpaceAfter=No
-7	,	,	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
-8	5	5	NUM	NUM	NumType=Card	9	compound	_	_
-9	млн	млн	NUM	NUM	NumType=Card	10	nummod	_	_
-10	сом	сом	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	nsubj	_	_
-11	түштү	түш	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	PCT	_	11	punct	_	_
-
-# sent_id = 1420
-# text = Кыргызстанда кылкандуу дан эгиндерин жыйноо кызуу жүрүүдө.
-1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	7	obl	_	_
-2	кылкандуу	кылкан	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	дан	дан	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	эгиндерин	эгин	NOUN	NN	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
-5	жыйноо	жыйна	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	compound	_	_
-6	кызуу	кызуу	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	advcl	_	_
-7	жүрүүдө	жүр	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	PCT	_	7	punct	_	_
-
-# sent_id = 1421
-# text = Кыргызстанда 9 миңден ашуун дыйкан жеңилдетилген насыя алды.
-1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
-2	9	9	NUM	NUM	NumType=Card	3	compound	_	_
-3	миңден	миң	NUM	NUM	Case=Abl|NumType=Card	5	nummod	_	_
-4	ашуун	ашуун	ADV	ADV	_	3	advmod	_	_
-5	дыйкан	дыйкан	NOUN	VB	Polarity=Pos|Tense=Past	6	nmod	_	_
-6	жеңилдетилген	жеңилдетил	VERB	VB	VerbForm=Part	7	acl	_	_
-7	насыя	насыя	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
-8	алды	ал	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	PCT	_	8	punct	_	_
-
 # sent_id = 1422
 # text = Быйыл Бишкек ЖЭБин атамекендик компаниялар 180 миң тонна көмүр менен камсыздайт.
 1	Быйыл	Быйыл	ADV	ADV	_	11	advmod	_	_
@@ -14222,3 +13953,1705 @@
 8	аяктады	аякта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
+# sent_id = 2364
+# text = Раззак Бейшекеевдин дүйнө чемпионатында тарых жараткан ирмемдери.
+1	Раззак	Раззак	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Бейшекеевдин	Бейшекеев	PROPN	PROP	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	_
+3	дүйнө	дүйнө	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod	_	_
+4	чемпионатында	чемпионат	NOUN	NN	Case=Loc|Number=Sing|Person=3	7	obl	_	_
+5	тарых	тарых	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	жараткан	жарат	VERB	VB	Polarity=Pos|Tense=Past	7	acl	_	_
+7	ирмемдери	ирмем	NOUN	NN	Case=Acc|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2365
+# text = Бишкекте Кыргыз футбол биримдигинин улуттук футбол академиясы ачылды.
+1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+2	Кыргыз	Кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	футбол	футбол	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	биримдигинин	биримдик	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	5	nmod	_	_
+5	улуттук	улут	ADJ	ADJ	_	6	amod	_	_
+6	футбол	футбол	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	академиясы	академия	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+8	ачылды	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2366
+# text = Садыр Жапаров Ороктогу футбол үчүн курулган окуу машыгуу базасын ачты.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	Ороктогу	Орок	PROPN	PROP	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+4	футбол	футбол	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+5	үчүн	үчүн	ADV	ADV	_	4	advmod	_	_
+6	курулган	кур	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	7	acl	_	_
+7	окуу	оку	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	acl	_	_
+8	машыгуу	машык	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	nmod	_	_
+9	базасын	база	NOUN	NN	Case=Acc|Number=Plur|Person=3	10	obj	_	_
+10	ачты	ач	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2367
+# text = Футбол: Кыргызстандын өспүрүмдөр командасы Азия кубогуна тандоо оюндарын өткөрөт.
+1	Футбол	футбол	PROPN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	SpaceAfter=No
+2	:	:	PUNCT	PCT	_	1	punct	_	_
+3	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
+4	өспүрүмдөр	өспүрүм	NOUN	NN	Case=Nom|Number=Plur|Person=3	5	nmod	_	_
+5	командасы	команда	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	nsubj	_	_
+6	Азия	Азия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	кубогуна	кубок	NOUN	NN	Case=Acc,Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+8	тандоо	танда	VERB	VB	Case=Nom|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	acl	_	_
+9	оюндарын	оюн	NOUN	NN	Case=Acc|Number=Sing|PronType=Ind	10	obl	_	_
+10	өткөрөт	өткөр	VERB	VB	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2368
+# text = Бивол дүйнөнүн абсолюттук чемпиону наамы үчүн күрөштө утулду.
+1	Бивол	Бивол	NOUN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	дүйнөнүн	дүйнө	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	абсолюттук	абсолют	NOUN	ADJ	_	4	amod	_	_
+4	чемпиону	чемпион	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+5	наамы	наам	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+6	үчүн	үчүн	ADV	ADV	_	5	advmod	_	_
+7	күрөштө	күрөш	NOUN	NN	Case=Loc|Number=Sing|Person=3	8	nmod	_	_
+8	утулду	ут	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2369
+# text = Спортчунун видеосу.
+1	Спортчунун	Спортчу	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod	_	_
+2	видеосу	видео	NOUN	NN	Case=Acc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PCT	_	2	punct	_	_
+
+# sent_id = 2370
+# text = Күрөш боюнча жаштар курама командасы дүйнө чемпионатына катышат.
+1	Күрөш	күрөш	PROPN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	боюнча	боюнча	ADV	ADV	_	1	advmod	_	_
+3	жаштар	жаш	NOUN	NN	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
+4	курама	курама	NOUN	ADJ	_	5	nmod	_	_
+5	командасы	команда	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+6	дүйнө	дүйнө	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	nmod	_	_
+7	чемпионатына	чемпионат	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+8	катышат	катыш	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2371
+# text = Мелдештерди баяндап жатып ыйлаган учурлар болот.
+1	Мелдештерди	Мелдеш	NOUN	NN	Case=Acc|Number=Plur|Person=3	2	nmod	_	_
+2	баяндап	баянда	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	obl	_	_
+3	жатып	жат	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	4	compound	_	_
+4	ыйлаган	ыйла	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+5	учурлар	учур	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2372
+# text = Спорт баяндамачысы менен маек.
+1	Спорт	спорт	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	баяндамачысы	баяндама	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nsubj	_	_
+3	менен	менен	CCONJ	CCONJ	_	2	case	_	_
+4	маек	маек	VERB	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2373
+# text = Баткен облусунун 25 жылдыгына карата кыргыз күрөшү боюнча мелдеш өтөт.
+1	Баткен	Баткен	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	облусунун	облус	NOUN	NN	Case=Acc,Gen|Number=Sing|Person[psor]=2	4	nmod	_	_
+3	25	25	NUM	NUM	NumType=Card	4	nummod	_	_
+4	жылдыгына	жылдык	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	obl	_	_
+5	карата	карата	ADV	ADV	_	4	advmod	_	_
+6	кыргыз	кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	күрөшү	күрөш	VERB	VB	Case=Acc|VerbForm=Vnoun	9	nmod	_	_
+8	боюнча	боюнча	ADV	ADV	_	7	advmod	_	_
+9	мелдеш	мелдеш	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+10	өтөт	өт	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2374
+# text = Кыргызстандын футболчулары Катарга 3:1 эсебинде жеңилип калды.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	футболчулары	футболчу	NOUN	NN	Case=Acc|Number=Plur|Person=3	3	nmod	_	_
+3	Катарга	Катар	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+4	3	3	NUM	NUM	NumType=Card	5	compound	_	SpaceAfter=No
+5	:1	:1	NUM	NUM	NumType=Card	6	nummod	_	_
+6	эсебинде	эсеб	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+7	жеңилип	жең	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	8	advcl	_	_
+8	калды	кал	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2375
+# text = Күнүнө 10 миң кадам басууну адатка айлантыңыз.
+1	Күнүнө	күн	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+2	10	10	NUM	NUM	NumType=Card	3	compound	_	_
+3	миң	миң	NUM	NUM	NumType=Card	4	nummod	_	_
+4	кадам	кадам	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+5	басууну	бас	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nmod	_	_
+6	адатка	адат	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+7	айлантыңыз	айлан	VERB	VB	Aspect=Perf|Mood=Imp|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2376
+# text = Дарыгерлердин кеңеши.
+1	Дарыгерлердин	Дарыгер	NOUN	NN	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	кеңеши	кеңеш	VERB	NN	Case=Acc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PCT	_	2	punct	_	_
+
+# sent_id = 2377
+# text = Бишкекте Жоламан Шаршенбековдун үйлөнүү тою болду.
+1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+2	Жоламан	Жоламан	PROPN	PROP	Case=Nom|Number=Sing|Person[psor]=2	4	nmod	_	_
+3	Шаршенбековдун	Шаршенбеков	PROPN	NN	Case=Gen|Number=Sing|Person[psor]=2	2	flat	_	_
+4	үйлөнүү	үйлөн	VERB	VB	Case=Nom|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	acl	_	_
+5	тою	той	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
+6	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2378
+# text = Дарыгер төрөттөн кийин спортко шашылбай турууну эскертти.
+1	Дарыгер	дарыгер	NOUN	NN	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+2	төрөттөн	төрөт	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	7	obl	_	_
+3	кийин	кийин	ADV	ADV	_	2	advmod	_	_
+4	спортко	спорт	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+5	шашылбай	шаш	VERB	VB	Aspect=Prog|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	6	nmod	_	_
+6	турууну	тур	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	advcl	_	_
+7	эскертти	эскерт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2379
+# text = Бишкекте өткөн "Snow Leopard Run 2024" жарым марафонунан 18 сүрөт.
+1	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	12	obl	_	_
+2	өткөн	өт	VERB	PROP	Case=Nom|Number=Sing|Person[psor]=2	4	acl	_	_
+3	"	"	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
+4	Snow	Snow	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	Leopard	Leopard	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	Run	Run	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	2024	2024	NUM	NUM	NumType=Card	9	nummod	_	SpaceAfter=No
+8	"	"	PUNCT	PCT	_	7	punct	_	_
+9	жарым	жарым	ADJ	ADJ	_	10	amod	_	_
+10	марафонунан	марафон	NOUN	NN	Case=Ins|Number=Sing|Person=3	12	nsubj	_	_
+11	18	18	NUM	NUM	NumType=Card	12	compound	_	_
+12	сүрөт	сүр	VERB	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2380
+# text = Миңдеген адамдар Бишкектин көчөлөрү менен чуркашты!
+1	Миңдеген	Миңдеген	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	адамдар	адам	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+3	Бишкектин	Бишкек	PROPN	PROP	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
+4	көчөлөрү	көчө	NOUN	NN	Case=Acc|Number=Plur|Person=3	6	obj	_	_
+5	менен	менен	CCONJ	CCONJ	_	4	case	_	_
+6	чуркашты	чурка	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2381
+# text = Кыргызстандын самбо боюнча курама командасы эл аралык турнирге катышат.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	самбо	самбо	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+3	боюнча	боюнча	ADV	ADV	_	2	advmod	_	_
+4	курама	курама	NOUN	ADJ	_	5	amod	_	_
+5	командасы	команда	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
+6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	аралык	ара	ADJ	ADJ	_	8	amod	_	_
+8	турнирге	турнир	NOUN	NN	Case=Dat|Number=Plur|Person=3	9	obl	_	_
+9	катышат	катыш	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2382
+# text = Snow Leopard Run жарым марафонунан улам Бишкекте бир катар көчөлөр жабылат.
+1	Snow	Snow	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Leopard	Leopard	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	Run	Run	PROPN	PROP	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+4	жарым	жарым	ADJ	ADJ	_	5	amod	_	_
+5	марафонунан	марафон	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	6	nmod	_	_
+6	улам	улам	NOUN	ADV	_	7	nmod	_	_
+7	Бишкекте	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+8	бир	бир	NUM	NUM	NumType=Card	9	nummod	_	_
+9	катар	катар	ADJ	ADJ	_	10	amod	_	_
+10	көчөлөр	көчө	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+11	жабылат	жап	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2383
+# text = Маданий жана спорттук иш-чараларга билет саткан бирдиктүү система киргизилет.
+1	Маданий	маданий	PROPN	ADJ	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	жана	жана	CCONJ	CCONJ	_	3	cc	_	_
+3	спорттук	спорт	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+4	иш-чараларга	иш-чара	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+5	билет	билет	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+6	саткан	сат	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Vnoun	7	acl	_	_
+7	бирдиктүү	бирдик	NOUN	ADJ	_	8	amod	_	_
+8	система	система	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+9	киргизилет	киргиз	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2384
+# text = Балбан Акылбек Талантбеков төрт жылга мелдештерден четтетилди.
+1	Балбан	Балбан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+2	Акылбек	Акылбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	Талантбеков	Талантбеков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+4	төрт	төрт	NUM	NUM	NumType=Card	5	nummod	_	_
+5	жылга	жыл	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+6	мелдештерден	мелдеш	NOUN	NN	Case=Abl|Number=Plur|Person=3	7	nmod	_	_
+7	четтетилди	четтет	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2384
+# text = Жоламан Шаршенбеков колуктусун алып кетип жатат.
+1	Жоламан	Жоламан	PROPN	NN	Case=Nom|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	Шаршенбеков	Шаршенбеков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+3	колуктусун	колуктус	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	4	nmod	_	_
+4	алып	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	advcl	_	_
+5	кетип	кет	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	advcl	_	_
+6	жатат	жатат	VERB	VB	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2385
+# text = Көкпар федерациясы казак улакчылары Ысык-Көлгө келбей турганын билдирди.
+1	Көкпар	Көкпар	PROPN	NN	Case=Nom|Number=Plur|Person=3	2	nmod	_	_
+2	федерациясы	федерация	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nsubj	_	_
+3	казак	казак	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	улакчылары	улакчы	NOUN	NN	Case=Acc|Number=Plur|Person=3	8	obj	_	_
+5	Ысык-Көлгө	Ысык-Көл	PROPN	PROP	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+6	келбей	кел	VERB	VB	Polarity=Neg|Tense=Pres|VerbForm=Conv	7	acl	_	_
+7	турганын	тур	VERB	VB	Case=Acc|Number=Sing|Person=3|VerbForm=Vnoun	8	advcl	_	_
+8	билдирди	билдир	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2386
+# text = Шаардык кеңештин төрагасы боло тургандар жогорку билимдүү болушу керек.
+1	Шаардык	шаар	PROPN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	кеңештин	кеңеш	NOUN	NN	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+3	төрагасы	төрага	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+4	боло	боло	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	acl	_	_
+5	тургандар	тур	VERB	VB	Case=Nom|Number=Plur|Person=3|VerbForm=Vnoun	9	nsubj	_	_
+6	жогорку	жогорку	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	билимдүү	билим	NOUN	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	8	nmod	_	_
+8	болушу	бол	VERB	VB	Case=Acc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	advcl	_	_
+9	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2387
+# text = Садыр Жапаров: Кыргызстан адилеттүү эл аралык экономикалык тартипти жактайт.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+5	адилеттүү	адилет	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	аралык	ара	ADJ	ADJ	_	8	amod	_	_
+8	экономикалык	экономика	NOUN	ADJ	_	9	nmod	_	_
+9	тартипти	тартип	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	nsubj	_	_
+10	жактайт	жакта	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2388
+# text = Казандагы БРИКС саммитине дүйнөлүк лидерлерден ким келет.
+1	Казандагы	Казан	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod:poss	_	_
+2	БРИКС	БРИКС	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	саммитине	саммит	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+4	дүйнөлүк	дүйнө	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	лидерлерден	лидер	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nmod	_	_
+6	ким	ким	PRON	PRP	PronType=Int	7	nsubj	_	_
+7	келет	кел	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2389
+# text = Францияда Путиндин сөзүнөн кийин Зеленскийди каржылоону токтотууга чакырык жасалды.
+1	Францияда	Франция	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+2	Путиндин	Путин	PROPN	PROP	Case=Gen|Number=Sing|Person=2|PronType=Prs	3	nmod	_	_
+3	сөзүнөн	сөзүнөн	NOUN	NN	Case=Ins|Number=Sing|Person=3	5	nmod	_	_
+4	кийин	кийин	ADV	ADV	_	3	advmod	_	_
+5	Зеленскийди	Зеленский	PROPN	PROP	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+6	каржылоону	каржыла	NOUN	ADV	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
+7	токтотууга	токто	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	acl	_	_
+8	чакырык	чакырык	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+9	жасалды	жаса	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2390
+# text = Путин: БРИКС бирөөгө каршылык көрсөтүү үчүн түзүлгөн эмес.
+1	Путин	Путин	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	3	nmod	_	SpaceAfter=No
+2	:	:	PUNCT	PCT	_	1	punct	_	_
+3	БРИКС	БРИКС	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	бирөөгө	бирөө	NOUN	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
+5	каршылык	каршы	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+6	көрсөтүү	көрсөт	VERB	VB	VerbForm=Vnoun	8	advcl	_	_
+7	үчүн	үчүн	ADV	ADV	_	6	advmod	_	_
+8	түзүлгөн	түз	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+9	эмес	эмес	VERB	VB	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2391
+# text = Акылбек Жапаров: 2029-жылы Кыргызстандын бюджети 1 трлн сомго жетет.
+1	Акылбек	Акылбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	2029	2029	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	PCT	_	4	punct	_	SpaceAfter=No
+6	жылы	жыл	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
+7	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	бюджети	бюджети	NUM	NN	Case=Acc|Number=Sing|Person=3	12	nsubj	_	_
+9	1	1	NUM	NUM	NumType=Card	10	nummod	_	_
+10	трлн	трлн	NUM	NUM	NumType=Card	11	nummod	_	_
+11	сомго	сом	NOUN	NN	Case=Dat|Number=Sing|Person=3	12	nmod	_	_
+12	жетет	жет	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2392
+# text = Венгриянын премьер-министри Виктор Орбандын Кыргызстанга келери айтылды.
+1	Венгриянын	Венгрия	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	премьер	премьер	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
+4	министри	министр	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
+5	Виктор	Виктор	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+6	Орбандын	Орбан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	5	flat	_	_
+7	Кыргызстанга	Кыргызстан	PROPN	PROP	Case=Dat|Number=Sing|Person=3	9	obl	_	_
+8	келери	кел	VERB	VB	Aspect=Perf|Case=Acc|Mood=Ind|Polarity=Pos|Tense=Future|VerbForm=Fin	9	advcl	_	_
+9	айтылды	айт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2393
+# text = Акылбек Жапаров ШКУнун дүйнөлүк экономикадагы үлүшү 25 пайызга жеткенин айтты.
+1	Акылбек	Акылбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	ШКУнун	ШКУ	PROPN	PROP	Abbr=Yes|Case=Gen|Number=Sing|Person=3	4	nmod	_	_
+4	дүйнөлүк	дүйнө	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	экономикадагы	экономика	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+6	үлүшү	үлүш	NOUN	VB	Case=Acc|VerbForm=Vnoun	10	nsubj	_	_
+7	25	25	NUM	NUM	NumType=Card	8	nummod	_	_
+8	пайызга	пайыз	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+9	жеткенин	жет	VERB	VB	Case=Ins|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	айтты	айт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2394
+# text = Президент алдыдагы шайлоодон улам кайрылуу жасады.
+1	Президент	Президент	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	алдыдагы	алды	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
+3	шайлоодон	шайлоо	NOUN	VB	Case=Abl|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nsubj	_	_
+4	улам	улам	NOUN	ADV	_	5	amod	_	_
+5	кайрылуу	кайрыл	VERB	ADV	VerbForm=Vnoun	6	advcl	_	_
+6	жасады	жаса	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2395
+# text = Садыр Жапаров: Кыргызстан Россия менен кызматташпай коё албайт.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+5	Россия	Россия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+6	менен	менен	CCONJ	CCONJ	_	7	cc	_	_
+7	кызматташпай	кызматташпай	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	obj	_	_
+8	коё	кой	VERB	VB	Aspect=Prog|Case=Dat|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	9	advcl	_	_
+9	албайт	ал	VERB	VB	Aspect=Prog|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2396
+# text = Акылбек Жапаров ШКУнун жыйынына катышуу үчүн Пакистанга барды.
+1	Акылбек	Акылбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	ШКУнун	Шку	NOUN	PROP	Abbr=Yes|Case=Gen|Number=Sing|Person=3	4	nmod	_	_
+4	жыйынына	жыйын	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+5	катышуу	катыш	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	acl	_	_
+6	үчүн	үчүн	ADV	ADV	_	5	advmod	_	_
+7	Пакистанга	Пакистан	PROPN	PROP	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+8	барды	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2397
+# text = Ким Дотком: Украина менен НАТО кыйыр согушта жеңилди.
+1	Ким	ким	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+2	Дотком	Дотком	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Украина	Украина	NOUN	NN	Case=Nom|Number=Sing	7	nmod	_	_
+5	менен	менен	CCONJ	CCONJ	_	6	cc	_	_
+6	НАТО	НАТО	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	conj	_	_
+7	кыйыр	кыйыр	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	согушта	согуш	NOUN	PROP	Case=Loc|Number=Sing	9	obl	_	_
+9	жеңилди	жең	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2398
+# text = Карл III Австралиянын республика болушуна тоскоол болбой турганын айтты.
+1	Карл	Карл	PROPN	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	III	III	NUM	NUM	NumType=Card	3	nummod	_	_
+3	Австралиянын	Австралия	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	4	nmod	_	_
+4	республика	республика	NOUN	NN	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
+5	болушуна	болуш	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
+6	тоскоол	тоскоол	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	болбой	бол	VERB	VERB	Case=Ins|Polarity=Neg|VerbForm=Vnoun	8	acl	_	_
+8	турганын	тур	VERB	NN	Case=Acc|Number=Sing|Person=3	9	advcl	_	_
+9	айтты	айт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2399
+# text = Трамп: АКШ өкмөтү 3 айдан кийин үчүнчү дүйнөлүк согушту чыгарышы мүмкүн.
+1	Трамп	Трамп	PROPN	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	12	obl	_	SpaceAfter=No
+2	:	:	PUNCT	PCT	_	1	punct	_	_
+3	АКШ	АКШ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	өкмөтү	өкмөт	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	nmod	_	_
+5	3	3	NUM	NUM	NumType=Card	6	nummod	_	_
+6	айдан	ай	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod	_	_
+7	кийин	кийин	ADV	ADV	_	6	advmod	_	_
+8	үчүнчү	үчүнчү	NUM	NUM	NumType=Ord	9	nummod	_	_
+9	дүйнөлүк	дүйнө	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+10	согушту	согуш	NOUN	NN	Case=Acc|Number=Sing|Person=3	12	nsubj	_	_
+11	чыгарышы	чыгарыш	VERB	ADV	_	12	advcl	_	_
+12	мүмкүн	мүмкүн	VERB	NN	Case=Gen|Number=Sing|Person[psor]=2	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2400
+# text = Садыр Жапаров: Батыш бизге Россия менен алака боюнча көрсөтмө бербеши керек.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	5	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Батыш	Батыш	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+5	бизге	биз	NOUN	PROP	Abbr=Yes|Case=Dat|Number=Sing|Person=3	6	nmod	_	_
+6	Россия	Россия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+7	менен	менен	CCONJ	CCONJ	_	8	cc	_	_
+8	алака	алака	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	conj	_	_
+9	боюнча	боюнча	ADV	ADV	_	6	advmod	_	_
+10	көрсөтмө	көрсөтмө	VERB	NN	Case=Nom|Number=Sing|Person=3	11	acl	_	_
+11	бербеши	бер	VERB	VB	Aspect=Perf|Case=Acc|Polarity=Neg	12	nsubj	_	_
+12	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2401
+# text = Венгрия Харристин өлкө премьери тууралуу айтканын "орунсуз" деп сыпаттады.
+1	Венгрия	Венгрия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Харристин	Харрис	PROPN	PROP	Abbr=Yes|Case=Gen|Number=Sing|Person=3	3	nmod	_	_
+3	өлкө	өлкө	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	премьери	премьер	NOUN	NN	Case=Acc|Number=Plur|Person=3	6	nmod	_	_
+5	тууралуу	тууралуу	ADV	ADV	_	4	advmod	_	_
+6	айтканын	айт	NOUN	NN	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
+7	"	"	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	орунсуз	орун	NOUN	NN	Case=Nom|Number=Sing|Person=3|Polarity=Neg	11	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	PCT	_	8	punct	_	_
+10	деп	деп	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	11	obj	_	_
+11	сыпаттады	сыпатта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2402
+# text = Эксперт: Кыргызстан БУУну реформалоо боюнча Батыштын вариантын колдобошу керек.
+1	Эксперт	Эксперт	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	SpaceAfter=No
+2	:	:	PUNCT	PCT	_	1	punct	_	_
+3	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	БУУну	БУУ	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+5	реформалоо	реформала	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nsubj	_	_
+6	боюнча	боюнча	ADV	ADV	_	5	advmod	_	_
+7	Батыштын	Батыш	PROPN	PROP	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
+8	вариантын	вариант	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+9	колдобошу	колдо	VERB	VB	Polarity=Neg|Tense=Pres|VerbForm=Conv	10	advcl	_	_
+10	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2403
+# text = Садыр Жапаров иш сапар менен Түркмөнстанга кетти.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	иш	иш	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	сапар	сапар	NOUN	NN	Case=Nom|Number=Plur|Person=3	7	nmod	_	_
+5	менен	менен	CCONJ	CCONJ	_	6	cc	_	_
+6	Түркмөнстанга	Түркмөнстан	PROPN	PROP	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+7	кетти	кет	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2404
+# text = Израилдин Жакынкы Чыгышта көздөгөнү эмне?
+1	Израилдин	Израил	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	Жакынкы	Жакынкы	ADV	ADV	_	3	advmod	_	_
+3	Чыгышта	Чыгыш	PROPN	NN	Case=Nom|Number=Sing	4	nmod	_	_
+4	көздөгөнү	көздө	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nsubj	_	_
+5	эмне	эмне	PRON	PRP	Case=Nom|PronType=Int	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2405
+# text = Көп уюлдуулукка каршы согуш.
+1	Көп	көп	ADJ	NN	Case=Nom|Number=Sing|Person=3	2	amod	_	_
+2	уюлдуулукка	уюлдуу	NOUN	ADJ	Case=Dat|Number=Sing|Person=3	4	amod	_	_
+3	каршы	каршы	ADV	ADV	_	2	advmod	_	_
+4	согуш	согуш	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2406
+# text = Президент майыптар үчүн шайлоо күрөөсүн азайтууну сунуштады.
+1	Президент	Президент	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	майыптар	майып	NOUN	NN	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
+3	үчүн	үчүн	ADV	ADV	_	2	advmod	_	_
+4	шайлоо	шайла	VERB	NN	Case=Nom|Number=Sing|Person=3	5	acl	_	_
+5	күрөөсүн	күрөө	NOUN	NN	Case=Acc|Number=Sing|Person[psor]=2	7	nsubj	_	_
+6	азайтууну	азайт	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	advcl	_	_
+7	сунуштады	сунушта	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2407
+# text = Көп векторлуу тышкы саясат Кыргызстандын өзгөрүүсүз принциби бойдон калмакчы.
+1	Көп	көп	ADJ	NN	Case=Nom|Number=Sing|Person=3	2	amod	_	_
+2	векторлуу	вектор	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	nmod	_	_
+3	тышкы	тыш	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+4	саясат	саясат	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+5	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
+6	өзгөрүүсүз	өзгөр	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	7	nmod	_	_
+7	принциби	принцип	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
+8	бойдон	бой	NUM	NUM	Case=Abl	9	nummod	_	_
+9	калмакчы	калмакчы	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2408
+# text = Дүйнөлүк аренада улуттук кызыкчылыктарды коргоо дипломатиялык органдарга жүктөлгөн.
+1	Дүйнөлүк	дүйнө	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	аренада	арена	NOUN	ADJ	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+3	улуттук	улут	ADJ	ADJ	_	4	amod	_	_
+4	кызыкчылыктарды	кызыкчылык	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nmod	_	_
+5	коргоо	корго	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nsubj	_	_
+6	дипломатиялык	дипломатия	NOUN	YADJ	_	7	amod	_	_
+7	органдарга	орган	NOUN	NN	Case=Dat|Number=Plur|Person=3	8	obl	_	_
+8	жүктөлгөн	жүктө	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2408
+# text = Садыр Жапаровдун элге берген беш убадасы.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Жапаровдун	Жапаров	PROPN	NN	Case=Gen|Number=Sing|Person[psor]=2	3	nmod	_	_
+3	элге	эл	NOUN	NN	Case=Dat|Number=Sing|Person=3	4	nmod	_	_
+4	берген	бер	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nsubj	_	_
+5	беш	беш	NUM	NUM	NumType=Card	6	nummod	_	_
+6	убадасы	убада	NOUN	NN	Case=Acc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2409
+# text = COVID-19 мезгилиндеги кыргыз дипломаттары: чакырыктар жана ийгиликтер.
+1	COVID-19	COVID-19	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+2	мезгилиндеги	мезгилин	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+3	кыргыз	кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	дипломаттары	дипломат	NOUN	NN	Case=Acc|Number=Plur|Person=3	6	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	PCT	_	4	punct	_	_
+6	чакырыктар	чакырык	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+7	жана	жана	CCONJ	CCONJ	_	8	cc	_	_
+8	ийгиликтер	ийгилик	NOUN	NN	Case=Nom|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2410
+# text = Айыл чарбасындагы жаңы техникалар өлкөнүн өнүгүүсүнө түздөн түз таасирин тийгизет.
+1	Айыл	Айыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	чарбасындагы	чарба	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
+3	жаңы	жаңы	ADJ	ADJ	_	4	amod	_	_
+4	техникалар	техника	NOUN	NN	Case=Nom|Number=Plur|Person=3	5	nmod	_	_
+5	өлкөнүн	өлкө	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	6	nmod	_	_
+6	өнүгүүсүнө	өнүк	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3	10	obl	_	_
+7	түздөн	түз	NOUN	NN	Case=Abl|Number=Sing|Person=3	8	compound	_	_
+8	түз	түз	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	таасирин	таасир	NOUN	NN	Case=Acc|Number=Sing|Person[psor]=3	10	nsubj	_	_
+10	тийгизет	тийгиз	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2411
+# text = Академиядан чыккан офицерлер ишине жан дили менен берилген, кесипкөй жана мекенчил кызматкерлердин катарын толуктайт.
+1	Академиядан	Академия	PROPN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+2	чыккан	чык	VERB	VB	Polarity=Pos|Tense=Past	3	nmod	_	_
+3	офицерлер	офицер	NOUN	NN	Case=Nom|Number=Plur|Person=3	4	nmod	_	_
+4	ишине	иш	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	nmod	_	_
+5	жан	жан	NOUN	ADV	_	6	nmod	_	_
+6	дили	дил	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
+7	менен	менен	CCONJ	CCONJ	_	6	case	_	_
+8	берилген	бер	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	15	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	PCT	_	8	punct	_	_
+10	кесипкөй	кесип	NOUN	NN	Case=Equ|Number=Sing|Person=3	13	nmod	_	_
+11	жана	жана	CCONJ	CCONJ	_	12	cc	_	_
+12	мекенчил	мекенчил	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	conj	_	_
+13	кызматкерлердин	кызматкер	NOUN	NN	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	катарын	катар	NOUN	NN	Case=Acc|Number=Sing|Person=3	15	nsubj	_	_
+15	толуктайт	толукта	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	PCT	_	15	punct	_	_
+
+# sent_id = 2412
+# text = Кантип жана ким менен дос болуу керек?
+1	Кантип	кантип	ADV	ADV	_	7	advmod	_	_
+2	жана	жана	CCONJ	CCONJ	_	3	cc	_	_
+3	ким	ким	PRON	PRP	Number=Plur|PronType=Int	1	conj	_	_
+4	менен	менен	CCONJ	CCONJ	_	3	case	_	_
+5	дос	дос	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	болуу	бол	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	7	advcl	_	_
+7	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2413
+# text = Көз карандысыз эгемен мамлекетке кысым көрсөтүүгө эл аралык укук жол бербейт.
+1	Көз	көз	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	карандысыз	каранды	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	3	nmod	_	_
+3	эгемен	эгемен	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	мамлекетке	мамлекет	NOUN	NN	Case=Dat|Number=Sing	11	obl	_	_
+5	кысым	кысым	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nmod	_	_
+6	көрсөтүүгө	көрсөт	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	7	acl	_	_
+7	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	аралык	ара	ADJ	ADJ	_	9	amod	_	_
+9	укук	укук	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+10	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+11	бербейт	бер	VERB	VB	Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2414
+# text = Шайлоочулар мамлекеттин тазаланышына чоң салым кошо алат.
+1	Шайлоочулар	Шайлоочу	NOUN	NN	Case=Nom|Number=Plur|Person=3	2	nmod	_	_
+2	мамлекеттин	мамлекет	NOUN	NN	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+3	тазаланышына	тазаланыш	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+4	чоң	чоң	ADJ	NUM	NumType=Card	5	amod	_	_
+5	салым	салым	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nmod	_	_
+6	кошо	кошо	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+7	алат	ал	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2415
+# text = Кыргыз мамлекеттүүлүгүн жаратуудагы татаал жол.
+1	Кыргыз	Кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	мамлекеттүүлүгүн	мамлекеттүүлүк	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	жаратуудагы	жаратуу	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+4	татаал	татаал	VERB	NN	Case=Nom|Number=Sing|Person=3	5	advcl	_	_
+5	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2416
+# text = Курултай – ортомчусу жок, эл менен түз байланыш.
+1	Курултай	курултай	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	–	–	PUNCT	PCT	_	1	punct	_	_
+3	ортомчусу	ортомчу	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+4	жок	жок	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PCT	_	4	punct	_	_
+6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+7	менен	менен	CCONJ	CCONJ	_	6	case	_	_
+8	түз	түз	ADJ	NN	Case=Nom|Number=Sing|Person=3	9	obj	_	_
+9	байланыш	байла	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2417
+# text = Маданияттын жана цивилизациянын диалогу – тынчтыкка жана өнүгүүгө карай жол.
+1	Маданияттын	Маданият	PROPN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+2	жана	жана	CCONJ	CCONJ	_	3	cc	_	_
+3	цивилизациянын	цивилизация	NOUN	PROP	Case=Gen|Number=Sing|Person[psor]=2	1	conj	_	_
+4	диалогу	диалок	NOUN	NN	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
+5	–	–	PUNCT	PCT	_	4	punct	_	_
+6	тынчтыкка	тынчтык	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+7	жана	жана	CCONJ	CCONJ	_	8	cc	_	_
+8	өнүгүүгө	өнүк	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	conj	_	_
+9	карай	карай	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+10	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2418
+# text = Ашхабаддагы маанилүү форум.
+1	Ашхабаддагы	Ашхабад	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod:poss	_	_
+2	маанилүү	маанилүү	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	3	amod	_	_
+3	форум	форум	VERB	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2419
+# text = Инвестиция катары кыргыз алтыны келечекке пайдалуу.
+1	Инвестиция	инвестиция	PROPN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	катары	катары	ADV	ADV	_	1	advmod	_	_
+3	кыргыз	кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	алтыны	алтын	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
+5	келечекке	келечек	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+6	пайдалуу	пайда	NOUN	ADJ	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2420
+# text = КМШ мейкиндигинде улуттук экономикалар туруктуу өсүп, калктын бакубаттуулугу жогорулап жатат.
+1	КМШ	КМШ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	мейкиндигинде	мейкиндик	NOUN	NN	Case=Acc,Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+3	улуттук	улут	NOUN	ADJ	_	4	amod	_	_
+4	экономикалар	экономика	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nmod	_	_
+5	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	6	amod	_	_
+6	өсүп	өсү	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	11	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	PCT	_	6	punct	_	_
+8	калктын	калк	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	9	nmod	_	_
+9	бакубаттуулугу	бакубаттуулук	NOUN	ADJ	Case=Acc	11	obl	_	_
+10	жогорулап	жогорула	VERB	NN	Case=Nom|Number=Sing|Person=3	11	advcl	_	_
+11	жатат	жатат	VERB	VB	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2421
+# text = Кыргызстандын жарандык авиациясына жаңы дем берген “Манас” эл аралык аэропорту.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	жарандык	жаран	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	авиациясына	авиация	NOUN	NN	Case=Acc,Dat|Number=Sing	6	obl	_	_
+4	жаңы	жаңы	ADJ	ADJ	_	5	amod	_	_
+5	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	берген	бер	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	12	ccomp	_	_
+7	“	“	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	Манас	Манас	PROPN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	SpaceAfter=No
+9	”	”	PUNCT	PCT	_	8	punct	_	_
+10	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	аралык	ара	ADJ	ADJ	_	12	amod	_	_
+12	аэропорту	аэропор	VERB	VB	Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2422
+# text = Асфальт төшөлбөгөн жолдордун саны азайып бара жатат.
+1	Асфальт	асфальт	PROPN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	төшөлбөгөн	төшө	VERB	VB	Polarity=Neg|Tense=Past|Voice=Pass	3	acl	_	_
+3	жолдордун	жол	NOUN	PRP	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+4	саны	сан	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
+5	азайып	азай	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	nmod	_	_
+6	бара	бар	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Conv	7	advcl	_	_
+7	жатат	жатат	VERB	VB	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2423
+# text = Кыргызстан бүгүн “уктап жаткан сулуу” эмес, кыймылдаткыч күч.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+2	бүгүн	бүгүн	ADV	ADV	_	11	advmod	_	_
+3	“	“	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
+4	уктап	укта	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	acl	_	_
+5	жаткан	жат	VERB	VB	Polarity=Pos|Tense=Past	6	acl	_	_
+6	сулуу	сулуу	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	SpaceAfter=No
+7	”	”	PUNCT	PCT	_	6	punct	_	_
+8	эмес	эмес	VERB	NN	Case=Nom|Number=Sing|Person=3	10	acl	_	SpaceAfter=No
+9	,	,	PUNCT	PCT	_	8	punct	_	_
+10	кыймылдаткыч	кыймылдаткыч	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	күч	күч	VERB	VB	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2424
+# text = Кыргызстандын президенти Италияда.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
+2	президенти	президен	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nsubj	_	_
+3	Италияда	Италия	PROPN	PROP	Case=Loc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2425
+# text = Кызматташтыкка жол ачкан визит.
+1	Кызматташтыкка	Кызматташтык	NOUN	NN	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+2	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	ачкан	ач	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Vnoun	4	acl	_	_
+4	визит	визит	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2426
+# text = Чакан ГЭСтерди куруу - Кыргызстандын энергетика тармагындагы чоң жетишкендик.
+1	Чакан	чакан	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	ГЭСтерди	ГЭС	NOUN	NN	Case=Acc|Number=Plur|Person=3	3	nmod	_	_
+3	куруу	кур	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	nsubj	_	_
+4	-	-	PUNCT	PCT	_	3	punct	_	_
+5	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	6	nmod	_	_
+6	энергетика	энергетика	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	nmod	_	_
+7	тармагындагы	тармак	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+8	чоң	чоң	ADJ	ADJ	_	9	amod	_	_
+9	жетишкендик	жетишкен	VERB	ADJ	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2427
+# text = Чиновник азгырыктарга алдырбашы керек.
+1	Чиновник	Чиновник	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	азгырыктарга	азгырык	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+3	алдырбашы	алдыр	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	керек	керек	VERB	VB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2428
+# text = Жаңылануу мезгилин баштан өткөрүп жаткан социалдык объектилер.
+1	Жаңылануу	Жаңыла	VERB	VB	VerbForm=Vnoun|Voice=Pass	2	amod	_	_
+2	мезгилин	мезгил	NOUN	NN	Case=Nom|Number=Sing	3	nmod	_	_
+3	баштан	баш	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+4	өткөрүп	өткөр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	compound	_	_
+5	жаткан	жат	VERB	VB	Polarity=Pos|Tense=Past	6	acl	_	_
+6	социалдык	социал	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	объектилер	объект	NOUN	NN	Case=Acc|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2429
+# text = Кыргызстанда ачылган ишканаларда өндүрүлгөн товарлар.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	5	obl	_	_
+2	ачылган	ач	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	3	acl	_	_
+3	ишканаларда	ишкана	NOUN	NN	Case=Loc|Number=Plur|Person=3	5	obl	_	_
+4	өндүрүлгөн	өндүр	VERB	VB	VerbForm=Part|Voice=Pass	5	advcl	_	_
+5	товарлар	товар	VERB	NN	Case=Nom|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2430
+# text = Тарыхый адилеттүүлүктү абийирдүү гана бийлик орнотот.
+1	Тарыхый	Тарых	NOUN	ADJ	Case=Equ|Number=Sing|Person=3	2	nmod	_	_
+2	адилеттүүлүктү	адилеттүүлүк	NOUN	YADJ	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
+3	абийирдүү	абийир	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+4	гана	гана	ADV	ADV	_	3	advmod	_	_
+5	бийлик	бийлик	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+6	орнотот	орно	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2431
+# text = Миграциялык мыйзамдарды кабыл алууда ЕАЭБдин эрежеси эске алынышы керек.
+1	Миграциялык	Миграция	PROPN	YADJ	_	2	amod	_	_
+2	мыйзамдарды	мыйзам	NOUN	NN	Case=Acc|Number=Plur|Person=3	4	nmod	_	_
+3	кабыл	кабыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	алууда	ал	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	nsubj	_	_
+5	ЕАЭБдин	ЕАЭБ	PROPN	PROP	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	_
+6	эрежеси	эреже	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
+7	эске	эс	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	nmod	_	_
+8	алынышы	алын	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	advcl	_	_
+9	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2432
+# text = Садыр Жапаровдун келиши – Зардалылыктар үчүн туннелдин аягындагы жарык болду.
+1	Садыр	Садыр	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	Жапаровдун	Жапаров	PROPN	PROP	Case=Gen|Number=Sing|Person=3	1	flat	_	_
+3	келиши	келиш	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+4	–	–	PUNCT	PCT	_	3	punct	_	_
+5	Зардалылыктар	Зардалылык	PROPN	NN	Case=Nom|Number=Plur|Person=3	10	nmod	_	_
+6	үчүн	үчүн	ADV	ADV	_	5	advmod	_	_
+7	туннелдин	туннел	NOUN	NN	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
+8	аягындагы	аяк	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
+9	жарык	жарык	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
+10	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2433
+# text = Наркты сактоо бул артка кайтуу эмес, өздүгүбүздү таануу .
+1	Наркты	Нарк	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	сактоо	сакта	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	acl	_	_
+3	бул	бул	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+4	артка	артка	ADV	ADV	_	3	advmod	_	_
+5	кайтуу	кайт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advcl	_	_
+6	эмес	эмес	VERB	VB	_	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	PCT	_	6	punct	_	_
+8	өздүгүбүздү	өздүк	NOUN	NN	Case=Acc|Number=Plur|Person=1	9	nsubj	_	_
+9	таануу	тааны	VERB	VB	VerbForm=Vnoun	0	root	_	_
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2434
+# text = Жалган маалымат сөз эркиндиги эмес.
+1	Жалган	жалган	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	маалымат	маалымат	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	сөз	сөз	NOUN	NN	Case=Nom|Number=Sing	4	nmod	_	_
+4	эркиндиги	эркиндик	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+5	эмес	эмес	VERB	VB	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2435
+# text = Жалганды чындык катары чыгарганга кимдер кызыкдар?.
+1	Жалганды	Жалган	NOUN	NN	Case=Acc|Number=Plur|Person=3	6	nmod	_	_
+2	чындык	чындык	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+3	катары	катары	ADV	ADV	_	2	advmod	_	_
+4	чыгарганга	чыгар	VERB	VB	Case=Dat|Person=3|Polarity=Pos|Tense=Past	6	obl	_	_
+5	кимдер	ким	PRON	PRP	Number=Plur|PronType=Int	6	nmod	_	_
+6	кызыкдар	кызык	NOUN	NN	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2436
+# text = Сөз эркиндиги менен сөздүн жоопкерчилиги карама каршы түшүнүктөр эмес.
+1	Сөз	сөз	ADJ	PROP	Case=Nom|Number=Sing|Person=3	2	amod	_	_
+2	эркиндиги	эркиндик	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+3	менен	менен	CCONJ	CCONJ	_	2	case	_	_
+4	сөздүн	сөз	NOUN	NN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
+5	жоопкерчилиги	жоопкерчилик	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
+6	карама	карама	ADJ	ADJ	_	7	amod	_	_
+7	каршы	карш	NOUN	NN	Case=Acc|Number=Sing|Person=3	12	nsubj	_	_
+8	түшүнүктөр	түшүнүк	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nmod	_	_
+9	эмес	эмес	VERB	VB	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2437
+# text = Сөзүнө бекем турган мекенчил, намыскөй инсан.
+1	Сөзүнө	Сөз	NOUN	NN	Case=Dat|Number=Sing|Person=3	2	nmod	_	_
+2	бекем	бекем	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	турган	тур	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	acl	_	_
+4	мекенчил	мекенчил	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PCT	_	4	punct	_	_
+6	намыскөй	намыс	NOUN	NN	Case=Equ|Number=Sing|Person=3	7	advcl	_	_
+7	инсан	инсан	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=2	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2438
+# text = Курал-жаракты көбөйтүүнү же жакырчылыкты жоюуну тандайбызбы?.
+1	Курал-жаракты	Курал-жаракт	NOUN	NN	Case=Acc|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	көбөйтүүнү	көбөйт	VERB	VB	Case=Acc|Number=Sing|Person=3|VerbForm=Vnoun	6	nsubj	_	_
+3	же	же	ADV	ADV	_	2	advmod	_	_
+4	жакырчылыкты	жакырчылык	NOUN	ADJ	_	5	nmod	_	_
+5	жоюуну	жой	VERB	VB	Case=Acc|VerbForm=Vnoun	6	acl	_	_
+6	тандайбызбы	танда	NOUN	NN	Case=Acc|Number=Plur|Person=1	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2439
+# text = Ар бир улут өзүнүн эне тили болбосо улут боло албайт!
+1	Ар	ар	NOUN	NN	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+2	бир	бир	NUM	NUM	NumType=Card	3	nummod	_	_
+3	улут	улут	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	өзүнүн	өз	NOUN	NN	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+5	эне	эне	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	тили	тил	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
+7	болбосо	бол	VERB	VB	Polarity=Pos|VerbForm=Vnoun	8	acl	_	_
+8	улут	улут	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	боло	бол	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	advcl	_	_
+10	албайт	ал	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+11	!	!	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2440
+# text = Мамлекеттик тилге 35 жыл.
+1	Мамлекеттик	Мамлекет	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	тилге	тил	NOUN	NN	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+3	35	35	NUM	NUM	NumType=Card	4	nummod	_	_
+4	жыл	жыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2441
+# text = Тарыхта калган инсан.
+1	Тарыхта	Тарых	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+2	калган	кал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	3	acl	_	_
+3	инсан	инсан	NOUN	PROP	Case=Nom|Number=Sing|Person[psor]=2	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2442
+# text = Кыргыз Республикасынын Баатыры Апас Жумагулов 90 жашта.
+1	Кыргыз	Кыргыз	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Республикасынын	Республика	PROPN	NN	Case=Acc,Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	Баатыры	Баатыр	NOUN	NN	Case=Acc|Number=Plur|Person=3	4	nmod	_	_
+4	Апас	Апас	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+5	Жумагулов	Жумагулов	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+6	90	90	NUM	NUM	NumType=Card	7	nummod	_	_
+7	жашта	жаш	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2443
+# text = Чет өлкөлүк агенттер жана чагымчылдар кандай иштешет.
+1	Чет	чет	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	өлкөлүк	өлкө	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	агенттер	агент	NOUN	NN	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+4	жана	жана	CCONJ	CCONJ	_	5	cc	_	_
+5	чагымчылдар	чагымчыл	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nmod	_	_
+6	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	7	nmod	_	_
+7	иштешет	иште	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2444
+# text = Өлкөнү өзгөрткөн үч жыл.
+1	Өлкөнү	Өлкө	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nsubj	_	_
+2	өзгөрткөн	өзгөрт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Part	3	compound	_	_
+3	үч	үч	NUM	NUM	NumType=Card	4	nummod	_	_
+4	жыл	жыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2445
+# text = Эгемендүүлүк күнүндө маани бере турган учурлар.
+1	Эгемендүүлүк	Эгемендүүлүк	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	күнүндө	күн	NOUN	NN	Case=Acc,Loc|Number=Sing|Person=3	6	nsubj	_	_
+3	маани	маани	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	бере	бер	VERB	VB	_	5	advcl	_	_
+5	турган	тур	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	6	advcl	_	_
+6	учурлар	учур	VERB	NN	Case=Nom|Number=Plur|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2446
+# text = Мыйзамсыз менчиктештирилген мүлктү кайтарууда өлкө казынасына миллиарддаган киреше түшүүдө.
+1	Мыйзамсыз	Мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	2	nmod	_	_
+2	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl	_	_
+3	мүлктү	мүлк	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
+4	кайтарууда	кайтар	VERB	VB	Case=Loc|VerbForm=Vnoun	5	acl	_	_
+5	өлкө	өлкө	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	казынасына	казына	NOUN	NN	Case=Acc,Dat|Number=Sing	9	obl	_	_
+7	миллиарддаган	миллиардда	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+8	киреше	киреше	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+9	түшүүдө	түш	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2447
+# text = Кыргызстандын экономикасы жаңы деңгээлге чыгып, чыныгы бурулушту көрсөтүүдө.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
+2	экономикасы	экономика	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+3	жаңы	жаңы	ADJ	ADJ	_	4	amod	_	_
+4	деңгээлге	деңгээл	NOUN	NN	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
+5	чыгып	чык	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	PCT	_	5	punct	_	_
+7	чыныгы	чынык	NOUN	ADJ	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
+8	бурулушту	бурулуш	NOUN	VB	Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	obl	_	_
+9	көрсөтүүдө	көрсөт	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2448
+# text = Кылымдан кийинки жаңы дем.
+1	Кылымдан	Кылым	PROPN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+2	кийинки	кийин	ADV	ADV	_	1	advmod	_	_
+3	жаңы	жаңы	ADJ	ADJ	_	4	amod	_	_
+4	дем	дем	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PCT	_	4	punct	_	_
+
+# sent_id = 2449
+# text = Эгемендик тарыхта биринчи жолу курулган темир жол.
+1	Эгемендик	Эгемендик	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	тарыхта	тарыхт	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+3	биринчи	биринчи	NUM	NUM	NumType=Ord	4	nummod	_	_
+4	жолу	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	курулган	кур	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	6	acl	_	_
+6	темир	темир	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+7	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2450
+# text = Президент ишкерлерди жана инвесторлорду ГЭС курууга чакырды.
+1	Президент	Президент	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	ишкерлерди	ишкер	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nmod	_	_
+3	жана	жана	CCONJ	CCONJ	_	4	cc	_	_
+4	инвесторлорду	инвестор	NOUN	NN	Case=Acc|Number=Plur|Person=3	2	conj	_	_
+5	ГЭС	ГЭС	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+6	курууга	кур	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Conv	7	advcl	_	_
+7	чакырды	чакыр	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2451
+# text = ШКУ саммити: Көп тараптуу диалогду бекемдөө – туруктуу тынчтыкка жана өнүгүүгө умтулуу.
+1	ШКУ	Шку	PROPN	PROP	Abbr=Yes|Case=Acc|Number=Sing|Person=3	2	nmod	_	_
+2	саммити	саммит	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Көп	көп	ADJ	ADJ	_	5	amod	_	_
+5	тараптуу	тарап	NOUN	ADJ	_	6	amod	_	_
+6	диалогду	диалог	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
+7	бекемдөө	бекемде	VERB	VB	Aspect=Prog|Tense=Pres|VerbForm=Vnoun	13	ccomp	_	_
+8	–	–	PUNCT	PCT	_	7	punct	_	_
+9	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	10	amod	_	_
+10	тынчтыкка	тынчтык	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
+11	жана	жана	CCONJ	CCONJ	_	12	cc	_	_
+12	өнүгүүгө	өнүк	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	13	advcl	_	_
+13	умтулуу	умтул	VERB	VB	Aspect=Prog|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	PCT	_	13	punct	_	_
+
+# sent_id = 2452
+# text = Евразиянын транспорттук алкагы.
+1	Евразиянын	Евразия	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	транспорттук	транспорттук	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	алкагы	алкак	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2453
+# text = Борбор Азия негизги соода жолдорунун кесилишинде.
+1	Борбор	борбор	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod	_	_
+2	Азия	Азия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	негизги	негиз	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+4	соода	соода	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	жолдорунун	жолдор	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nsubj	_	_
+6	кесилишинде	кесилиш	ADJ	YADJ	Case=Loc|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2454
+# text = ЕАӨБ Борбор Азиядагы суу жетишсиздигинен чыгуу үчүн күч аракетин бириктирүүдө.
+1	ЕАӨБ	ЕАӨБ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+2	Борбор	борбор	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	Азиядагы	Азия	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+4	суу	суу	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	жетишсиздигинен	жетишсиздик	NOUN	NN	Case=Acc,Ins|Number=Sing|Person=3	6	nmod	_	_
+6	чыгуу	чык	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	acl	_	_
+7	үчүн	үчүн	ADV	ADV	_	6	advmod	_	_
+8	күч	күч	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	аракетин	аракет	NOUN	NN	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_
+10	бириктирүүдө	бириктир	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2455
+# text = Кыргызстан менен Европа биримдиги кызматташтыктын жаңы тепкичинин тарыхый босогосунда турат.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
+3	Европа	Европа	PROPN	NN	Case=Nom|Number=Sing	4	nmod	_	_
+4	биримдиги	биримдик	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
+5	кызматташтыктын	кызматташтык	NOUN	NN	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
+6	жаңы	жаңы	ADJ	ADJ	_	7	amod	_	_
+7	тепкичинин	тепкич	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	8	nmod	_	_
+8	тарыхый	тарых	NOUN	NN	Case=Equ|Number=Sing|Person=3	9	amod	_	_
+9	босогосунда	босого	NOUN	NN	Case=Loc|Number=Sing	10	nmod	_	_
+10	турат	тур	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2456
+# text = Уранды казып алуу жана радиациялык фон.
+1	Уранды	Уран	NOUN	NN	Case=Acc|Number=Plur|Person=3	3	nmod	_	_
+2	казып	каз	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	advcl	_	_
+3	алуу	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	nsubj	_	_
+4	жана	жана	CCONJ	CCONJ	_	5	cc	_	_
+5	радиациялык	радиация	NOUN	YADJ	_	3	conj	_	_
+6	фон	фон	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2457
+# text = Жалган маалыматтар, мифтер жана чындык.
+1	Жалган	жалган	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	маалыматтар	маалымат	NOUN	NN	Case=Nom|Number=Plur|Person=3	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	PCT	_	2	punct	_	_
+4	мифтер	миф	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	conj	_	_
+5	жана	жана	CCONJ	CCONJ	_	6	cc	_	_
+6	чындык	чындык	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2458
+# text = ЕАЭБ – көп полярдуу дүйнөнүн өсүп келе жаткан уюлуна айланууда.
+1	ЕАЭБ	ЕАЭБ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+2	–	–	PUNCT	PCT	_	1	punct	_	_
+3	көп	көп	ADJ	ADJ	_	4	amod	_	_
+4	полярдуу	поляр	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	дүйнөнүн	дүйнө	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+6	өсүп	өс	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	acl	_	_
+7	келе	кел	VERB	VB	_	9	acl	_	_
+8	жаткан	жат	VERB	VB	Polarity=Pos|Tense=Past	9	acl	_	_
+9	уюлуна	уюл	NOUN	NN	Case=Acc,Dat|Number=Sing|Person[psor]=2	10	nsubj	_	_
+10	айланууда	айлан	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2459
+# text = Кыргызстан стратегиялык курулушту баштоо алдында турат.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+2	стратегиялык	стратегия	NOUN	YADJ	_	3	amod	_	_
+3	курулушту	курулуш	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+4	баштоо	башта	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	acl	_	_
+5	алдында	ал	NOUN	NN	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+6	турат	тур	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2460
+# text = Кыргызстандагы турак жай революциясы: Натыйжалуулукка жана адилеттүүлүккө карай мамлекеттик багыт.
+1	Кыргызстандагы	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod:poss	_	_
+2	турак	турак	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	жай	жай	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	революциясы	революция	NOUN	NN	Case=Acc|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No
+5	:	:	PUNCT	PCT	_	4	punct	_	_
+6	Натыйжалуулукка	Натыйжалуулук	PROPN	PROP	Case=Dat|Number=Sing|Person=3	9	nmod	_	_
+7	жана	жана	CCONJ	CCONJ	_	8	cc	_	_
+8	адилеттүүлүккө	адилеттүүлүк	NOUN	PROP	Case=Dat|Number=Sing|Person=3	6	conj	_	_
+9	карай	карай	PRON	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+10	мамлекеттик	мамлекет	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	багыт	багыт	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2461
+# text = Кыргызстанда кошумча энергетикалык кубаттуулуктар тездик менен ишке киргизилүүдө.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+2	кошумча	кошумча	ADJ	ADJ	_	3	amod	_	_
+3	энергетикалык	энергетика	NOUN	ADJ	_	4	amod	_	_
+4	кубаттуулуктар	кубаттуулук	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+5	тездик	тез	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+6	менен	менен	CCONJ	CCONJ	_	5	case	_	_
+7	ишке	иш	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+8	киргизилүүдө	киргиз	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2462
+# text = Автандил Арабаев: Төрага Шакиевдин Конституциялык соттун отставкасын талап кылганы жүйөлүү.
+1	Автандил	Автандил	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	Арабаев	Арабаев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Төрага	Төрага	PROPN	PROP	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
+5	Шакиевдин	Шакиев	PROPN	PROP	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	_
+6	Конституциялык	Конституция	PROPN	ADJ	Case=Equ|Number=Sing|Person=3	7	nmod	_	_
+7	соттун	сот	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
+8	отставкасын	отставка	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nmod	_	_
+9	талап	талап	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+10	кылганы	кыл	VERB	NN	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
+11	жүйөлүү	жүйөлүү	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2463
+# text = Кыргызстанда 1-майдан тарта электр энергиясына жаңы тарифтер күчүнө кирет.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+2	1-	1-	NUM	NUM	NumType=Ord	3	nummod	_	SpaceAfter=No
+3	майдан	майдан	NOUN	NN	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+4	тарта	тарта	ADV	ADV	_	3	advmod	_	_
+5	электр	электр	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	энергиясына	энергия	NOUN	NN	Case=Acc,Dat|Number=Sing|Person=3	10	obl	_	_
+7	жаңы	жаңы	ADJ	ADJ	_	8	amod	_	_
+8	тарифтер	тариф	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nmod	_	_
+9	күчүнө	күч	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	nsubj	_	_
+10	кирет	кир	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2464
+# text = Элдик курултай жана анын коомдогу орду.
+1	Элдик	Эл	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	курултай	курултай	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+3	жана	жана	CCONJ	CCONJ	_	4	cc	_	_
+4	анын	ал	PRON	PRP	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
+5	коомдогу	коом	NOUN	NN	Case=Loc|Number=Sing|Person[psor]=2	2	conj	_	_
+6	орду	ор	VERB	VB	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2465
+# text = Мамлекеттик катчынын имиджи эмнеден куралат?.
+1	Мамлекеттик	Мамлекет	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	катчынын	катчы	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	3	nmod	_	_
+3	имиджи	имидж	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+4	эмнеден	эмне	PRON	PRP	Case=Abl|PronType=Int	5	obl	_	_
+5	куралат	куралат	NOUN	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	PCT	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2466
+# text = Кыргызстан менен Өзбекстан өз ара сооданын көлөмүн $2 млрд жеткирүүнү көздөйт.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
+3	Өзбекстан	Өзбекстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+4	өз	өз	PRON	PRP	Case=Nom|Number=Sing|Reflex=Yes	5	nmod	_	_
+5	ара	ара	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	сооданын	соода	NOUN	NN	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
+7	көлөмүн	көлөм	NOUN	NN	Case=Acc|Number=Sing|Person=3	12	obl	_	_
+8	$	$	SYM	SYM	_	9	compound	_	SpaceAfter=No
+9	2	2	NUM	NUM	NumType=Card	10	compound	_	_
+10	млрд	млрд	NUM	NUM	NumType=Card	11	nummod	_	_
+11	жеткирүүнү	жеткир	VERB	NN	Case=Acc|Number=Sing|Person=3	12	advcl	_	_
+12	көздөйт	көздө	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2467
+# text = Жол эрежесин одоно бузгандарга карата айып пулдун көбөйүшү, же анын таасири кандай болот?.
+1	Жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	эрежесин	эреже	NOUN	NN	Case=Acc|Number=Sing|Person[psor]=2	3	nmod	_	_
+3	одоно	одоно	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	бузгандарга	буз	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+5	карата	карата	ADV	ADV	_	4	advmod	_	_
+6	айып	айып	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	пулдун	пул	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=3	8	nmod	_	_
+8	көбөйүшү	көбөй	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	14	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	PCT	_	8	punct	_	_
+10	же	же	CCONJ	CCONJ	_	11	cc	_	_
+11	анын	ал	PRON	PRP	Case=Gen|Number=Sing|Person=3	12	nmod:poss	_	_
+12	таасири	таасир	PRON	ADV	_	14	nsubj	_	_
+13	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	14	nmod	_	_
+14	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	?	?	PUNCT	PCT	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PCT	_	14	punct	_	_
+
+# sent_id = 2468
+# text = Бишкектеги коомдук транспорт көйгөйү акырындык менен чечиле баштады.
+1	Бишкектеги	Бишкек	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod:poss	_	_
+2	коомдук	коом	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	транспорт	транспорт	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	көйгөйү	көйгөй	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+5	акырындык	акырындык	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+6	менен	менен	CCONJ	CCONJ	_	5	case	_	_
+7	чечиле	чеч	VERB	VB	Case=Nom|Number=Sing	8	advcl	_	_
+8	баштады	башта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2469
+# text = Кыргызстанда саясий консолидацияга карай кадам же президенттер эмнеге жөндөмдүү.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+2	саясий	саяси	NOUN	ADJ	Case=Equ|Number=Sing|Person=3	3	nmod	_	_
+3	консолидацияга	консолидация	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+4	карай	карай	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	кадам	кадам	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	же	же	CCONJ	CCONJ	_	7	cc	_	_
+7	президенттер	президент	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+8	эмнеге	эмне	PRON	PRP	Case=Dat|PronType=Int	9	nmod	_	_
+9	жөндөмдүү	жөндөм	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2470
+# text = УИА президенти: Түркия жана Сириядагы жер титирөө Кыргызстандагы сейсмикалык процесске таасир этпейт.
+1	УИА	Уиа	PROPN	ADV	_	2	nmod	_	_
+2	президенти	президент	NOUN	NN	Case=Acc|Number=Sing|Person=3	13	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	Түркия	Түркия	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+5	жана	жана	CCONJ	CCONJ	_	6	cc	_	_
+6	Сириядагы	Сирия	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	conj	_	_
+7	жер	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	титирөө	титире	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	nmod	_	_
+9	Кыргызстандагы	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	_
+10	сейсмикалык	сейсмика	NOUN	ADJ	_	11	amod	_	_
+11	процесске	процесс	NOUN	NN	Case=Dat|Number=Sing|Person=3	13	obl	_	_
+12	таасир	таасир	NOUN	NN	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
+13	этпейт	эт	VERB	VB	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	PCT	_	13	punct	_	_
+
+# sent_id = 2471
+# text = Кыргызстандын инфраструктурасын кантип жакшыртуу керек?.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	инфраструктурасын	инфраструктура	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	nmod	_	_
+3	кантип	кантип	ADV	ADV	_	4	advmod	_	_
+4	жакшыртуу	жакшырт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	advcl	_	_
+5	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	PCT	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2472
+# text = Чоң мүмкүнчүлүктөр сапары.
+1	Чоң	чоң	ADJ	ADV	_	2	amod	_	_
+2	мүмкүнчүлүктөр	мүмкүнчүлүк	NOUN	NN	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	сапары	сапар	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2473
+# text = Кыргызстан менен Өзбекстандын президенттери маанилүү документтерге кол коюшат.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
+3	Өзбекстандын	Өзбекстан	PROPN	PROP	Case=Gen|Number=Sing|Person=3	1	conj	_	_
+4	президенттери	президент	NOUN	NN	Case=Acc|Number=Plur|Person=3	8	nsubj	_	_
+5	маанилүү	маанилүү	ADJ	ADJ	_	6	amod	_	_
+6	документтерге	документ	NOUN	NN	Case=Dat|Number=Plur|Person=3	8	obl	_	_
+7	кол	кол	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	compound	_	_
+8	коюшат	кой	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2474
+# text = Татаал тандоо.
+1	Татаал	Татаал	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
+2	тандоо	танда	VERB	VB	Case=Acc|Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PCT	_	2	punct	_	_
+
+# sent_id = 2475
+# text = Энергетиканын кыйрашын күтүш керекпи, же тарифтерди көтөрүү кажетпи?.
+1	Энергетиканын	Энергетика	NOUN	PRP	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+2	кыйрашын	кыйра	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	acl	_	_
+3	күтүш	күт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	acl	_	_
+4	керекпи	керек	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	PCT	_	4	punct	_	_
+6	же	же	CCONJ	CCONJ	_	7	cc	_	_
+7	тарифтерди	тариф	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nmod	_	_
+8	көтөрүү	көтөр	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	9	acl	_	_
+9	кажетпи	кажет	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	PCT	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2476
+# text = Кыргызстан азык-түлүккө болгон баанын кескин өсүшүнө кантип бөгөт койду.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+2	азык-түлүккө	азык-түлүк	NOUN	NN	Case=Dat|Number=Sing|Person=3	3	nmod	_	_
+3	болгон	бол	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	4	acl	_	_
+4	баанын	баа	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	obj	_	_
+5	кескин	кескин	NOUN	ADJ	Case=Gen|Number=Sing|Person[psor]=1	6	nmod	_	_
+6	өсүшүнө	өсүш	NOUN	NN	Case=Dat|Number=Sing|Person=3	9	obl	_	_
+7	кантип	кантип	ADV	ADV	_	6	advmod	_	_
+8	бөгөт	бөгөт	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	койду	кой	VERB	VB	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2477
+# text = Кыштан чыгуу.
+1	Кыштан	Кыш	NOUN	NN	Case=Abl|Number=Sing|Person=3	2	obl	_	_
+2	чыгуу	чык	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PCT	_	2	punct	_	_
+
+# sent_id = 2478
+# text = Кыргызстанда электр энергиясын колдонуу максималдуу чегинен ашты.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	7	obl	_	_
+2	электр	электр	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	энергиясын	энергия	NOUN	NN	Case=Acc|Number=Plur|Person=3	4	nmod	_	_
+4	колдонуу	колдон	VERB	VB	VerbForm=Vnoun	5	acl	_	_
+5	максималдуу	максимал	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+6	чегинен	чег	NOUN	NN	Case=Ins|Number=Sing|Person=3	7	nsubj	_	_
+7	ашты	аш	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2479
+# text = «Камбар-Ата-1» ГЭСи кубаттуулугу жагынан Токтогул ГЭСинен күчтүү болот.
+1	«	«	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
+2	Камбар-Ата-1	Камбар-Ата-1	NUM	NUM	NumType=Card	4	nummod	_	SpaceAfter=No
+3	»	»	PUNCT	PCT	_	2	punct	_	_
+4	ГЭСи	ГЭС	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+5	кубаттуулугу	кубаттуулук	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+6	жагынан	жак	NOUN	ADV	_	7	amod	_	_
+7	Токтогул	Токтогул	PROPN	PROP	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+8	ГЭСинен	ГЭС	NOUN	CCONJ	_	9	amod	_	_
+9	күчтүү	күч	NOUN	ADJ	_	10	obl	_	_
+10	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2480
+# text = Кыргызстандын экономикасы тышкы таасирлерге туруктуу бойдон калууда.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	экономикасы	экономика	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
+3	тышкы	тыш	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
+4	таасирлерге	таасир	NOUN	NN	Case=Dat|Number=Plur|Person=3	7	obl	_	_
+5	туруктуу	туруктуу	ADJ	ADJ	Case=Nom|Number=Sing|Person=3	6	amod	_	_
+6	бойдон	бой	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	7	nsubj	_	_
+7	калууда	кал	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2481
+# text = Сөздөн ишке карай.
+1	Сөздөн	Сөз	NOUN	NN	Case=Abl|Number=Sing|Person=3	3	obl	_	_
+2	ишке	иш	NOUN	NN	Case=Dat|Number=Sing|Person=3	3	nmod	_	_
+3	карай	кара	VERB	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2482
+# text = Кыргызстанга Сауд Аравиядан инвестиция тартууну өнүктүрүү.
+1	Кыргызстанга	Кыргызстан	PROPN	PROP	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+2	Сауд	Сауд	PROPN	PROP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	Аравиядан	Аравия	PROPN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+4	инвестиция	инвестиция	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	тартууну	тарт	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	advcl	_	_
+6	өнүктүрүү	өнүктүр	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2483
+# text = ЖККУнун Еревандагы саммити.
+1	ЖККУнун	ЖККУ	NOUN	PROP	Abbr=Yes|Case=Gen|Number=Sing|Person=3	2	nmod	_	_
+2	Еревандагы	Ереван	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+3	саммити	саммит	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2484
+# text = Кыйынчылыктар бар, бирок аскердик саясий союзду чыңдоо зарыл.
+1	Кыйынчылыктар	Кыйынчылык	NOUN	NN	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	9	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	PCT	_	2	punct	_	_
+4	бирок	бирок	CCONJ	CCONJ	_	5	cc	_	_
+5	аскердик	аскер	NOUN	ADJ	_	6	amod	_	_
+6	саясий	саяси	NOUN	ADJ	Case=Equ	7	nmod	_	_
+7	союзду	союз	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nmod	_	_
+8	чыңдоо	чыңда	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	advcl	_	_
+9	зарыл	зарыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+
+# sent_id = 2485
+# text = Абалды туруксуздаштыруу аракети.
+1	Абалды	Абал	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	туруксуздаштыруу	туруксуздаштыр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	nsubj	_	_
+3	аракети	аракет	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	3	punct	_	_
+
+# sent_id = 2486
+# text = Же жылдап чогулган жетишкендиктерди кантип тез арада жокко чыгарса болот.
+1	Же	же	NOUN	ADV	_	2	amod	_	_
+2	жылдап	жылдап	NOUN	PRP	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	чогулган	чогу	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	4	acl	_	_
+4	жетишкендиктерди	жетишкендик	NOUN	NN	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+5	кантип	кантип	ADV	ADV	_	4	advmod	_	_
+6	тез	тез	ADJ	ADJ	_	7	amod	_	_
+7	арада	ара	NOUN	ADJ	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+8	жокко	жок	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	obl	_	_
+9	чыгарса	чыгар	VERB	VB	Mood=Cnd|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+10	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2487
+# text = Өзбекстан менен чек ара келишимине кол коюуну үзгүлтүккө учуратуу аракети болууда.
+1	Өзбекстан	Өзбекстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
+3	чек	чек	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+4	ара	ара	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+5	келишимине	келишим	NOUN	NN	Case=Dat|Number=Sing|Person=3	11	obl	_	_
+6	кол	кол	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	коюуну	кой	VERB	VB	Case=Acc|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	acl	_	_
+8	үзгүлтүккө	үзгүлтүк	NOUN	NN	Case=Dat|Number=Sing|Person=3	11	obl	_	_
+9	учуратуу	учура	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	acl	_	_
+10	аракети	аракет	NOUN	NN	Case=Acc|Number=Sing|Person=3	11	nsubj	_	_
+11	болууда	бол	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2488
+# text = Себеби эмне?.
+1	Себеби	Себеб	NOUN	NN	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
+2	эмне	эмне	PRON	PRP	Case=Nom|PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	PCT	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PCT	_	2	punct	_	_
+
+# sent_id = 2489
+# text = Аймактарда Элдик курултай өткөрүүгө кандай даярдык көрүлүүдө.
+1	Аймактарда	аймак	PROPN	NN	Case=Loc|Number=Plur|Person=3	7	obl	_	_
+2	Элдик	Эл	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	курултай	курултай	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	өткөрүүгө	өткөр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	5	acl	_	_
+5	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	6	nmod	_	_
+6	даярдык	даярдык	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
+7	көрүлүүдө	көр	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2490
+# text = Коомдук-саясий абалдын курчушуна жол бербестен, туруктуулукту сактоо маанилүү.
+1	Коомдук-саясий	Коомдук-саясий	PROPN	ADJ	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	абалдын	абал	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod	_	_
+3	курчушуна	курчуш	NOUN	NN	Case=Dat|Number=Sing|Person=3	5	nmod	_	_
+4	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Polarity=Neg	5	nmod	_	_
+5	бербестен	бер	VERB	VB	Case=Abl|Number=Sing|Person[psor]=2	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	PCT	_	5	punct	_	_
+7	туруктуулукту	туруктуулук	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nmod	_	_
+8	сактоо	сакта	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	advcl	_	_
+9	маанилүү	маанилүү	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2491
+# text = Кыргызстандын президентинин саясий эрки өнүгүүгө чоң жол ачууда.
+1	Кыргызстандын	Кыргызстан	PROPN	PROP	Case=Gen|Number=Sing|Person[psor]=2	2	nmod	_	_
+2	президентинин	президент	NOUN	NN	Case=Acc,Gen|Number=Sing|Person=3	3	nmod	_	_
+3	саясий	саяси	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	эрки	эрк	NOUN	NN	Case=Acc|Number=Sing|Person=3	5	nmod	_	_
+5	өнүгүүгө	өнүк	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	7	acl	_	_
+6	чоң	чоң	ADJ	ADJ	_	7	amod	_	_
+7	жол	жол	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+8	ачууда	ач	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2492
+# text = Кадрларды ротациялоо өлкөнүн өнүгүүсүнө оң таасир этет.
+1	Кадрларды	Кадр	NOUN	NN	Case=Acc|Number=Plur|Person=3	2	nmod	_	_
+2	ротациялоо	ротацияла	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	acl	_	_
+3	өлкөнүн	өлкө	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+4	өнүгүүсүнө	өнүк	VERB	VB	Case=Acc,Dat|Number=Sing|Person=3|VerbForm=Vnoun	7	obl	_	_
+5	оң	оң	ADJ	ADJ	_	6	amod	_	_
+6	таасир	таасир	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+7	этет	эт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2493
+# text = Акылбек Жапаров: ЕАЭБдин бардык мүмкүнчүлүктөрүн ачуу зарыл.
+1	Акылбек	Акылбек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+2	Жапаров	Жапаров	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	PCT	_	2	punct	_	_
+4	ЕАЭБдин	ЕАЭБ	PROPN	NN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
+5	бардык	бардык	ADJ	ADJ	_	6	nmod	_	_
+6	мүмкүнчүлүктөрүн	мүмкүнчүлүк	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	7	nmod	_	_
+7	ачуу	ач	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	8	acl	_	_
+8	зарыл	зарыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2494
+# text = ККМны массалык жайылтуу бюджеттин кирешелерин болжолдоого кандай жардам берет.
+1	ККМны	ККМ	PROPN	PROP	Abbr=Yes|Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
+2	массалык	масса	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
+3	жайылтуу	жайыл	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	4	acl	_	_
+4	бюджеттин	бюджет	NOUN	NN	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+5	кирешелерин	киреше	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+6	болжолдоого	болжолдо	VERB	VB	Case=Dat|Person=3|Polarity=Pos|Tense=Pres	8	acl	_	_
+7	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	8	nmod	_	_
+8	жардам	жардам	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	obl	_	_
+9	берет	бер	VERB	DET	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PCT	_	9	punct	_	_
+
+# sent_id = 2495
+# text = Жаңы окуу жылында кандай жаңычылдыктар киргизилет?.
+1	Жаңы	жаңы	ADJ	ADJ	_	2	amod	_	_
+2	окуу	оку	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	3	nmod	_	_
+3	жылында	жыл	NOUN	NN	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+4	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	5	nmod	_	_
+5	жаңычылдыктар	жаңычылдык	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	nmod	_	_
+6	киргизилет	киргиз	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2496
+# text = Камбар-Ата-1 ГЭСи – энергетикалык көз карандысыздыкка карай дагы бир кадам.
+1	Камбар-Ата-1	Камбар-Ата-1	PROPN	NUM	NumType=Card	2	nmod	_	_
+2	ГЭСи	ГЭС	NOUN	NN	Case=Acc|Number=Sing|Person=3	10	obj	_	_
+3	–	–	PUNCT	PCT	_	2	punct	_	_
+4	энергетикалык	энергетика	NOUN	ADJ	_	6	amod	_	_
+5	көз	көз	ADJ	NN	Case=Nom|Number=Sing|Person=3	6	amod	_	_
+6	карандысыздыкка	карандысыздык	NOUN	NN	Case=Dat|Number=Sing|Person=3	10	obl	_	_
+7	карай	карай	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+8	дагы	дагы	ADV	ADV	_	7	advmod	_	_
+9	бир	бир	NUM	NUM	NumType=Card	10	compound	_	_
+10	кадам	кадам	NOUN	NN	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	PCT	_	10	punct	_	_
+
+# sent_id = 2496
+# text = Конокторду тосуп алууга даярдык кандай жүрүп жатат.
+1	Конокторду	Конок	NOUN	NN	Case=Acc|Number=Plur|Person=3	2	nmod	_	_
+2	тосуп	тос	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	3	advcl	_	_
+3	алууга	ал	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	acl	_	_
+4	даярдык	даярдык	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
+5	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	6	nmod	_	_
+6	жүрүп	жүр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	7	advcl	_	_
+7	жатат	жатат	VERB	VB	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2497
+# text = Кыргызстан менен БАЭнин мамилеси жаңы деңгээлге көтөрүлүүдө.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+2	менен	менен	CCONJ	CCONJ	_	3	cc	_	_
+3	БАЭнин	БАЭ	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+4	мамилеси	мамиле	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nmod	_	_
+5	жаңы	жаңы	ADJ	ADJ	_	6	amod	_	_
+6	деңгээлге	деңгээл	NOUN	NN	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+7	көтөрүлүүдө	көтөр	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	7	punct	_	_
+
+# sent_id = 2498
+# text = ЕАЭБ өзүнүн жөндөмдүүлүгүн көрсөтүүдө, бирок мындан ары дагы өнүгүүгө мүмкүнчүлүк бар.
+1	ЕАЭБ	ЕАЭБ	PROPN	PROP	Abbr=Yes|Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	өзүнүн	өзү	NOUN	VB	Case=Gen|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	nmod	_	_
+3	жөндөмдүүлүгүн	жөндөмдүүлүк	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	көрсөтүүдө	көрсөт	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	12	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	PCT	_	4	punct	_	_
+6	бирок	бирок	CCONJ	CCONJ	_	12	cc	_	_
+7	мындан	мын	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=1	8	nmod	_	_
+8	ары	ары	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	obl	_	_
+9	дагы	дагы	ADV	ADV	_	8	advmod	_	_
+10	өнүгүүгө	өнүк	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	11	acl	_	_
+11	мүмкүнчүлүк	мүмкүнчүлүк	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+12	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	PCT	_	12	punct	_	_
+
+# sent_id = 2499
+# text = Процесстер жүрүп жатат, бирок чечилбеген көйгөйлөр бар.
+1	Процесстер	Процесс	NOUN	NN	Case=Nom|Number=Plur|Person=3	2	nmod	_	_
+2	жүрүп	жүр	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	3	acl	_	_
+3	жатат	жат	VERB	VB	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	PCT	_	3	punct	_	_
+5	бирок	бирок	CCONJ	CCONJ	_	6	cc	_	_
+6	чечилбеген	чеч	VERB	VB	Polarity=Neg|Tense=Past|VerbForm=Conv|Voice=Pass	7	acl	_	_
+7	көйгөйлөр	көйгөй	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2500
+# text = Саламаттык сактоону реформалоо менен катар медициналык билим берүүдө да өзгөрүүлөр болот.
+1	Саламаттык	Саламаттык	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	сактоону	сакта	NOUN	NN	Case=Acc|Number=Sing|Person=3	3	nmod	_	_
+3	реформалоо	реформала	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	nsubj	_	_
+4	менен	менен	CCONJ	CCONJ	_	3	punct	_	_
+5	катар	катар	ADJ	ADJ	_	6	amod	_	_
+6	медициналык	медицина	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+7	билим	билим	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	берүүдө	бер	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|Voice=Pass	11	obl	_	_
+9	да	да	ADV	ADV	_	8	advmod	_	_
+10	өзгөрүүлөр	өзгөр	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	advcl	_	_
+11	болот	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PCT	_	11	punct	_	_
+
+# sent_id = 2501
+# text = Кыргызстанда жашыл энергетикага өтүү акырындык менен болуш керек.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+2	жашыл	жашыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	энергетикага	энергетика	NOUN	NN	Case=Dat|Number=Sing|Person[psor]=3	8	obl	_	_
+4	өтүү	өт	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	5	acl	_	_
+5	акырындык	акырын	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+6	менен	менен	CCONJ	CCONJ	_	5	case	_	_
+7	болуш	бол	VERB	NN	Case=Nom|Number=Sing|Person=3	8	advcl	_	_
+8	керек	керек	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	PCT	_	8	punct	_	_
+
+# sent_id = 2502
+# text = Жапаровдун Кытайга иш сапары кандай болду?.
+1	Жапаровдун	Жапаров	PROPN	PROP	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
+2	Кытайга	Кытай	PROPN	PROP	Case=Dat|Number=Sing|Person=3	4	nmod	_	_
+3	иш	иш	ADJ	NN	Case=Nom|Number=Sing|Person=3	4	amod	_	_
+4	сапары	сапар	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
+5	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	6	nmod	_	_
+6	болду	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2503
+# text = Кыргызстанда билим берүү тутуму кандай өнүгөт?.
+1	Кыргызстанда	Кыргызстан	PROPN	PROP	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+2	билим	билим	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	берүү	бер	VERB	VB	VerbForm=Vnoun	4	acl	_	_
+4	тутуму	тутум	NOUN	NN	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
+5	кандай	кандай	PRON	PRP	Case=Nom|PronType=Int	6	nmod	_	_
+6	өнүгөт	өнүк	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	PCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PCT	_	6	punct	_	_
+
+# sent_id = 2504
+# text = MegaCom боюнча иштерге чекит коюлду.
+1	MegaCom	MegaCom	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	боюнча	боюнча	ADV	ADV	_	1	advmod	_	_
+3	иштерге	иш	NOUN	NN	Case=Dat|Number=Plur|Person=3	5	obl	_	_
+4	чекит	чекит	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+5	коюлду	кой	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PCT	_	5	punct	_	_
+
+# sent_id = 2505
+# text = Кыргызстан эл аралык арбитраждан утуп чыкты.
+1	Кыргызстан	Кыргызстан	PROPN	PROP	Case=Nom|Number=Sing|Person[psor]=2	6	nsubj	_	_
+2	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	аралык	ара	ADJ	ADJ	_	4	amod	_	_
+4	арбитраждан	арбитраж	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+5	утуп	ут	NOUN	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	6	compound	_	_
+6	чыкты	чык	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PCT	_	6	punct	_	_
