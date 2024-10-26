@@ -2183,6 +2183,7 @@
 2	болбойт	бол	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	PCT	_	2	punct	_	_
 
+# sent_id = 163
 # text = Балким, сексен жетинчи номерди сатып алсак туура болот?
 1	Балким	Балким	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PCT	_	1	punct	_	_
@@ -15433,3 +15434,4 @@
 7	насыя	насыя	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	алды	ал	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
+
