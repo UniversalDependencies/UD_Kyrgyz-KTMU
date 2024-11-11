@@ -1,28 +1,28 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Kyrgyz-KTMU:
-commit c09281856ddb40b3dbc68075dae46793e52dd6e2
-Merge: 2f114ea ea22ddd
+commit ec5959c0cff5406e842bb7b769cd8392e2cfe4a3
+Merge: 2aeddee 30a47a3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 7451 of 7451 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.01669650314318.
+Size: counted 23654 of 23654 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.32706446765785.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
-Split: Did not find at least 10000 test words.
+Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 13 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 5588 out of 7451 total words have one or more features.
+Features: 17975 out of 23654 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 23 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        582
-Udapi: found 582 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 7451 words.
+               TOTAL       1373
+Udapi: found 1373 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 23654 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ky --max-err=10 UD_Kyrgyz-KTMU/ky_ktmu-ud-test.conllu
 *** PASSED ***
@@ -32,11 +32,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.290738187799195) = 0.0745482532818449
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.256410256410256) * (score{size}=0.457968197491657) = 0.117427742946579
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.764705882352941) = 0.0588235294117647
-(weight=0.307692307692308) * (score{udapi}=0.218896792376862) = 0.0673528591928807
+(weight=0.307692307692308) * (score{udapi}=0.419548490741524) = 0.129091843305084
 (weight=0.0769230769230769) * (score{udeprels}=0.621621621621622) = 0.0478170478170478
-(TOTAL score=0.411950437818169) * (availability=1) * (validity=1) = 0.411950437818169
-STARS = 2
-UD_Kyrgyz-KTMU	0.411950437818169	2
+(TOTAL score=0.55041506544126) * (availability=1) * (validity=1) = 0.55041506544126
+STARS = 3
+UD_Kyrgyz-KTMU	0.55041506544126	3
