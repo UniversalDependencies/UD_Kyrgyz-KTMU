@@ -7,7 +7,7 @@ The treebank consists of 2060 sentences (23K tokens) for now and its domain is m
 Kyrgyz UD treebank follows the Universal Dependencies (UD) annotation standard.
 
 # Acknowledgments
-We would like to thank all the people who contributed to this corpus: Assoc.Prof.Dr. Bakit Sharshembaev
+We would like to thank all the people who contributed to this corpus: Assoc.Prof.Dr. Bakyt Sharshembaev
 
 # References
 An academic paper describing this resource is pending, for the time being please use the repository URL to cite this dataset.
