@@ -1,9 +1,8 @@
 # Summary
-UD_Kyrgyz-KTMU is dependency parsing based treebank in Kyrgyz language. Sentences were selected
-partly from Kyrgyz story and novel books, partly from Kyrgyz news websites.
+UD_Kyrgyz-KTMU is dependency parsing based treebank in Kyrgyz language. The dataset mostly contains headlines from Kyrgyz news websites. 
 
 # Introduction
-The treebank consists of 2060 sentences (23K tokens) for now and its domain is mainly news headlines.
+The treebank consists of 2460 sentences (23K tokens) for now and its domain is mainly news headlines.
 Kyrgyz UD treebank follows the Universal Dependencies (UD) annotation standard.
 
 # Acknowledgments
