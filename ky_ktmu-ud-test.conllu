@@ -302,7 +302,7 @@
 8	үчүн	үчүн	ADV	ADV	_	7	cc	_	_
 9	курулган	кур	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
 10	турак	турак	NOUN	NN	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
-11	жайлар	жай	NOUN	NN	Case=Nom|ExtPos=Adj|Number=Plur|Person=3	10	fixed	_	_
+11	жайлар	жай	NOUN	NN	Case=Nom|ExtPos=ADJ|Number=Plur|Person=3	10	fixed	_	_
 12	пайдаланууга	пайдалан	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	13	ccomp	_	_
 13	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	PCT	_	13	punct	_	_
