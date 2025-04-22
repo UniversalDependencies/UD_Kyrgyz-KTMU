@@ -485,7 +485,7 @@
 
 # sent_id = 030
 # text =Алдын ала билет алууга буюртма берсе, авиакомпаниялардын сайтынан арзаныраак билет алууга мүмкүн экендигин көрө алабыз.
-1	Алдын	Ал	ADV	ADV	_	6	advmod	_	_
+1	Алдын	Ал	ADV	ADV	ExtPos=ADV	6	advmod	_	_
 2	ала	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	1	fixed	_	_
 3	билет	билет	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	csubj	_	_
 4	алууга	ал	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	6	obl	_	_
@@ -542,7 +542,7 @@
 2	беш	беш	NUM	NUM	NumType=Card	3	nummod	_	_
 3	батирдин	батир	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
 4	акчасын	акча	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
-5	алып	ал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	алып	ал	VERB	VB	Aspect=Perf|ExtPos=ADV|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 6	качып	кач	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	fixed	_	_
 7	кеткен	кет	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	ccomp	_	_
 8	жаран	жаран	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
@@ -832,7 +832,7 @@
 
 # sent_id = 056
 # text = Чын эле, бала кеткен башка кайык биринчи эле жумада үч жакшы балык алып келди.
-1	Чын	Чын	ADV	ADV	_	15	advmod	_	_
+1	Чын	Чын	ADV	ADV	ExtPos=ADV	15	advmod	_	_
 2	эле	эле	ADV	ADV	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PCT	_	2	punct	_	_
 4	бала	бала	NOUN	NN	Case=Nom|Number=Sing	7	nmod	_	_
@@ -862,7 +862,7 @@
 9	чалдын	чал	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=3	11	nmod	_	_
 10	балыкчылыкка	балыкчылык	NOUN	NN	Case=Dat|Number=Sing	11	acl	_	_
 11	керектүү	керек	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	32	ccomp	_	_
-12	шайман	шайман	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	26	acl	_	SpaceAfter=No
+12	шайман	шайман	NOUN	NN	Case=Gen|ExtPos=ADV|Number=Sing|Person[psor]=2	26	acl	_	SpaceAfter=No
 13	-	-	PUNCT	PCT	_	12	punct	_	SpaceAfter=No
 14	аспаптарын	аспап	NOUN	NN	Case=Gen|Number=Plur|Person=3	12	fixed	_	_
 15	же	же	CCONJ	CCONJ	_	16	cc	_	_
@@ -1081,7 +1081,7 @@
 
 # sent_id = 072
 # text = Андан ары балыкты рефрижераторлор менен Гавананын базарына алып кетишет.
-1	Андан	Андан	ADV	ADV	_	9	advmod	_	_
+1	Андан	Андан	ADV	ADV	ExtPos=ADV	9	advmod	_	_
 2	ары	ары	ADV	ADV	_	1	fixed	_	_
 3	балыкты	балык	NOUN	NN	Case=Acc|Number=Plur|Person=3	9	obj	_	_
 4	рефрижераторлор	рефрижератор	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	obl	_	_
@@ -1125,7 +1125,7 @@
 
 # sent_id = 076
 # text = Андан көрө бейсбол ойноп ал.
-1	Андан	Андан	ADV	ADV	_	4	advmod	_	_
+1	Андан	Андан	ADV	ADV	ExtPos=ADV	4	advmod	_	_
 2	көрө	көрө	ADV	ADV	_	1	fixed	_	_
 3	бейсбол	бейсбол	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	ойноп	ойно	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	0	root	_	_
@@ -1149,7 +1149,7 @@
 # text = Кой, андан көрө мен салайын.
 1	Кой	Кой	VERB	VB	Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 2	,	,	PUNCT	PCT	_	1	punct	_	_
-3	андан	андан	ADV	ADV	_	6	advmod	_	_
+3	андан	андан	ADV	ADV	ExtPos=ADV	6	advmod	_	_
 4	көрө	көрө	ADV	ADV	_	3	fixed	_	_
 5	мен	мен	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	салайын	сал	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1444,7 +1444,7 @@
 5	аңкоолугунан	аңкоолук	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=3	8	nmod	_	_
 6	качантан	качан	ADV	ADV	Case=Abl	8	advmod	_	_
 7	бери	бери	ADV	ADV	_	6	case	_	_
-8	моюн	моюн	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	15	ccomp	_	_
+8	моюн	моюн	VERB	VB	ExtPos=ADV|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	15	ccomp	_	_
 9	сунуп	сун	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	8	fixed	_	_
 10	момун	момун	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=3	11	nmod	_	_
 11	болуп	бол	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	15	advcl	_	_
@@ -1621,7 +1621,7 @@
 # text = Көбүнчө ошо таш бакадан сокур болосуң.
 1	Көбүнчө	Көбүнчө	ADV	ADV	_	6	advmod	_	_
 2	ошо	ошо	DET	DET	_	3	det	_	_
-3	таш	таш	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	obj	_	_
+3	таш	таш	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	6	obj	_	_
 4	бакадан	бака	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=3	3	fixed	_	_
 5	сокур	сокур	ADJ	ADJ	_	6	amod	_	_
 6	болосуң	бол	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3746,7 +3746,7 @@
 # text = Нуржигит Кадырбеков үй-бүлөгө даярдоо курстарын ачууну сунуштады.
 1	Нуржигит	Нуржигит	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 2	Кадырбеков	Кадырбеков	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
-3	үй	үй	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	obl	_	SpaceAfter=No
+3	үй	үй	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	7	obl	_	SpaceAfter=No
 4	-	-	PUNCT	PCT	_	3	punct	_	SpaceAfter=No
 5	бүлөгө	бүлө	NOUN	NN	Case=Dat|Number=Sing|Person=3	3	fixed	_	_
 6	даярдоо	даярдоо	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -4674,7 +4674,7 @@
 # text = Эмгек министрлиги 550'дөн ашык майыптыгы бар жана жетим балдар үчүн эс алуу уюштурду.
 1	Эмгек	Эмгек	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	министрлиги	министрлик	NOUN	NN	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
-3	550	550	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
+3	550	550	NUM	NUM	ExtPos=ADV|NumType=Card	6	nummod	_	SpaceAfter=No
 4	'дөн	'дөн	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=2	3	fixed	_	_
 5	ашык	ашык	ADV	ADV	_	3	advmod	_	_
 6	майыптыгы	майыптык	NOUN	NN	Case=Gen|Number=Sing	7	nmod	_	_
@@ -6254,7 +6254,7 @@
 3	өлкөлөрүнүн	өлкө	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=2	5	nmod	_	_
 4	энергетик	энергетик	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	amod	_	_
 5	аялдарынын	аял	NOUN	NN	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
-6	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+6	эл	эл	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	8	nmod	_	_
 7	аралык	ара	ADJ	ADJ	_	6	fixed	_	_
 8	саммити	саммит	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
 9	өтүүдө	өт	VERB	VB	Aspect=Prog|Case=Loc|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
@@ -6266,7 +6266,7 @@
 2	шаарында	шаар	NOUN	NN	Case=Acc,Loc|Number=Sing|Person=3	8	obl	_	_
 3	100	100	NUM	NUM	NumType=Card	4	nummod	_	_
 4	орундуу	орун	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	5	amod	_	_
-5	бала	бала	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
+5	бала	бала	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod	_	_
 6	бакчанын	бакча	NOUN	NN	Case=Gen|Number=Sing|Person=3	5	fixed	_	_
 7	курулушу	курулуш	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
 8	башталды	баштал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -6293,7 +6293,7 @@
 7	-	-	PUNCT	PCT	_	6	punct	_	_
 8	2022	2022	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
 9	”	”	PUNCT	PCT	_	8	punct	_	_
-10	эл	эл	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+10	эл	эл	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	12	nmod	_	_
 11	аралык	ара	ADJ	ADJ	_	10	fixed	_	_
 12	веложарышы	веложарыш	NOUN	NN	Case=Acc|Number=Sing|Person=3	13	nsubj	_	_
 13	өтөт	өт	VERB	VB	Aspect=Prog|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -7734,7 +7734,7 @@
 # sent_id = 612
 # text = Керемет банк башкармасына жаңы төрага дайындалды.
 1	Керемет	Керемет	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
+2	банк	банк	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	1	fixed	_	_
 3	башкармасына	башкарма	NOUN	NN	Case=Acc,Dat|Number=Sing|Person[psor]=2	6	obl	_	_
 4	жаңы	жаңы	ADJ	ADJ	_	5	amod	_	_
 5	төрага	төрага	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
