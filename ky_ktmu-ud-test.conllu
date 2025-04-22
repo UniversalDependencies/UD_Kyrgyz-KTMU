@@ -1636,7 +1636,7 @@
 5	бою	бою	ADV	ADV	_	11	advmod	_	_
 6	Москит	Москит	PROPN	PROP	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	жээгине	жээк	NOUN	NN	Case=Dat|Number=Sing|Person=3	11	obl	_	_
-8	таш	таш	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+8	таш	таш	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	11	obj	_	_
 9	бакага	бака	NOUN	NN	Case=Dat|Number=Sing|Person[psor]=3	8	fixed	_	_
 10	барып	бар	VERB	VB	Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Conv	11	advcl	_	_
 11	жүрдүң	жүр	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4674,7 +4674,7 @@
 # text = Эмгек министрлиги 550'дөн ашык майыптыгы бар жана жетим балдар үчүн эс алуу уюштурду.
 1	Эмгек	Эмгек	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	министрлиги	министрлик	NOUN	NN	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
-3	550	550	NUM	NUM	ExtPos=ADV|NumType=Card	6	nummod	_	SpaceAfter=No
+3	550	550	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
 4	'дөн	'дөн	NOUN	NN	Case=Nom|Number=Sing|Person[psor]=2	3	fixed	_	_
 5	ашык	ашык	ADV	ADV	_	3	advmod	_	_
 6	майыптыгы	майыптык	NOUN	NN	Case=Gen|Number=Sing	7	nmod	_	_
@@ -7733,8 +7733,8 @@
 
 # sent_id = 612
 # text = Керемет банк башкармасына жаңы төрага дайындалды.
-1	Керемет	Керемет	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-2	банк	банк	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	1	fixed	_	_
+1	Керемет	Керемет	NOUN	NN	Case=Nom|ExtPos=ADV|Number=Sing|Person=3	3	nmod	_	_
+2	банк	банк	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	fixed	_	_
 3	башкармасына	башкарма	NOUN	NN	Case=Acc,Dat|Number=Sing|Person[psor]=2	6	obl	_	_
 4	жаңы	жаңы	ADJ	ADJ	_	5	amod	_	_
 5	төрага	төрага	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
