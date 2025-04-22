@@ -463,7 +463,7 @@
 7	команда	команда	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 8	Ысык-Көлдө	Ысык-Көл	PROPN	PROP	Case=Loc|Number=Sing|Person=3	12	obl	_	_
 9	окуу	оку	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	11	obj	_	_
-10	машыгуу	машык	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	fixed	_	_
+10	машыгуу	машык	VERB	VB	ExtPos=ADV|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	9	fixed	_	_
 11	жыйын	жыйын	NOUN	NN	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
 12	өткөрүүдө	өткөр	VERB	VB	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	PCT	_	12	punct	_	_
