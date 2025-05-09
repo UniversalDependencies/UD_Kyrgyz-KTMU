@@ -30,7 +30,7 @@
     <tag name="VERB">4394</tag><!-- бер, ал, өт, бол, түз, сал, кур, ач, бар, кел -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="56">
+  <feats unique="58">
     <feat name="Abbr" value="Yes" upos="ADJ,NOUN,PROPN">211</feat><!-- ӨКМ, КР, ГЭС, ИДПнын, ЕАЭБ, ИИМдин, ККМ, УКМК, ШКУнун, КМШ -->
     <feat name="Aspect" value="Perf" upos="NOUN,VERB">1944</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, бар, берди, салынды, кайтарылды -->
     <feat name="Aspect" value="Prog" upos="NOUN,VERB">544</feat><!-- өтүүдө, пландалууда, өтөт, катышты, жүрүүдө, курулууда, катышууда, алат, ачылат, күтүлөт -->
@@ -54,6 +54,8 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,VERB">24</feat><!-- салыштырмалуу, көтөрүү, эстүү, азыраак, арзаныраак, бетер, жакшылап, кеңейип, кирешелүү, кымбаттаган -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">7</feat><!-- эң -->
     <feat name="Evident" value="Fh" upos="VERB">85</feat><!-- берди, койду, болду, укту, алган, бөлдү, жоюлду, кылынат, түптөлдү, уюштурду -->
+    <feat name="ExtPos" value="ADJ" upos="NOUN">1</feat><!-- турак -->
+    <feat name="ExtPos" value="ADV" upos="ADV,NOUN,VERB">16</feat><!-- андан, таш, эл, Алдын, Керемет, Чын, алып, бала, моюн, окуу -->
     <feat name="Mood" value="Cnd" upos="VERB">29</feat><!-- алсак, калса, ала, алар, алышса, арылса, барышса, берсе, берсең, болсоңор -->
     <feat name="Mood" value="Imp" upos="NOUN,VERB">41</feat><!-- ал, кой, алыңыз, куруп, сурагыла, ыктымал, Жүр, Унаа, Утпай, айлантыңыз -->
     <feat name="Mood" value="Ind" upos="NOUN,VERB">2331</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, бар, берди, өтүүдө, салынды -->
@@ -104,8 +106,8 @@
     <dep name="csubj">25</dep>
     <dep name="det">31</dep>
     <dep name="discourse">1</dep>
-    <dep name="fixed">18</dep>
-    <dep name="flat">189</dep>
+    <dep name="fixed">17</dep>
+    <dep name="flat">190</dep>
     <dep name="mark">41</dep>
     <dep name="nmod">6216</dep>
     <dep name="nmod:poss">218</dep>
