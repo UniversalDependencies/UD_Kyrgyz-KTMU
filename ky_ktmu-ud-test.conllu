@@ -1401,7 +1401,7 @@
 5	кээде	кээде	ADV	ADV	_	8	advmod	_	_
 6	топ	топ	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 7	жасап	жаса	VERB	VB	Person=3|Polarity=Pos|Tense=Pres	8	advcl	_	_
-8	ойношот	ойно	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+8	ойношот	ойно	VERB	VB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 098
@@ -1579,7 +1579,7 @@
 1	Анда	Анда	CCONJ	CCONJ	_	10	cc	_	_
 2	алтын	алтын	NOUN	NN	Case=Nom|Number=Sing|Person=3|Person[psor]=3	3	nmod	_	_
 3	макрель	макрель	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
-4	кармайбыз	карма	VERB	VB	Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	кармайбыз	карма	VERB	VB	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 5	деп	де	VERB	VB	_	4	compound:svc	_	_
 6	аны	Ал	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	алысыраак	алысыраак	ADJ	ADJ	_	8	amod	_	_
@@ -1836,7 +1836,7 @@
 8	,	,	PUNCT	PCT	_	7	punct	_	_
 9	бирок	бирок	CCONJ	CCONJ	_	14	cc	_	_
 10	чал	чал	NOUN	NN	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
-11	аны	ал	PRON	PRP	Case=Acc|Number=Sing|Person=3	14	nmod	_	_
+11	аны	ал	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
 12	кийин	кийин	ADV	ADV	_	14	advmod	_	_
 13	катып	кат	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	14	advcl	_	_
 14	койгон	кой	VERB	VB	Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	22	ccomp	_	SpaceAfter=No
@@ -2595,7 +2595,7 @@
 # text = Баарыбыздын тагдырыбыз өз колубузда.
 1	Баарыбыздын	Баары	NOUN	NN	Case=Gen|Number=Plur|Person[psor]=1	2	nmod	_	_
 2	тагдырыбыз	тагдыр	NOUN	NN	Case=Gen|Number=Plur|Person=1	4	obj	_	_
-3	өз	өз	PRON	PRP	Case=Nom|Number=Sing|Reflex=Yes|PronType=Prs	4	nmod	_	_
+3	өз	өз	PRON	PRP	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	4	nmod	_	_
 4	колубузда	кол	NOUN	NN	Case=Gen,Loc|Number=Plur|Person=1	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PCT	_	4	punct	_	_
 
@@ -2683,7 +2683,7 @@
 # text = Анан дандар өз ара сүйлөшүп, кайра артка тартышат.
 1	Анан	Анан	ADV	ADV	_	5	advmod	_	_
 2	дандар	дан	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
-3	өз	өз	PRON	PRP	Case=Nom|Number=Sing|Reflex=Yes|PronType=Prs	5	nmod	_	_
+3	өз	өз	PRON	PRP	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	5	nmod	_	_
 4	ара	ара	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	compound	_	_
 5	сүйлөшүп	сүйлөш	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	9	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	PCT	_	5	punct	_	_
@@ -2738,7 +2738,7 @@
 # text = Иңкамал апай өзүнөн бетер көк тумшук болуп отурган балдарга география сабагында Цейлон аралы жөнүндө узун сабак кызык жомок айтып жатыры.
 1	Иңкамал	Иңкамал	PROPN	PROP	Case=Nom|Number=Sing|Person=3	19	nsubj	_	_
 2	апай	апай	NOUN	NN	Case=Nom|Number=Sing|Person=3	1	compound	_	_
-3	өзүнөн	өзү	PRON	PRP	Case=Gen|Number=Sing|Person=3|Reflex=Yes|PronType=Prs	9	nmod	_	_
+3	өзүнөн	өзү	PRON	PRP	Case=Gen|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	nmod	_	_
 4	бетер	бетер	ADV	ADV	Degree=Cmp	5	advmod	_	_
 5	көк	көк	ADJ	ADJ	_	6	amod	_	_
 6	тумшук	тумшук	NOUN	NN	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
