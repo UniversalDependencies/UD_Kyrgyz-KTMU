@@ -2,7 +2,7 @@
 # text = Менин машинам бар.
 1	Менин	Мен	PRON	PRP	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2	машинам	машина	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
-3	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+3	бар	бар	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PCT	_	3	punct	_	_
 
 # sent_id = 002
@@ -15434,4 +15434,3 @@
 7	насыя	насыя	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	алды	ал	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
-
