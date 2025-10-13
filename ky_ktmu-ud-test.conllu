@@ -996,7 +996,7 @@
 1	Балык	Балык	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	кармоону	кармоо	NOUN	NN	Case=Acc|Number=Sing|Person=3	4	nmod	_	_
 3	чал	чал	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
-4	үйрөткөндүктөн	үйрөт	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+4	үйрөткөндүктөн	үйрөт	VERB	VB	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
 5	,	,	PUNCT	PCT	_	4	punct	_	_
 6	бала	бала	NOUN	NN	Case=Nom|Number=Sing	9	nsubj	_	_
 7	аны	ал	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
@@ -1136,7 +1136,7 @@
 # text = Кайыкты өзүм деле айдай алам, торду Роджелио салат.
 1	Кайыкты	Кайык	NOUN	NN	Case=Acc|Number=Plur|Person=3	5	obj	_	_
 2	өзүм	өзү	PRON	PRP	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	nsubj	_	_
-3	деле	деле	DET	DET	_	2	det	_	_
+3	деле	деле	ADV	ADV	_	2	advmod	_	_
 4	айдай	айдай	ADV	ADV	_	5	advmod	_	_
 5	алам	ал	VERB	VB	Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Conv	9	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	PCT	_	5	punct	_	_
@@ -1276,7 +1276,7 @@
 2	чын	чын	ADV	ADV	_	13	advmod	_	_
 3	эле	эле	ADV	ADV	_	2	compound	_	_
 4	мунун	муну	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Dem	6	csubj	_	_
-5	баарын	баары	PRON	PRP	Case=Acc|Number=Sing|PronType=Tot	6	obj	_	_
+5	баарын	баары	PRON	PRP	Case=Acc|Number=Sing|PronType=Prs	6	obj	_	_
 6	унута	унут	VERB	VB	Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Conv	13	ccomp	_	_
 7	элексиңби	элек	ADV	ADV	_	6	compound:svc	_	_
 8	же	же	ADV	ADV	_	13	advmod	_	_
@@ -2336,7 +2336,7 @@
 3	балык	балык	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 4	кармоону	кармоо	VERB	VB	Case=Acc|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	advcl	_	_
 5	ким	ким	PRON	PRP	PronType=Int	8	nsubj	_	_
-6	деле	деле	DET	DET	_	5	det	_	_
+6	деле	деле	ADV	ADV	_	5	advmod	_	_
 7	болсун	болсун	ADV	ADV	_	8	ccomp	_	_
 8	билет	билет	VERB	VB	Case=Nom|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
@@ -3390,7 +3390,7 @@
 # sent_id = 260
 # text = Мырзагүлдү деле жаныма калтырып койбойбу, терезе жакка мен эле отурбайт белем,деп Султанмурат ичинде сызып калган.
 1	Мырзагүлдү	Мырзагүл	PROPN	PROP	Case=Acc|Number=Sing|Person=3	5	csubj	_	_
-2	деле	деле	DET	DET	_	1	det	_	_
+2	деле	деле	ADV	ADV	_	1	advmod	_	_
 3	жаныма	жан	ADV	ADV	Case=Dat|Number=Sing|Person=3	4	advmod	_	_
 4	калтырып	калтыр	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	5	advcl	_	_
 5	койбойбу	кой	VERB	VB	Aspect=Prog|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	18	ccomp	_	SpaceAfter=No
