@@ -10875,7 +10875,7 @@
 7	жогорулатууга	жогорулат	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	10	nsubj	_	_
 8	өзгөчө	өзгөчө	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	көңүл	көңүл	NOUN	NN	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
-10	бурулууда	бурул	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+10	бурулууда	бурул	VERB	VB	Aspect=Prog|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Vnoun|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1061
@@ -12434,7 +12434,7 @@
 7	этапка	этап	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	nmod	_	_
 8	келгенин	кел	VERB	VB	Case=Acc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Conv	9	acl	_	_
 9	айтып	айт	VERB	VB	Person=3|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	advcl	_	_
-10	берди	бер	VERB	VB	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pastкайсы	0	root	_	SpaceAfter=No
+10	берди	бер	VERB	VB	Aspect=Perf|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
 # sent_id = 1186
