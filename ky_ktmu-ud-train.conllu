@@ -16142,8 +16142,8 @@
 # sent_id = 2548
 # text = Баткенде мыйзамсыз менчиктештирилген 11 га жер мамлекетке кайтарылды.
 1	Баткенде	Баткен	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
-2	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	3	advmod	_	_
-3	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+2	мыйзамсыз	мыйзам	ADV	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	3	advmod	_	_
+3	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	6	acl	_	_
 4	11	11	NUM	NUM	NumType=Card	6	nummod	_	_
 5	га	га	ADV	ADV	_	4	advmod	_	_
 6	жер	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
