@@ -9187,7 +9187,7 @@
 1	Мамлекетке	мамлекет	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 2	ишеним	ишеним	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 3	жоготкон	жоготкон	NOUN	NN	Case=Abl|Number=Sing|Person[psor]=2	8	obl	_	_
-4	ар	ар	DET	DET	Definite=Def|PronType=Ins	5	compound	_	_
+4	ар	ар	DET	DET	Definite=Def|PronType=Int	5	compound	_	_
 5	бир	бир	NUM	NUM	NumType=Card	6	nummod	_	_
 6	соцкызматкер	соцкызматкер	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 7	жооп	жооп	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
@@ -11656,7 +11656,7 @@
 3	тыйынга	тыйын	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	nmod	_	_
 4	чейин	чейин	ADV	ADV	_	3	advmod	_	_
 5	түшүп	түш	VERB	VB	Polarity=Pos|Tense=Pres	6	advcl	_	_
-6	кетти	кет	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Fin|VerbForm=Fin	12	ccomp	_	_
+6	кетти	кет	VERB	VB	Mood=Ind|Polarity=Pos|Tense=Past|VerbForm=Fin	12	ccomp	_	_
 7	–	–	PUNCT	PCT	_	6	punct	_	_
 8	20-	20-	NUM	NUM	NumType=Ord	9	nummod	_	SpaceAfter=No
 9	сентябрга	сентябр	NOUN	NN	Case=Dat|Number=Sing|Person=3	12	obl	_	_
@@ -11968,7 +11968,7 @@
 4	түшүмү	түшүм	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
 5	рекорддук	рекорд	NOUN	ADJ	_	6	amod	_	_
 6	деңгээлге	деңгээл	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	obl	_	_
-7	жетүүсү	жет	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	advcl	_	_
+7	жетүүсү	жет	VERB	VB	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	8	advcl	_	_
 8	күтүлүүдө	күт	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
@@ -13040,7 +13040,7 @@
 5	төшөлгөн	төшөл	VERB	VB	Polarity=Pos|Tense=Past|VerbForm=Vnoun	6	acl	_	_
 6	көчө	көчө	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 7	пайдаланууга	пайдала	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	8	advcl	_	_
-8	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+8	берилди	бер	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 2291
@@ -13075,7 +13075,7 @@
 5	жаңы	жаңы	ADJ	ADJ	_	6	amod	_	_
 6	имараты	имарат	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
 7	курула	кур	VERB	VB	Case=Dat|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	8	advcl	_	_
-8	баштады	башта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Tense=Past	0	root	_	SpaceAfter=No
+8	баштады	башта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 2294
@@ -15170,7 +15170,7 @@
 9	2	2	NUM	NUM	NumType=Card	10	compound	_	_
 10	млрд	млрд	NUM	NUM	NumType=Card	11	nummod	_	_
 11	жеткирүүнү	жеткир	VERB	NN	Case=Acc|Number=Sing|Person=3	12	advcl	_	_
-12	көздөйт	көздө	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+12	көздөйт	көздө	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	PCT	_	12	punct	_	_
 
 # sent_id = 2467
