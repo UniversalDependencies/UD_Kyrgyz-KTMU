@@ -15672,11 +15672,11 @@
 # text = Баткен облусунун башчысы дарыгерлерди коррупциядан алыс болууга үндөдү.
 1	Баткен	Баткен	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	облусунун	облус	NOUN	NN	Case=Gen|Number=Sing|Person[psor]=2	3	nmod	_	_
-3	башчысы	башчы	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	nsubj	_	_
-4	дарыгерлерди	дарыгер	NOUN	NN	Case=Acc|Number=Plur|Person=3	9	obj	_	_
+3	башчысы	башчы	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	nsubj	_	_
+4	дарыгерлерди	дарыгер	NOUN	NN	Case=Acc|Number=Plur|Person=3	8	obj	_	_
 5	коррупциядан	коррупция	NOUN	NN	Case=Abl|Number=Sing|Person=3	7	obl	_	_
 6	алыс	алыс	ADV	ADV	_	7	advmod	_	_
-7	болууга	бол	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	9	advcl	_	_
+7	болууга	бол	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	8	advcl	_	_
 8	үндөдү	үндө	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
@@ -15695,11 +15695,11 @@
 # sent_id = 2512
 # text = Ош облусунда жылдын мыкты айыл аймактары, мекеме-ишканалары аныкталды.
 1	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	облусунда	облус	NOUN	NN	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+2	облусунда	облус	NOUN	NN	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 3	жылдын	жыл	NOUN	NN	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
 4	мыкты	мыкты	ADJ	ADJ	_	5	amod	_	_
 5	айыл	айыл	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6	аймактары	аймак	NOUN	NN	Case=Nom|Number=Plur|Person=3	10	nsubj	_	SpaceAfter=No
+6	аймактары	аймак	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	PCT	_	6	punct	_	_
 8	мекеме-ишканалары	мекеме-ишкана	NOUN	NN	Case=Nom|Number=Plur|Person=3	6	conj	_	_
 9	аныкталды	аныкта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -15711,7 +15711,7 @@
 2	Ошто	Ош	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 3	бажы	бажы	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	төлөмдөрүн	төлөм	NOUN	NN	Case=Acc|Number=Plur|Person=3	7	obj	_	_
-5	азайткан	азайт	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+5	азайткан	азайт	VERB	VB	Aspect=Perf|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
 6	коррупциялык	коррупция	NOUN	ADJ	_	7	amod	_	_
 7	схеманы	схема	NOUN	NN	Case=Acc|Number=Sing|Person=3	8	obj	_	_
 8	аныктады	аныкта	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -15721,7 +15721,7 @@
 # text = Жалал-Абадда эскилиги жеткен отканалар модернизацияланат.
 1	Жалал-Абадда	Жалал-Абад	PROPN	PROP	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 2	эскилиги	эски	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	жеткен	жет	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+3	жеткен	жет	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	acl	_	_
 4	отканалар	откана	NOUN	NN	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 5	модернизацияланат	модернизацияла	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PCT	_	5	punct	_	_
@@ -15744,7 +15744,7 @@
 4	млн	млн	NUM	NUM	NumType=Card	5	nummod	_	_
 5	сомдук	сом	NOUN	ADJ	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	товарды	товар	NOUN	NN	Case=Acc|Number=Sing|Person=3	9	obj	_	_
-7	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
+7	мыйзамсыз	мыйзам	ADV	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
 8	ташып	ташы	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv	9	advcl	_	_
 9	кирүү	кир	VERB	VB	Case=Nom|Number=Sing|Person=3|VerbForm=Vnoun	10	nmod	_	_
 10	фактысы	факт	NOUN	NN	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
@@ -15770,8 +15770,8 @@
 4	имараты	имарат	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 5	жана	жана	CCONJ	CCONJ	_	6	cc	_	_
 6	жери	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	conj	_	_
-7	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
-8	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	мыйзамсыз	мыйзам	ADV	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
+8	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
 # sent_id = 2519
@@ -15791,11 +15791,11 @@
 # text = Өлкө аймагындагы жолдордо жана ашууларда кум-туз аралашмасы чачылууда.
 1	Өлкө	Өлкө	NOUN	NN	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	аймагындагы	аймак	NOUN	NN	Case=Loc|Number=Sing|Person=3	3	nmod	_	_
-3	жолдордо	жол	NOUN	NN	Case=Loc|Number=Plur|Person=3	9	obl	_	_
+3	жолдордо	жол	NOUN	NN	Case=Loc|Number=Plur|Person=3	8	obl	_	_
 4	жана	жана	CCONJ	CCONJ	_	5	cc	_	_
 5	ашууларда	ашуу	NOUN	NN	Case=Loc|Number=Plur|Person=3	3	conj	_	_
 6	кум-туз	кум-туз	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-7	аралашмасы	аралашма	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+7	аралашмасы	аралашма	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 8	чачылууда	чачыла	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
@@ -15849,12 +15849,12 @@
 
 # sent_id = 2525
 # text = Тилек Текебаев Жалал-Абад шаарындагы отканалардын абалы менен таанышты.
-1	Тилек	Тилек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+1	Тилек	Тилек	PROPN	PROP	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 2	Текебаев	Текебаев	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 3	Жалал-Абад	Жалал-Абад	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	шаарындагы	шаар	NOUN	NN	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
 5	отканалардын	откана	NOUN	NN	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
-6	абалы	абал	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	obj	_	_
+6	абалы	абал	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	obj	_	_
 7	менен	менен	CCONJ	CCONJ	_	6	case	_	_
 8	таанышты	тааныш	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
@@ -15879,7 +15879,7 @@
 3	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	унаа	унаа	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	жолуна	жол	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
-6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	8	acl	_	_
 7	кар	кар	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	көчкү	көчкү	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 9	тазаланып	тазала	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	12	advcl	_	SpaceAfter=No
@@ -15896,7 +15896,7 @@
 4	"	"	PUNCT	PCT	_	5	punct	_	_
 5	турак	турак	NOUN	NN	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6	жайы	жай	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-7	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
+7	мыйзамсыз	мыйзам	ADV	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	8	advmod	_	_
 8	курулганы	кур	VERB	VB	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Vnoun|Voice=Pass	9	ccomp	_	_
 9	аныкталды	аныкта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PCT	_	9	punct	_	_
@@ -15905,8 +15905,8 @@
 # text = Баткендеги чек арачыларга түзүлгөн шарттар. Сүрөт баян.
 1	Баткендеги	Баткен	PROPN	PROP	Case=Loc|Number=Sing|Person=3	2	nmod	_	_
 2	чек	чек	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	арачыларга	арачы	NOUN	NN	Case=Dat|Number=Plur|Person=3	5	obl	_	_
-4	түзүлгөн	түзүл	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+3	арачыларга	арачы	NOUN	NN	Case=Dat|Number=Plur|Person=3	5	nmod	_	_
+4	түзүлгөн	түзүл	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	5	acl	_	_
 5	шарттар	шарт	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	PCT	_	8	punct	_	_
 7	Сүрөт	Сүрөт	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
@@ -15962,7 +15962,7 @@
 3	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	шаарындагы	шаар	NOUN	NN	Case=Loc|Number=Sing|Person=3	8	nmod	_	_
 5	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	7	amod	_	_
-6	салынган	сал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+6	салынган	сал	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	7	acl	_	_
 7	үйлөрдүн	үй	NOUN	NN	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
 8	жашоочулары	жашоочу	NOUN	NN	Case=Acc|Number=Plur|Person=3	10	obj	_	_
 9	менен	менен	CCONJ	CCONJ	_	8	case	_	_
@@ -15982,13 +15982,13 @@
 
 # sent_id = 2535
 # text = Баткенде коррупциянын алдын алууга багытталган маалыматтык жыйындар өтүүдө.
-1	Баткенде	Баткен	PROPN	PROP	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+1	Баткенде	Баткен	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 2	коррупциянын	коррупция	NOUN	NN	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
 3	алдын	ал	NOUN	NN	Case=Nom|Number=Sing|Person=3	4	compound	_	_
 4	алууга	ал	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	6	advcl	_	_
-5	багытталган	багытта	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+5	багытталган	багытта	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	7	acl	_	_
 6	маалыматтык	маалымат	NOUN	ADJ	_	7	amod	_	_
-7	жыйындар	жыйын	NOUN	NN	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+7	жыйындар	жыйын	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 8	өтүүдө	өт	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
 
@@ -16007,7 +16007,7 @@
 
 # sent_id = 2537
 # text = Ошто адам сатууга каршы күрөшүү жана алдын алуу боюнча тренинг өттү.
-1	Ошто	Ош	PROPN	PROP	Case=Loc|Number=Sing|Person=3	12	obl	_	_
+1	Ошто	Ош	PROPN	PROP	Case=Loc|Number=Sing|Person=3	11	obl	_	_
 2	адам	адам	NOUN	NN	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 3	сатууга	сат	VERB	VB	Case=Dat|Number=Sing|Person=3|VerbForm=Vnoun	5	acl	_	_
 4	каршы	каршы	ADV	ADV	_	3	advmod	_	_
@@ -16030,7 +16030,7 @@
 6	,5	,5	NUM	NUM	NumType=Card	7	compound	_	_
 7	млн	млн	NUM	NUM	NumType=Card	8	nummod	_	_
 8	сом	сом	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
-9	уурдалганы	уурда	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Vnoun|Voice=Pass	10	ccomp	_	_
+9	уурдалганы	уурда	VERB	VB	Aspect=Perf|Person=3|Polarity=Pos|Tense=Past|VerbForm=Vnoun|Voice=Pass	10	ccomp	_	_
 10	аныкталды	аныкта	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	PCT	_	10	punct	_	_
 
@@ -16111,7 +16111,7 @@
 3	жолунда	жол	NOUN	NN	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 4	тоо	тоо	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	боорунан	боор	NOUN	NN	Case=Abl|Number=Sing|Person=3	6	obl	_	_
-6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
+6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	acl	_	_
 7	таштар	таш	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
 8	тазаланды	тазала	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PCT	_	8	punct	_	_
@@ -16119,7 +16119,7 @@
 # sent_id = 2546
 # text = Ысык-Көлдө жараланган ак куу куткарылды.
 1	Ысык-Көлдө	Ысык-Көл	PROPN	PROP	Case=Loc|Number=Sing|Person=3	5	obl	_	_
-2	жараланган	жарала	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+2	жараланган	жарала	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl	_	_
 3	ак	ак	ADJ	ADJ	_	4	amod	_	_
 4	куу	куу	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 5	куткарылды	куткар	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -16144,7 +16144,7 @@
 1	Баткенде	Баткен	PROPN	PROP	Case=Loc|Number=Sing|Person=3	8	obl	_	_
 2	мыйзамсыз	мыйзам	NOUN	ADJ	Case=Nom|Number=Sing|Person=3|Polarity=Neg	3	advmod	_	_
 3	менчиктештирилген	менчиктештир	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
-4	11	11	NUM	NUM	NumType=Card	5	nummod	_	_
+4	11	11	NUM	NUM	NumType=Card	6	nummod	_	_
 5	га	га	ADV	ADV	_	4	advmod	_	_
 6	жер	жер	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 7	мамлекетке	мамлекет	NOUN	NN	Case=Dat|Number=Sing|Person=3	8	obl	_	_
@@ -16182,7 +16182,7 @@
 1	Баткен	Баткен	PROPN	PROP	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 2	жана	жана	CCONJ	CCONJ	_	3	cc	_	_
 3	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
-4	облустарындагы	облус	NOUN	NN	Case=Loc|Number=Plur|Person=3	7	obl	_	_
+4	облустарындагы	облус	NOUN	NN	Case=Loc|Number=Plur|Person=3	8	obl	_	_
 5	кайра	кайра	ADV	ADV	_	6	advmod	_	_
 6	иштетүүчү	иштетүүчү	NOUN	NN	Case=Nom|Number=Sing|Person=3	7	amod	_	_
 7	ишканалар	ишкана	NOUN	NN	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
@@ -16270,7 +16270,7 @@
 3	Ош	Ош	PROPN	PROP	Case=Nom|Number=Sing|Person=3	1	conj	_	_
 4	унаа	унаа	NOUN	NN	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
 5	жолуна	жол	NOUN	NN	Case=Dat|Number=Sing|Person=3	6	obl	_	_
-6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+6	түшкөн	түш	VERB	VB	Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	8	acl	_	_
 7	кар	кар	NOUN	NN	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 8	көчкү	көчкү	NOUN	NN	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
 9	тазаланып	тазала	VERB	VB	Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Pass	12	advcl	_	SpaceAfter=No
