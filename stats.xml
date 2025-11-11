@@ -5,50 +5,50 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2480</sentences><tokens>23654</tokens><words>23654</words><fused>0</fused></total>
-    <train><sentences>1258</sentences><tokens>11883</tokens><words>11883</words><fused>0</fused></train>
+    <total><sentences>2530</sentences><tokens>24128</tokens><words>24128</words><fused>0</fused></total>
+    <train><sentences>1308</sentences><tokens>12357</tokens><words>12357</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1222</sentences><tokens>11771</tokens><words>11771</words><fused>0</fused></test>
   </size>
-  <lemmas unique="3709" /><!-- ., кыргызстан, менен, Бишкек, ,, ал, жана, ", сом, бер, өт, иш, Ош, млрд, бол -->
-  <forms unique="6554" /><!-- ., менен, Кыргызстанда, ,, жана, ", Бишкекте, млрд, кыргызстан, боюнча, млн, сом, -, Ош, өттү -->
+  <lemmas unique="3746" /><!-- ., кыргызстан, менен, Бишкек, ,, ал, жана, сом, ", бер, өт, Ош, иш, млрд, бол -->
+  <forms unique="6625" /><!-- ., менен, Кыргызстанда, ,, жана, ", Бишкекте, млрд, кыргызстан, боюнча, млн, сом, Ош, -, өттү -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
-    <tag name="ADJ">777</tag><!-- жаңы, улут, ара, ич, жарым, айрым, катар, кичи, көп, туруктуу -->
-    <tag name="ADP">14</tag><!-- ара, арасында, арка, жан, калаа, караганда -->
-    <tag name="ADV">841</tag><!-- боюнча, үчүн, карата, бери, ашык, чейин, тууралуу, дээрлик, дагы, тарта -->
-    <tag name="CCONJ">592</tag><!-- менен, жана, да, бирок, деген, же, үчүн, анда, ишкана, айым -->
-    <tag name="DET">32</tag><!-- кайсы, бул, деле, ар, беле, эми, Керемет, берет, болбосо, ден -->
-    <tag name="NOUN">9095</tag><!-- сом, иш, шаар, жол, жыл, облус, банк, мамлекет, суу, салык -->
-    <tag name="NUM">1529</tag><!-- млрд, млн, миң, бир, эки, 3, 6, ,5, 4, 5 -->
-    <tag name="PRON">237</tag><!-- ал, мен, кандай, сен, өз, эмне, баары, ким, алар, өзү -->
-    <tag name="PROPN">2843</tag><!-- кыргызстан, Бишкек, Ош, Ысык-Көл, Жалал-Абад, Баткен, Чүй, Россия, кыргыз, Нарын -->
-    <tag name="PUNCT">3283</tag><!-- ., ,, ", -, –, “, ?, ”, :, % -->
+    <tag name="ADJ">783</tag><!-- жаңы, улут, ара, ич, жарым, айрым, катар, кичи, көп, туруктуу -->
+    <tag name="ADP">13</tag><!-- ара, арка, жан, калаа, караганда -->
+    <tag name="ADV">875</tag><!-- боюнча, үчүн, карата, бери, ашык, чейин, тууралуу, дээрлик, дагы, тарта -->
+    <tag name="CCONJ">601</tag><!-- менен, жана, да, бирок, деген, же, үчүн, анда, ишкана, айым -->
+    <tag name="DET">19</tag><!-- кайсы, бул, ар, беле, болбосо, ошо, тең -->
+    <tag name="NOUN">9305</tag><!-- сом, иш, жол, шаар, облус, жыл, банк, мамлекет, суу, бала -->
+    <tag name="NUM">1547</tag><!-- млрд, млн, миң, бир, эки, 3, 6, ,5, 4, 5 -->
+    <tag name="PRON">225</tag><!-- ал, мен, кандай, сен, өз, эмне, баары, ким, алар, өзү -->
+    <tag name="PROPN">2918</tag><!-- кыргызстан, Бишкек, Ош, Ысык-Көл, Жалал-Абад, Баткен, Чүй, Нарын, Россия, кыргыз -->
+    <tag name="PUNCT">3352</tag><!-- ., ,, ", -, –, “, ?, ”, :, % -->
     <tag name="SCONJ">2</tag><!-- Эгер -->
     <tag name="SYM">15</tag><!-- $ -->
-    <tag name="VERB">4394</tag><!-- бер, ал, өт, бол, түз, сал, кур, ач, бар, кел -->
+    <tag name="VERB">4473</tag><!-- бер, ал, өт, бол, кур, түз, сал, ач, бар, кел -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="58">
-    <feat name="Abbr" value="Yes" upos="ADJ,NOUN,PROPN">211</feat><!-- ӨКМ, КР, ГЭС, ИДПнын, ЕАЭБ, ИИМдин, ККМ, УКМК, ШКУнун, КМШ -->
-    <feat name="Aspect" value="Perf" upos="NOUN,VERB">1944</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, бар, берди, салынды, кайтарылды -->
-    <feat name="Aspect" value="Prog" upos="NOUN,VERB">544</feat><!-- өтүүдө, пландалууда, өтөт, катышты, жүрүүдө, курулууда, катышууда, алат, ачылат, күтүлөт -->
-    <feat name="Case" value="Abl" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">348</feat><!-- башынан, миңден, Кыргызстандан, селден, сомдон, оңдоодон, Казакстандан, бойдон, тоннадан, Бишкектен -->
+    <feat name="Abbr" value="Yes" upos="ADJ,NOUN,PROPN">212</feat><!-- ӨКМ, КР, ГЭС, ИДПнын, УКМК, ЕАЭБ, ИИМдин, ККМ, ШКУнун, КМШ -->
+    <feat name="Aspect" value="Perf" upos="NOUN,VERB">1961</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, бар, берди, кайтарылды, салынды -->
+    <feat name="Aspect" value="Prog" upos="NOUN,VERB">557</feat><!-- өтүүдө, пландалууда, өтөт, катышты, жүрүүдө, курулууда, катышууда, алат, ачылат, күтүлөт -->
+    <feat name="Case" value="Abl" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">352</feat><!-- башынан, миңден, Кыргызстандан, селден, сомдон, оңдоодон, Казакстандан, бойдон, тоннадан, Бишкектен -->
     <feat name="Case" value="Abl,Gen" upos="PROPN">1</feat><!-- атаңардан -->
-    <feat name="Case" value="Acc" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">2127</feat><!-- иштери, көлөмү, сомду, курулушу, кызматы, министри, курсу, маселеси, башкы, министрлиги -->
-    <feat name="Case" value="Acc,Dat" upos="CCONJ,NOUN,PRON,VERB">116</feat><!-- облусуна, рыногуна, аймагына, аягына, балансына, коопсуздугуна, кызматкерлерине, меморандумуна, тармагына, форумуна -->
+    <feat name="Case" value="Acc" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">2142</feat><!-- иштери, көлөмү, сомду, курулушу, кызматы, министри, курсу, маселеси, башкы, министрлиги -->
+    <feat name="Case" value="Acc,Dat" upos="CCONJ,NOUN,PRON,VERB">117</feat><!-- облусуна, рыногуна, аймагына, аягына, балансына, коопсуздугуна, кызматкерлерине, меморандумуна, тармагына, форумуна -->
     <feat name="Case" value="Acc,Gen" upos="NOUN,PROPN,VERB">196</feat><!-- облусунун, шаарынын, кеңешинин, банкынын, министринин, кызматынын, көчөсүнүн, министрлигинин, биримдигинин, компаниясынын -->
     <feat name="Case" value="Acc,Ins" upos="NOUN">21</feat><!-- эсебинен, аудитинен, жетишсиздигинен, каражатынан -->
     <feat name="Case" value="Acc,Loc" upos="ADJ,ADP,ADV,CCONJ,NOUN,PROPN">181</feat><!-- шаарында, облусунда, тармагында, облусундагы, мэриясында, айылында, жаатында, районунда, ГЭСинде, айылындагы -->
-    <feat name="Case" value="Dat" upos="ADJ,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">1051</feat><!-- ишке, Кыргызстанга, сомго, мамлекетке, жаранга, сентябрга, пайызга, долларга, пайдаланууга, миңге -->
+    <feat name="Case" value="Dat" upos="ADJ,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">1070</feat><!-- ишке, Кыргызстанга, сомго, мамлекетке, жаранга, сентябрга, пайызга, долларга, пайдаланууга, миңге -->
     <feat name="Case" value="Dat,Gen" upos="NOUN">5</feat><!-- кыймылына, моюндарына, орундарына, салына, убалына -->
     <feat name="Case" value="Equ" upos="ADJ,ADV,NOUN,PROPN,VERB">29</feat><!-- илимий, Конституциялык, диний, инновациялык, көздөй, миңдей, саясий, тарыхый, Адаттагыдай, бирдей -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">1384</feat><!-- Кыргызстандын, Бишкектин, суунун, гранттардын, ички, жылдын, жардам, өлкөнүн, ИДПнын, Россиянын -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">1405</feat><!-- Кыргызстандын, Бишкектин, суунун, жылдын, гранттардын, ички, жардам, мектептин, өлкөнүн, ИДПнын -->
     <feat name="Case" value="Gen,Loc" upos="NOUN,VERB">6</feat><!-- эсимде, басаңдады, карады, колубузда -->
     <feat name="Case" value="Ins" upos="ADJ,NOUN,NUM,PRON,VERB">42</feat><!-- кырсыгынан, көзүнөн, атынан, экспорттой, 500дөй, аймагынан, алюминий, аны, болбой, глобалдык -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,VERB">1575</feat><!-- Кыргызстанда, Бишкекте, айда, Ошто, Ысык-Көлдө, өтүүдө, Баткенде, пландалууда, Бишкектеги, аймагында -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">5765</feat><!-- кыргызстан, сом, Ош, эл, банк, салык, жыл, суу, Бишкек, жол -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,VERB">1616</feat><!-- Кыргызстанда, Бишкекте, айда, Ошто, Ысык-Көлдө, өтүүдө, Баткенде, пландалууда, Бишкектеги, аймагында -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">5977</feat><!-- кыргызстан, Ош, сом, эл, Бишкек, банк, салык, жыл, суу, жол -->
     <feat name="Definite" value="Def" upos="DET,NOUN">8</feat><!-- ар, тең -->
     <feat name="Definite" value="Ind" upos="ADJ">1</feat><!-- катар -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,VERB">24</feat><!-- салыштырмалуу, көтөрүү, эстүү, азыраак, арзаныраак, бетер, жакшылап, кеңейип, кирешелүү, кымбаттаган -->
@@ -56,67 +56,67 @@
     <feat name="Evident" value="Fh" upos="VERB">85</feat><!-- берди, койду, болду, укту, алган, бөлдү, жоюлду, кылынат, түптөлдү, уюштурду -->
     <feat name="ExtPos" value="ADJ" upos="NOUN">1</feat><!-- турак -->
     <feat name="ExtPos" value="ADV" upos="ADV,NOUN,VERB">16</feat><!-- андан, таш, эл, Алдын, Керемет, Чын, алып, бала, моюн, окуу -->
-    <feat name="Mood" value="Cnd" upos="VERB">29</feat><!-- алсак, калса, ала, алар, алышса, арылса, барышса, берсе, берсең, болсоңор -->
-    <feat name="Mood" value="Imp" upos="NOUN,VERB">41</feat><!-- ал, кой, алыңыз, куруп, сурагыла, ыктымал, Жүр, Унаа, Утпай, айлантыңыз -->
-    <feat name="Mood" value="Ind" upos="NOUN,VERB">2331</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, бар, берди, өтүүдө, салынды -->
+    <feat name="Mood" value="Cnd" upos="VERB">22</feat><!-- ала, алар, алсак, алышса, арылса, барышса, берсе, берсең, болсоңор, десе -->
+    <feat name="Mood" value="Imp" upos="NOUN,VERB">42</feat><!-- ал, кой, алыңыз, бер, куруп, сурагыла, ыктымал, Жүр, Унаа, Утпай -->
+    <feat name="Mood" value="Ind" upos="NOUN,VERB">2431</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, өтүүдө, бар, берди, кайтарылды -->
     <feat name="Mood" value="Pot" upos="VERB">2</feat><!-- алышмак, болушмак -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,CCONJ,NOUN,PRON,PROPN,VERB">1582</feat><!-- иштери, салынды, жолугушту, валюталар, балдар, гранттардын, кызматташат, кыргызстандыктар, кызыкдар, өкүлдөрү -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">11851</feat><!-- Кыргызстанда, Бишкекте, кыргызстан, сом, Ош, Кыргызстандын, шаарында, эл, берилди, салык -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,CCONJ,NOUN,PRON,PROPN,VERB">1614</feat><!-- иштери, салынды, жолугушту, валюталар, балдар, гранттардын, кызматташат, кыргызстандыктар, кызыкдар, өкүлдөрү -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">12177</feat><!-- Кыргызстанда, Бишкекте, кыргызстан, Ош, сом, Кыргызстандын, шаарында, эл, берилди, Бишкек -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,NOUN,VERB">5</feat><!-- арасында, көрсөтүшчү, мугалимдерине, шарты, Үстүбүздөгү -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,CCONJ,NOUN,PRON,PROPN,VERB">1344</feat><!-- сом, бала, аймагында, Бишкектеги, Кыргызстандан, жаранга, валюта, унаа, бакча, Кыргызстандагы -->
-    <feat name="NumType" value="Card" upos="NOUN,NUM">1429</feat><!-- млрд, млн, бир, миң, эки, 3, 6, ,5, 4, 5 -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM">1447</feat><!-- млрд, млн, бир, миң, эки, 3, 6, ,5, 4, 5 -->
     <feat name="NumType" value="Ord" upos="NUM">88</feat><!-- биринчи, 1-, дыйкан-, экинчи, 11-, 29-, 3, 10-, 15, 17- -->
     <feat name="Person" value="1" upos="ADV,NOUN,PRON,VERB">153</feat><!-- мен, мамлекеттин, алып, кармап, мага, мени, проспектисинин, алсак, биз, капиталдык -->
-    <feat name="Person" value="2" upos="DET,NOUN,PRON,PROPN,VERB">132</feat><!-- сен, сага, дүң, комитетинин, рейддин, сенин, Бишкектин, ЕАЭБдин, Ташиевдин, куруп -->
-    <feat name="Person" value="3" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">12119</feat><!-- Кыргызстанда, Бишкекте, кыргызстан, Ош, шаарында, эл, берилди, салык, банк, жыл -->
+    <feat name="Person" value="2" upos="NOUN,PRON,PROPN,VERB">131</feat><!-- сен, сага, дүң, комитетинин, рейддин, сенин, Бишкектин, ЕАЭБдин, Ташиевдин, куруп -->
+    <feat name="Person" value="3" upos="ADJ,ADP,ADV,CCONJ,NOUN,NUM,PRON,PROPN,VERB">12480</feat><!-- Кыргызстанда, Бишкекте, Ош, кыргызстан, шаарында, эл, берилди, Бишкек, салык, банк -->
     <feat name="Person[psor]" value="1" upos="ADJ,NOUN,PRON,VERB">124</feat><!-- сом, жардам, мыйзам, форум, кармап, кескин, авиакаттам, алып, атам, диплом -->
-    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,PRON,PROPN,VERB">646</feat><!-- Кыргызстандын, Кыргызстан, облусунун, суунун, башынан, орун, мүмкүн, сомдон, гранттардын, өлкөлөрүнүн -->
-    <feat name="Person[psor]" value="3" upos="ADJ,ADP,CCONJ,NOUN,PRON,PROPN,VERB">1405</feat><!-- бала, аймагында, Бишкектеги, Кыргызстандан, жаранга, валюта, унаа, бакча, каза, Кыргызстандагы -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,NOUN,PRON,VERB">192</feat><!-- мыйзамсыз, болбойт, камсыз, пайызсыз, албайт, акысыз, албай, дайынсыз, коопсуздугу, коопсуздугуна -->
-    <feat name="Polarity" value="Pos" upos="ADJ,NOUN,VERB">3787</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алып, бар, алды, берди, өтүүдө -->
-    <feat name="PronType" value="Dem" upos="NOUN,PRON">10</feat><!-- аны, муну, Бул, Булар, Жабырлануучулар, бу, ошол -->
-    <feat name="PronType" value="Ind" upos="NOUN,NUM,PRON,PROPN">29</feat><!-- бири, баары, баарын, баарынан, биресе, агымдарын, баарында, базары, бирөө, бульварын -->
-    <feat name="PronType" value="Int" upos="ADV,PRON">55</feat><!-- кандай, эмне, ким, кимдер, кантип, качан, эмнеге, Эмнени, Эмнесин, ал -->
+    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,PRON,PROPN,VERB">659</feat><!-- Кыргызстандын, Кыргызстан, облусунун, суунун, башынан, орун, мүмкүн, сомдон, гранттардын, районунун -->
+    <feat name="Person[psor]" value="3" upos="ADJ,ADP,CCONJ,NOUN,PRON,PROPN,VERB">1406</feat><!-- бала, аймагында, Бишкектеги, Кыргызстандан, жаранга, валюта, унаа, бакча, каза, Кыргызстандагы -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,NOUN,PRON,VERB">201</feat><!-- мыйзамсыз, болбойт, камсыз, пайызсыз, албайт, акысыз, албай, дайынсыз, коопсуздугу, коопсуздугуна -->
+    <feat name="Polarity" value="Pos" upos="ADJ,NOUN,VERB">3825</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алып, бар, алды, өтүүдө, берди -->
+    <feat name="PronType" value="Dem" upos="DET,NOUN,PRON">24</feat><!-- бул, аны, ошол, беле, муну, Булар, Жабырлануучулар, ар, бу, мунун -->
+    <feat name="PronType" value="Ind" upos="NOUN,NUM,PRON,PROPN">28</feat><!-- бири, баары, баарын, баарынан, биресе, агымдарын, баарында, базары, бирөө, бульварын -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">66</feat><!-- кандай, кайсы, эмне, ким, кимдер, ар, кантип, качан, эмнеге, Эмнени -->
     <feat name="PronType" value="Neg" upos="PRON">1</feat><!-- эч -->
-    <feat name="PronType" value="Prs" upos="NOUN,NUM,PRON,PROPN">189</feat><!-- мен, облусуна, сен, ал, мектептин, мамлекеттин, сага, алар, мага, аны -->
+    <feat name="PronType" value="Prs" upos="NOUN,NUM,PRON,PROPN">237</feat><!-- мен, облусуна, ал, өз, сен, аны, анын, мектептин, алар, мамлекеттин -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- бири-бирин -->
     <feat name="Reflex" value="Yes" upos="NOUN,PRON">22</feat><!-- өз, өзүн, балдарга, Өзүм, өзү, өзүнүн, өзүнөн, өзүңөр -->
-    <feat name="Tense" value="Fut" upos="NOUN,VERB">118</feat><!-- болот, курулат, өчүрүлөт, берилет, башталат, күтүлөт, чакырат, аяктайт, келет, токтотулат -->
-    <feat name="Tense" value="Past" upos="NOUN,VERB">1724</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, берди, болду, салынды, кайтарылды -->
-    <feat name="Tense" value="Pres" upos="NOUN,VERB">2050</feat><!-- алып, бар, өтүүдө, өтөт, пландалууда, болгон, сатып, куруу, керек, оңдоо -->
-    <feat name="VerbForm" value="Conv" upos="NOUN,VERB">584</feat><!-- алып, сатып, жүрүүдө, айтып, жүрүп, келген, мектеп, болгон, деп, оңдоп -->
-    <feat name="VerbForm" value="Fin" upos="NOUN,VERB">1453</feat><!-- өттү, түздү, талкууланды, алды, ачылды, салынды, кайтарылды, жолугушту, аныкталды, катышты -->
-    <feat name="VerbForm" value="Part" upos="NOUN,VERB">210</feat><!-- жеңилдетилген, алмаштырган, болгон, өткөн, келген, күтүлгөн, жабыркаган, алган, болгондордун, капсула -->
-    <feat name="VerbForm" value="Vnoun" upos="NOUN,VERB">1238</feat><!-- өтүүдө, өнүктүрүү, пландалууда, камсыздандыруу, куруу, берүү, оңдоо, уланууда, алуу, белгиленди -->
-    <feat name="Voice" value="Pass" upos="NOUN,VERB">950</feat><!-- берилди, ачылды, талкууланды, салынды, кайтарылды, аныкталды, коюлду, башталды, каржыланды, курулат -->
+    <feat name="Tense" value="Fut" upos="NOUN,VERB">120</feat><!-- болот, курулат, өчүрүлөт, башталат, берилет, күтүлөт, чакырат, аяктайт, келет, токтотулат -->
+    <feat name="Tense" value="Past" upos="NOUN,VERB">1771</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, берди, болду, кайтарылды, салынды -->
+    <feat name="Tense" value="Pres" upos="NOUN,VERB">2039</feat><!-- алып, бар, өтүүдө, өтөт, пландалууда, болгон, сатып, куруу, керек, оңдоо -->
+    <feat name="VerbForm" value="Conv" upos="NOUN,VERB">538</feat><!-- алып, сатып, айтып, жүрүп, келген, мектеп, болгон, деп, оңдоп, курууга -->
+    <feat name="VerbForm" value="Fin" upos="NOUN,VERB">2497</feat><!-- өттү, берилди, ачылды, түздү, талкууланды, алды, өтүүдө, бар, берди, кайтарылды -->
+    <feat name="VerbForm" value="Part" upos="NOUN,VERB">197</feat><!-- жеңилдетилген, алмаштырган, болгон, өткөн, келген, күтүлгөн, жабыркаган, болгондордун, капсула, курула -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN,VERB">1012</feat><!-- өнүктүрүү, камсыздандыруу, куруу, берүү, оңдоо, уланууда, алуу, берүүчү, жүрүшү, алууга -->
+    <feat name="Voice" value="Pass" upos="NOUN,VERB">995</feat><!-- берилди, ачылды, талкууланды, кайтарылды, салынды, аныкталды, коюлду, башталды, каржыланды, курулат -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="26">
-    <dep name="acl">762</dep>
-    <dep name="advcl">515</dep>
-    <dep name="advmod">779</dep>
+    <dep name="acl">775</dep>
+    <dep name="advcl">527</dep>
+    <dep name="advmod">812</dep>
     <dep name="advmod:emph">6</dep>
-    <dep name="amod">963</dep>
-    <dep name="case">197</dep>
-    <dep name="cc">367</dep>
-    <dep name="ccomp">337</dep>
-    <dep name="compound">841</dep>
+    <dep name="amod">983</dep>
+    <dep name="case">201</dep>
+    <dep name="cc">372</dep>
+    <dep name="ccomp">339</dep>
+    <dep name="compound">851</dep>
     <dep name="compound:svc">70</dep>
-    <dep name="conj">326</dep>
+    <dep name="conj">339</dep>
     <dep name="csubj">25</dep>
-    <dep name="det">31</dep>
+    <dep name="det">21</dep>
     <dep name="discourse">1</dep>
     <dep name="fixed">17</dep>
-    <dep name="flat">190</dep>
+    <dep name="flat">194</dep>
     <dep name="mark">41</dep>
-    <dep name="nmod">6216</dep>
+    <dep name="nmod">6403</dep>
     <dep name="nmod:poss">218</dep>
-    <dep name="nsubj">2241</dep>
-    <dep name="nummod">989</dep>
-    <dep name="obj">517</dep>
-    <dep name="obl">2223</dep>
+    <dep name="nsubj">2294</dep>
+    <dep name="nummod">1001</dep>
+    <dep name="obj">516</dep>
+    <dep name="obl">2221</dep>
     <dep name="parataxis">20</dep>
-    <dep name="punct">3282</dep>
-    <dep name="root">2480</dep>
+    <dep name="punct">3351</dep>
+    <dep name="root">2530</dep>
   </deps>
 </treebank>
